@@ -1063,8 +1063,9 @@ div#global_header div.logo {
 div#global_header .menuitem {
 	display: block;
 	position: relative;
+	text-decoration: none;
 
-	padding-top: 45px;
+	padding-top: 22.5px;
 	padding-left: 7px;
 	padding-right: 7px;
 	padding-bottom: 7px;
