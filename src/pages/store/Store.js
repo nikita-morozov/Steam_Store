@@ -1,6 +1,6 @@
 import React from 'react';
 import './Store.css';
-import StoreHeader from '../../components/StoreHeader/index.js';
+import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 
 class Store extends React.Component {
   render() {
