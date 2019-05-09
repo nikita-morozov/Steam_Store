@@ -1,11 +1,16 @@
 import React from 'react';
 import './Store.css';
-import StoreHeader from '../../components/StoreHeader.js';
+import StoreHeader from '../../components/StoreHeader/index.js';
 
 class Store extends React.Component {
   render() {
     return (
-      <StoreHeader />
+      <div>
+        <StoreHeader />
+        <div class='body'>
+
+        </div>
+      </div>
     );
   }
 }
