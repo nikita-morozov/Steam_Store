@@ -65,7 +65,7 @@ class StoreHeader extends React.Component {
                         <div id="global_action_menu">
                             <div class="header_installsteam_btn header_installsteam_btn_green">
 
-                                <a class="header_installsteam_btn_content" href="https://store.steampowered.com/about/">
+                                <a class="header_installsteam_btn_content" href="/clientdl">
                                     Install Steam						</a>
                             </div>
 
