@@ -135,7 +135,7 @@ class SubmenuLanguages extends React.Component {
                     <a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (Turkish)</a>
                     <a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">Tiếng Việt (Vietnamese)</a>
                     <a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (Ukrainian)</a>
-                    <a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Help us translate Steam</a>
+                    <a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank" rel="noopener noreferrer">Help us translate Steam</a>
                 </div>
             </div>
         )
