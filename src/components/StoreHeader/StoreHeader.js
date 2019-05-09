@@ -25,7 +25,7 @@ class StoreHeader extends React.Component {
                 <div class="content">
                     <div class="logo">
                         <span id="logo_holder">
-                            <a href="https://store.steampowered.com/">
+                            <a href="/">
                                 <img src="https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016" width="176" height="44" alt="Logo Header" />
                             </a>
                         </span>
