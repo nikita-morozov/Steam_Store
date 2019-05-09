@@ -1,16 +1,13 @@
 import React from 'react';
 import './Store.css';
-import '../../components/StoreHeader.js'
+import StoreHeader from '../../components/StoreHeader.js';
 
-function Store() {
-  return (
-    
-    <div className="Store">
-        <p>
-          Store Page Main
-        </p>
-    </div>
-  );
+class Store extends React.Component {
+  render() {
+    return (
+      <StoreHeader />
+    );
+  }
 }
 
 export default Store;
