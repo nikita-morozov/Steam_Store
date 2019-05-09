@@ -1,5 +1,6 @@
 import React from 'react';
 import './shared_global.css'
+
 class StoreHeader extends React.Component {
     constructor() {
         super();
