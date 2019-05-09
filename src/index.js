@@ -15,5 +15,5 @@ const routing = (
     </Router>
 )
 
-ReactDOM.render(<Store />, document.getElementById('root'));
+ReactDOM.render(routing, document.getElementById('root'));
 serviceWorker.unregister();
