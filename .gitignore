@@ -24,3 +24,5 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
+
+*.code-workspace
