@@ -2,6 +2,7 @@ import React from 'react';
 import './Listing.css';
 import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 import ror2 from '../../asset/ror2.jpg'
+import ImageLoader from '../../components/ImageLoader.js';
 
 class Listing extends React.Component {
 
@@ -9,8 +10,8 @@ class Listing extends React.Component {
     super(props);
 
     this.state = {
-      price: '2',
-      oldprice: '3',
+      price: '$19.99',
+      oldprice: '$29.99',
       discount: '',
       title: 'RISK OF RAIN 2',
       promoloc: {ror2}
@@ -33,7 +34,7 @@ class Listing extends React.Component {
             
             <p class='title'>{this.state.title}</p>
             
-            <img class='promo_lg' src={this.state.promoloc["ror2"]} alt="Risk of Rain 2 promo" />
+            <ImageLoader title={this.state.title} />
             
         </div>
       </div>
