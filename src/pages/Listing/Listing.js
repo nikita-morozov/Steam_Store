@@ -2,7 +2,7 @@ import React from 'react';
 import './Listing.css';
 import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 import ror2 from '../../asset/ror2.jpg'
-import ImageLoader from '../../components/ImageLoader.js';
+import PromoImage from '../../components/PromoImage.js';
 
 class Listing extends React.Component {
 
@@ -34,7 +34,7 @@ class Listing extends React.Component {
             
             <p class='title'>{this.state.title}</p>
             
-            <ImageLoader title={this.state.title} />
+            <PromoImage title={this.state.title} />
             
         </div>
       </div>

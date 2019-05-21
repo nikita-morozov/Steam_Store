@@ -1,7 +1,7 @@
 import React from 'react';
 import ror from '../asset/ror2.jpg';
 
-class ImageLoader extends React.Component {
+class PromoImage extends React.Component {
     constructor(props) {
         super(props);
 
@@ -25,4 +25,4 @@ class ImageLoader extends React.Component {
     }
 }
 
-export default ImageLoader;
+export default PromoImage;
