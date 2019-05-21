@@ -4,22 +4,36 @@ import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 import ror2 from '../../asset/ror2.jpg'
 
 class Listing extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      price: '2',
+      oldprice: '3',
+      discount: '',
+      title: 'RISK OF RAIN 2',
+      promoloc: {ror2}
+    }
+  }
+
   render() {
     return (
       <div>
         <StoreHeader />
         <div class='body'>
+          {console.log(this.state.promoloc)}
             
             <p class='price'>
-                <s class='oldprice'>$29.99</s>
+                <s class='oldprice'>{this.state.oldprice}</s>
                 {/* needs both parts of the BR tag for some reason??? */}
                 <br></br>
-                $19.99
+                {this.state.price}
             </p>
             
-            <p>Risk of Rain 2</p>
+            <p class='title'>{this.state.title}</p>
             
-            <img src={ror2} alt="Risk of Rain 2 promo" />
+            <img class='promo_lg' src={this.state.promoloc["ror2"]} alt="Risk of Rain 2 promo" />
             
         </div>
       </div>
