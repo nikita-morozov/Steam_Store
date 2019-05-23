@@ -3,6 +3,7 @@ import './Listing.css';
 import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 import ror2 from '../../asset/ror2.jpg'
 import PromoImage from '../../components/PromoImage.js';
+import {bdb} from '../../db.js';
 
 class Listing extends React.Component {
 
@@ -10,10 +11,10 @@ class Listing extends React.Component {
     super(props);
 
     this.state = {
-      price: '$19.99',
-      oldprice: '$29.99',
+      price: bdb["ror2"]["price"],
+      oldprice: bdb["ror2"]["oldprice"],
       discount: '',
-      title: 'RISK OF RAIN 2',
+      title: bdb["ror2"]["title"],
       promoloc: {ror2}
     }
   }
