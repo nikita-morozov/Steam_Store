@@ -15,7 +15,8 @@ class Listing extends React.Component {
       oldprice: bdb["ror2"]["oldprice"],
       discount: '',
       title: bdb["ror2"]["title"],
-      promoloc: {ror2}
+      promoloc: {ror2},
+      imgname: bdb["ror2"]["imgname"]
     }
   }
 
@@ -35,7 +36,7 @@ class Listing extends React.Component {
             
             <p class='title'>{this.state.title}</p>
             
-            <PromoImage title={this.state.title} />
+            <PromoImage src={this.state.promoloc} imgname={this.state.imgname} title={this.state.title} />
             
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import ror from '../asset/ror2.jpg';
+//import ror from '../asset/ror2.jpg';
 
 class PromoImage extends React.Component {
     constructor(props) {
@@ -12,15 +12,9 @@ class PromoImage extends React.Component {
         }
     }
 
-    componentDidMount() {
-        if (this.props.title.toLowerCase() === "risk of rain 2") {
-            this.setState({load: {ror}, loadn: "ror"});
-        }
-    }
-
     render() {
         return (
-            <img class='promo_lg' src={this.state.load[this.state.loadn]} alt={this.state.title + " promo"} />
+            <img class='promo_lg' src={this.props.src[this.props.imgname]} alt={this.props.title + " promo"} />
         )
     }
 }
