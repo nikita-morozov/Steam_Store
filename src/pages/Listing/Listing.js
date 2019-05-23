@@ -11,13 +11,32 @@ class Listing extends React.Component {
     super(props);
 
     this.state = {
-      price: bdb["ror2"]["price"],
-      oldprice: bdb["ror2"]["oldprice"],
+      id: "ror2",
+      price: "",
+      oldprice: "",
       discount: '',
-      title: bdb["ror2"]["title"],
-      promoloc: {ror2},
-      imgname: bdb["ror2"]["imgname"]
+      title: "",
+      promoloc: "",
+      imgname: ""
     }
+  }
+
+  componentDidMount() {
+    if (this.props.id !== undefined) {
+      this.setState({
+        id: this.props.id
+      })
+    }
+    this.setState(
+      {
+        price: bdb[this.state.id]["price"],
+        oldprice: bdb[this.state.id]["oldprice"],
+        discount: '',
+        title: bdb[this.state.id]["title"],
+        promoloc: bdb[this.state.id]["img"],
+        imgname: bdb[this.state.id]["imgname"]
+      }
+    )
   }
 
   render() {
