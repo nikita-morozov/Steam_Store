@@ -1,0 +1,44 @@
+.home_ctn {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.carousel_items {
+    width: 1370px;
+    height: 350px;
+	margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+.spotlight_img {
+    width: 305px;
+    height: 350px;
+    overflow: hidden;
+	padding-left: 0px;
+    padding-top: 0px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0; 
+}
+
+.focus{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    position: relative;
+}
+
+.store_capsule{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    position: relative;
+    width: 305px;
+}
