@@ -8,7 +8,10 @@ class Store extends React.Component {
     return (
       <div>
         <StoreHeader />
-        <div class='body'>
+        <div class='body' id="test">
+          <div id="test">
+              heloo
+          </div>
           <Carousel />
         </div>
       </div>

@@ -9,3 +9,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+#test{
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+}
+
