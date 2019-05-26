@@ -10,9 +10,16 @@
   color: white;
 }
 
-#test{
+#navbar{
   border-style: solid;
-  border-color: white;
-  border-width: 5px;
+  border-color: red;
+  border-width: 3px;
+  height: 38px;
 }
 
+#grid{
+  margin-top: 35px;
+  padding-top: 10px;
+  width: 100%;
+  background-color: #2A465E;
+}
