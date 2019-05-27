@@ -4,6 +4,7 @@ import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 import ror2 from '../../asset/ror2.jpg'
 import PromoImage from '../../components/PromoImage.js';
 import {bdb} from '../../db.js';
+import { Redirect } from 'react-router-dom';
 
 class Listing extends React.Component {
 
@@ -11,7 +12,7 @@ class Listing extends React.Component {
     super(props);
 
     this.state = {
-      id: "ror2",
+      id: window.location.href.substring(window.location.href.lastIndexOf('/') + 1),
       price: "",
       oldprice: "",
       discount: '',
@@ -22,11 +23,6 @@ class Listing extends React.Component {
   }
 
   componentDidMount() {
-    if (this.props.id !== undefined) {
-      this.setState({
-        id: this.props.id
-      })
-    }
     this.setState(
       {
         price: bdb[this.state.id]["price"],

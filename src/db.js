@@ -8,6 +8,14 @@ export const bdb = (
             "title": "Risk of Rain 2",
             "img": {ror2},
             "imgname": "ror2"
+        },
+
+        "ror4": {
+            "price": "$459.99",
+            "oldprice": "$699.99",
+            "title": "Risk of Rain 4 YUHHHH",
+            "img": {ror2},
+            "imgname": "ror2"
         }
     }
 )

@@ -16,7 +16,7 @@ class App extends Component {
                         <Route exact path="/" component={Store} />
                         <Route path="/test" component={Tester} />
                         <Route path="/clientdl" component={DownloadClient} />
-                        <Route path="/listing" component={Listing} />
+                        <Route path="/listing*" component={Listing} />
                         
                         {/* DONT TOUCH THIS ONE, IT MUST STAY AT THE BOTTOM OF THE LIST */}
                         <Route path="*" component={Notfound} />
