@@ -19,7 +19,12 @@
 
 #grid{
   margin-top: 35px;
-  padding-top: 10px;
+  padding-bottom: 10px;
   width: 100%;
   background-color: #2A465E;
+}
+
+#gridContainer{
+  margin:auto;
+  align-content: center;
 }

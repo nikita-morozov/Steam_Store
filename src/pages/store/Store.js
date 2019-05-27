@@ -3,7 +3,7 @@ import './Store.css';
 import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 import Carousel from '../../components/Carousel/Carousel.js';
 import SpecialOffers from '../../components/CarouselSpecialOffers/SpecialOffers.js';
-import Grid from '../../components/Grid/Grid.js';
+import StoreTabs from '../../components/StoreTabs/StoreTabs';
 
 class Store extends React.Component {
   render() {
@@ -15,7 +15,9 @@ class Store extends React.Component {
           <Carousel />
           <SpecialOffers />
           <div id="grid">
-            <Grid />
+            <div id="gridContainer">
+              <StoreTabs />
+            </div>
           </div>
         </div>
       </div>
