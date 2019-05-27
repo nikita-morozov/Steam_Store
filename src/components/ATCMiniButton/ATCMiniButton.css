@@ -1,0 +1,32 @@
+.ATCMbutton {
+  position: inline;
+  margin: 4px 5.5px;
+  background-color: transparent;
+  border: solid 2px #5C7D0F;;
+  border-radius: 5px;
+  align-self: center;
+  transition-duration: .3s;
+}
+
+.ATCMbutton:hover {
+  border: solid 2px #9DCA0D;
+  transition-duration: .3s;
+}
+
+.ATCMbuttonClicked {
+  position: inline;
+  margin: 4px 5.5px;
+  background-color: transparent;
+  border: solid 2px #9DCA0D;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.ATCMbutton:focus, .ATCMbuttonClicked:focus {
+  outline: 0;
+}
+
+.ATCMlogo {
+  position: initial;
+  vertical-align: sub;
+}

@@ -1,0 +1,41 @@
+.Wbutton {
+  display: flexbox;
+  position: inline;
+  margin: 4px 5.5px;
+  text-align: center;
+  /* vertical-align: sub; */
+  background-color: #2A465E;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 19px;
+  color: white;
+  transition-duration: .3s;
+}
+
+.Wbutton:hover {
+  background-color: #66C0F4;
+  transition-duration: .3s;
+}
+
+.WbuttonClicked {
+  position: inline;
+  margin: 4px 5.5px;
+  text-align: center;
+  /* vertical-align: sub; */
+  background-color: #66C0F4;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 19px;
+  color: white;
+}
+
+.Wbutton:focus, .WbuttonClicked:focus {
+  outline: 0;
+}
+
+.Wlogo {
+  vertical-align: sub;
+  padding-right: 10px;
+}

@@ -1,0 +1,40 @@
+.Cbutton {
+  position: inline;
+  margin: 4px 5.5px;
+  text-align: center;
+  /* vertical-align: sub; */
+  background-color: #5C7D0F;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 19px;
+  color: white;
+  transition-duration: .3s;
+}
+
+.Cbutton:hover {
+  background-color: #9DCA0D;
+  transition-duration: .3s;
+}
+
+.CbuttonClicked {
+  position: inline;
+  margin: 4px 5.5px;
+  text-align: center;
+  /* vertical-align: sub; */
+  background-color: #9DCA0D;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 19px;
+  color: white;
+}
+
+.Cbutton:focus, .CbuttonClicked:focus {
+  outline: 0;
+}
+
+.Clogo {
+  vertical-align: sub;
+  padding-right: 10px;
+}

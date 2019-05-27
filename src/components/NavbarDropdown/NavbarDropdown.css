@@ -1,0 +1,118 @@
+.dropdown {
+  display: flex;
+  position: relative;
+  width: 85px;
+  height: 38px;
+  z-index: 405;
+  transition-duration: .4s;
+}
+
+.dropdown:hover, .dropdown:active {
+  background-color: #2A465E;
+  transition-duration: .4s;
+}
+
+.dropdownHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+  position: relative;
+  background-color: inherit;
+  z-index: 406;
+  cursor: default;
+}
+
+.dropdownHeaderTitleFirst {
+  border-left: solid 1px #2A465E;
+  border-right: solid 1px #2A465E;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  vertical-align: center;
+  background-color: inherit;
+  color: white;
+  font-size: 13px;
+}
+
+.dropdownHeaderTitle {
+  border-left: none;
+  border-right: solid 1px #2A465E;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  vertical-align: center;
+  background-color: inherit;
+  color: white;
+  font-size: 13px;
+}
+
+.dropdownList {
+  display: flex;
+  position: absolute;
+  width: fit-content;
+  overflow-x: overlay;
+  max-width: 977px;
+  top: 38px;
+  z-index: 406;
+  vertical-align: middle;
+  cursor: default;
+  background-color: #2A465E;
+  border: solid 1px #2A465E;
+  border-top: none;
+  color: white;
+  font-size: 13px;
+  margin: none;
+}
+
+.dropdownList::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  background-color: inherit;
+}
+
+.dropdownList::-webkit-scrollbar {
+  height: 5px;
+  background-color: inherit;
+}
+
+.dropdownList::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #ACDBF5;
+}
+
+.dropdownListItem {
+  display: inline-flex;
+  position: relative;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  cursor: default;
+  z-index: 407;
+  padding: 11px 10px;
+  text-align: center;
+  vertical-align: center;
+  margin: none;
+  transition-duration: .2s;
+}
+
+.dropdownListItem:hover {
+  background-color: #1B2838;
+  transition-duration: .2s;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+} 
+
+button {
+  padding: none;
+}
