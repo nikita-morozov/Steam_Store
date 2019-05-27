@@ -1,0 +1,32 @@
+.ATWMbutton {
+  position: inline;
+  margin: 4px 5.5px;
+  background-color: transparent;
+  border: solid 2px #66C0F4;;
+  border-radius: 5px;
+  align-self: center;
+  transition-duration: .3s;
+}
+
+.ATWMbutton:hover {
+  border: solid 2px #2A465E;
+  transition-duration: .3s;
+}
+
+.ATWMbuttonClicked {
+  position: inline;
+  margin: 4px 5.5px;
+  background-color: transparent;
+  border: solid 2px #2A465E;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.ATWMbutton:focus, .ATWMbuttonClicked:focus {
+  outline: 0;
+}
+
+.ATWMlogo {
+  position: initial;
+  vertical-align: sub;
+}
