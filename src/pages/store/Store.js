@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './Store.css';
 import SteamHeader from '../../components/SteamHeader/SteamHeader.js';
 import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
