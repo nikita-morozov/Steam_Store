@@ -205,10 +205,10 @@ class StoreHeader extends React.Component {
     return (
       <div class='navbar' style={{height: '38px'}}>
         <div class='bardropdown'>
-          <NavbarDropdown name='Your Store' options={this.state.yourstore} posOffset='0px' styleType='dropdownHeaderTitleFirst' style={{height: '38px', width: '85px'}}/>
-          <NavbarDropdown name="Games" options={this.state.games} posOffset='-85px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
-          <NavbarDropdown name='Software' options={this.state.software} posOffset='-170px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
-          <NavbarDropdown name='Hardware' options={this.state.hardware} posOffset='-255px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
+          <NavbarDropdown name='Your Store' options={this.state.yourstore} posOffset='0px' scrollPadding='0px' styleType='dropdownHeaderTitleFirst' style={{height: '38px', width: '85px'}}/>
+          <NavbarDropdown name="Games" options={this.state.games} posOffset='-85px' scrollPadding='5px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
+          <NavbarDropdown name='Software' options={this.state.software} posOffset='-170px' scrollPadding='5px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
+          <NavbarDropdown name='Hardware' options={this.state.hardware} posOffset='-255px' scrollPadding='0px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
         </div>
         <button class='navbarmenuitem' style={{height: '38px', width: '85px'}}>News</button>
         <form class='searchbar'>

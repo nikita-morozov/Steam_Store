@@ -9,7 +9,7 @@ class NavbarDropdown extends React.Component {
     super(props);
     this.state = {
       inUse: false,
-      timeout: null,
+      scrollPadding: this.props.scrollPadding,
       ddName: this.props.name,
       styleType: this.props.styleType,
       posOffset: this.props.posOffset
@@ -24,7 +24,9 @@ class NavbarDropdown extends React.Component {
   }
   
   exit() {
-    this.setState({inUse: false})
+    this.setState({
+      inUse: false
+    })
   }
 
   componentDidUpdate() {
@@ -46,11 +48,11 @@ class NavbarDropdown extends React.Component {
     const{options} = this.props;
     const{inUse, ddName} = this.state;
     return (
-      <div class='dropdown' onMouseOut={() => this.exit()}>{/* dd-wrapper */}
+      <div class='dropdown' onMouseOver={() => this.enter()} onMouseLeave={() => this.exit()}>{/* dd-wrapper */}
         <div class='dropdownHeader'>
-          <button class={this.state.styleType} style={{height: '38px', width: '85px'}} onMouseOver={() => this.enter()}>{ddName}</button>
+          <button class={this.state.styleType} style={{height: '38px', width: '85px'}}>{ddName}</button>
         </div>
-        {inUse && <ul className='dropdownList' style={{left: this.state.posOffset}} onClick={e => e.stopPropagation()}>
+        {inUse && <ul className='dropdownList' style={{left: this.state.posOffset, paddingBottom: this.state.scrollPadding}} onClick={e => e.stopPropagation()}>
         {options.map((instance) => (
           <li className='dropdownListItem' key={instance.name}>
             {instance.name}

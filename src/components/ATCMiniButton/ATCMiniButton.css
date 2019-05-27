@@ -2,14 +2,14 @@
   position: inline;
   margin: 4px 5.5px;
   background-color: transparent;
-  border: solid 2px #9DCA0D;;
+  border: solid 2px #5C7D0F;;
   border-radius: 5px;
   align-self: center;
   transition-duration: .3s;
 }
 
 .ATCMbutton:hover {
-  border: solid 2px #5C7D0F;
+  border: solid 2px #9DCA0D;
   transition-duration: .3s;
 }
 
@@ -17,7 +17,7 @@
   position: inline;
   margin: 4px 5.5px;
   background-color: transparent;
-  border: solid 2px #5C7D0F;
+  border: solid 2px #9DCA0D;
   border-radius: 5px;
   align-self: center;
 }

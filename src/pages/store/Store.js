@@ -10,23 +10,23 @@ class Store extends React.Component {
   constructor() {
     super();
     this.state = {
-      yourStoreOptions: [
-        {
-          name: 'Recently Viewed',
-          id: 'a1',
-          key: 'yourstore'
-        },
-        {
-          name: 'Steam Curators',
-          id: 'a2',
-          key: 'yourstore'
-        },
-        {
-          name: 'Recently Updated',
-          id: 'a3',
-          key: 'yourstore'
-        }
-      ]
+      // yourStoreOptions: [
+      //   {
+      //     name: 'Recently Viewed',
+      //     id: 'a1',
+      //     key: 'yourstore'
+      //   },
+      //   {
+      //     name: 'Steam Curators',
+      //     id: 'a2',
+      //     key: 'yourstore'
+      //   },
+      //   {
+      //     name: 'Recently Updated',
+      //     id: 'a3',
+      //     key: 'yourstore'
+      //   }
+      // ]
     }
   }
   
@@ -36,7 +36,6 @@ class Store extends React.Component {
       <div>
         <SteamHeader />
         <StoreHeader />
-        <div id="navbar">Navbar</div>
         <div class='body' id="test">
           <Carousel />
           <SpecialOffers />

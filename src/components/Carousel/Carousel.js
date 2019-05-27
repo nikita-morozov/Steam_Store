@@ -7,7 +7,7 @@ class Carousel extends React.Component {
         return (
             <div class="home_ctn">
                 <div class="home_page_content special_offers">
-                    <h2>FEATURED & RECOMMENDED</h2>
+                    <h2 style={{marginTop: '50px'}}>FEATURED & RECOMMENDED</h2>
                     <div class="carousel_container spotlight" id="spotlight_carousel">
                         <div class="carousel_item">
                             <div class="focus">
@@ -46,4 +46,3 @@ class Carousel extends React.Component {
 }
 
 export default Carousel;
-;

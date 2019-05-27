@@ -10,13 +10,6 @@
   color: white;
 }
 
-#navbar{
-  border-style: solid;
-  border-color: red;
-  border-width: 3px;
-  height: 38px;
-}
-
 #grid{
   margin-top: 35px;
   padding-bottom: 10px;

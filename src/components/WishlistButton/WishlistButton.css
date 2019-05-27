@@ -4,7 +4,7 @@
   margin: 4px 5.5px;
   text-align: center;
   /* vertical-align: sub; */
-  background-color: #66C0F4;
+  background-color: #2A465E;
   border: none;
   border-radius: 5px;
   align-self: center;
@@ -14,7 +14,7 @@
 }
 
 .Wbutton:hover {
-  background-color: #2A465E;
+  background-color: #66C0F4;
   transition-duration: .3s;
 }
 
@@ -23,7 +23,7 @@
   margin: 4px 5.5px;
   text-align: center;
   /* vertical-align: sub; */
-  background-color: #2A465E;
+  background-color: #66C0F4;
   border: none;
   border-radius: 5px;
   align-self: center;

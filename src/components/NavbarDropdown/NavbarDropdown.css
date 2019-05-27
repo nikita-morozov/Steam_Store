@@ -28,7 +28,6 @@
   border-right: solid 1px #2A465E;
   border-top: none;
   border-bottom: none;
-  /* border: none; */
   text-align: center;
   vertical-align: center;
   background-color: inherit;
@@ -41,7 +40,6 @@
   border-right: solid 1px #2A465E;
   border-top: none;
   border-bottom: none;
-  /* border: none; */
   text-align: center;
   vertical-align: center;
   background-color: inherit;
@@ -54,17 +52,17 @@
   position: absolute;
   width: fit-content;
   overflow-x: overlay;
-  padding: 15px 0;
   max-width: 977px;
   top: 38px;
   z-index: 406;
-  vertical-align: bottom;
+  vertical-align: middle;
   cursor: default;
   background-color: #2A465E;
   border: solid 1px #2A465E;
   border-top: none;
   color: white;
   font-size: 13px;
+  margin: none;
 }
 
 .dropdownList::-webkit-scrollbar-track {
@@ -85,17 +83,23 @@
 }
 
 .dropdownListItem {
-  display: inline-block;
+  display: inline-flex;
+  position: relative;
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 100%;
   cursor: default;
   z-index: 407;
-  padding: 0px 10px;
+  padding: 11px 10px;
+  text-align: center;
+  vertical-align: center;
+  margin: none;
+  transition-duration: .2s;
 }
 
 .dropdownListItem:hover {
   background-color: #1B2838;
+  transition-duration: .2s;
 }
 
 ul, li {
@@ -107,4 +111,8 @@ ul, li {
 p {
   margin: 0;
   padding: 0;
+} 
+
+button {
+  padding: none;
 }
