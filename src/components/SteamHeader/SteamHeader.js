@@ -35,7 +35,7 @@ class SteamHeader extends React.Component {
                         <div class="menuitem supernav" onMouseLeave={this.handleLeave}>
                             <a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store" onMouseEnter={this.handleHover}>
                                 STORE	</a>
-                            {this.state.showStoreDropdown && <SubmenuStore />}
+                            {/* {this.state.showStoreDropdown && <SubmenuStore />} */}
                         </div>
                         <div class="menuitem supernav" onMouseLeave={this.handleLeave}>
                             <a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">COMMUNITY</a>

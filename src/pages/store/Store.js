@@ -5,28 +5,13 @@ import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 import Carousel from '../../components/Carousel/Carousel.js';
 import SpecialOffers from '../../components/CarouselSpecialOffers/SpecialOffers.js';
 import StoreTabs from '../../components/StoreTabs/StoreTabs';
+import {bdb} from '../../db.js';
 
 class Store extends React.Component {
   constructor() {
     super();
     this.state = {
-      // yourStoreOptions: [
-      //   {
-      //     name: 'Recently Viewed',
-      //     id: 'a1',
-      //     key: 'yourstore'
-      //   },
-      //   {
-      //     name: 'Steam Curators',
-      //     id: 'a2',
-      //     key: 'yourstore'
-      //   },
-      //   {
-      //     name: 'Recently Updated',
-      //     id: 'a3',
-      //     key: 'yourstore'
-      //   }
-      // ]
+      database: bdb
     }
   }
   
