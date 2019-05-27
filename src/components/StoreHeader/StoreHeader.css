@@ -1,24 +1,3 @@
-/* div#global_header .menuitem {
-	display: block;
-	position: relative;
-	text-decoration: none;
-
-	padding-top: 22.5px;
-	padding-left: 7px;
-	padding-right: 7px;
-	padding-bottom: 7px;
-	line-height: 16px;
-
-	float: left;
-	font-size: 14px;
-	color: #b8b6b4;
-	text-transform: uppercase;
-}
-
-div#global_header .menuitem.active, div#global_header .menuitem:hover {
-	color: #ffffff;
-	text-decoration: none;
-} */
 *:focus {
   outline: none;
 }
