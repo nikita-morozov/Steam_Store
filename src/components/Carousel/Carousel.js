@@ -1,8 +1,9 @@
-import './Carousel.css'
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Carousel.css'
 
 class Carousel extends React.Component {
-
+    
     render() {
         return (
             <div class="home_ctn">
@@ -12,9 +13,11 @@ class Carousel extends React.Component {
                         <div class="carousel_item">
                             <div class="focus">
                                 <div class="store_capsule_column">
-                                    <a class="store_capsule_row" href="https://store.steampowered.com/developer/KOEITECMO/list/46536?snr=1_4_4__43">
-                                        <div class="capsule header"><img id="wideImage" src="https://steamcdn-a.akamaihd.net/steam/apps/1088360/header.jpg?t=1558460254" alt="" /></div>
-                                    </a>
+                                    <Link to='/listing/ror2'>
+                                        <a class="store_capsule_row">
+                                            <div class="capsule header"><img id="wideImage" src="https://steamcdn-a.akamaihd.net/steam/apps/1088360/header.jpg?t=1558460254" alt="" /></div>
+                                        </a>
+                                    </Link>
                                 </div>
                                 <div class="store_capsule_column">
                                     <a class="store_capsule_row" href="https://store.steampowered.com/developer/KOEITECMO/list/46536?snr=1_4_4__43">

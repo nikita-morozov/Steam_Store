@@ -1,10 +1,9 @@
 import React from 'react';
 import './Listing.css';
 import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
-import ror2 from '../../asset/ror2.jpg'
 import PromoImage from '../../components/PromoImage.js';
 import {bdb} from '../../db.js';
-import { Redirect } from 'react-router-dom';
+import SteamHeader from '../../components/SteamHeader/SteamHeader';
 
 class Listing extends React.Component {
 
@@ -15,7 +14,7 @@ class Listing extends React.Component {
       id: window.location.href.substring(window.location.href.lastIndexOf('/') + 1),
       price: "",
       oldprice: "",
-      discount: '',
+      discount: "",
       title: "",
       promoloc: "",
       imgname: ""
@@ -38,6 +37,7 @@ class Listing extends React.Component {
   render() {
     return (
       <div>
+        <SteamHeader />
         <StoreHeader />
         <div class='body'>
           {console.log(this.state.promoloc)}
