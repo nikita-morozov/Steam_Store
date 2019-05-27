@@ -1,146 +1,225 @@
-import './shared_global.css'
 import React from 'react';
+import './StoreHeader.css';
+import searchlogo from '../../asset/search.svg';
+import CartButton from '../CartButton/CartButton.js';
+import WishlistButton from '../WishlistButton/WishlistButton.js';
+import NavbarDropdown from '../NavbarDropdown/NavbarDropdown.js';
+
 
 class StoreHeader extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            showStoreDropdown: false,
-            showCommunityDropdown: false,
-            showLanguagesDropdown: false
-        };
+  constructor() {
+    super();
+    this.state = {
+      yourstore: [
+        {
+          name: 'Recently Viewed',
+          id: 'a1',
+          key: 'yourstore'
+        },
+        {
+          name: 'Steam Curators',
+          id: 'a2',
+          key: 'yourstore'
+        },
+        {
+          name: 'Recently Updated',
+          id: 'a3',
+          key: 'yourstore'
+        }
+      ],
+      games: [
+        {
+          name: 'Free to Play',
+          id: 'b1',
+          key: 'games'
+        },
+        {
+          name: 'Early Access',
+          id: 'b2',
+          key: 'games'
+        },
+        {
+          name: 'Demos',
+          id: 'b3',
+          key: 'games'
+        },
+        {
+          name: 'Virtual Reality',
+          id: 'b4',
+          key: 'games'
+        },
+        {
+          name: 'Steam Controller Friendly',
+          id: 'b5',
+          key: 'games'
+        },
+        {
+          name: 'PC Café Games on Steam',
+          id: 'b6',
+          key: 'games'
+        },
+        {
+          name: 'Action',
+          id: 'g1',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Adventure',
+          id: 'g2',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Casual',
+          id: 'g3',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Indie',
+          id: 'g4',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Massively Multiplayer',
+          id: 'g5',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Racing',
+          id: 'g6',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'RPG',
+          id: 'g7',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Simulation',
+          id: 'g8',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Sports',
+          id: 'g9',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Strategy',
+          id: 'g10',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'See Popular Tags',
+          id: 'b7',
+          key: 'gamesbygenre'
+        },
+        {
+          name: 'Mac OS X',
+          id: 'p1',
+          key: 'gamesbyplatform'
+        },
+        {
+          name: 'SteamOS + Linux',
+          id: 'p2',
+          key: 'gamesbyplatform'
+        },
+      ],
+      software: [
+        {
+          name: 'Software Hub',
+          id: 'c1',
+          key: 'software'
+        },
+        {
+          name: 'Animation and Modeling',
+          id: 'c2',
+          key: 'software'
+        },
+        {
+          name: 'Audio Production',
+          id: 'c3',
+          key: 'software'
+        },
+        {
+          name: 'Design & Illustration',
+          id: 'c4',
+          key: 'software'
+        },
+        {
+          name: 'Education',
+          id: 'c5',
+          key: 'software'
+        },
+        {
+          name: 'Game Development',
+          id: 'c6',
+          key: 'software'
+        },
+        {
+          name: 'Photo Editing',
+          id: 'c7',
+          key: 'software'
+        },
+        {
+          name: 'Utilities',
+          id: 'c8',
+          key: 'software'
+        },
+        {
+          name: 'Video Production',
+          id: 'c9',
+          key: 'software'
+        },
+        {
+          name: 'Web Publishing',
+          id: 'c10',
+          key: 'software'
+        }
+      ],
+      hardware: [
+        {
+          name: 'Valve Index',
+          id: 'd1',
+          key: 'hardware'
+        },
+        {
+          name: 'Steam Controller',
+          id: 'd2',
+          key: 'hardware'
+        },
+        {
+          name: 'Steam Link',
+          id: 'd3',
+          key: 'hardware'
+        },
+        {
+          name: 'HTC Vive',
+          id: 'd4',
+          key: 'hardware'
+        }
+      ]
     }
+  }
 
-    handleHover = (event) => {
-        this.setState({ showStoreDropdown: true });
-    };
-
-    handleLeave = (event) => {
-        this.setState({ showStoreDropdown: false });
-    };
-
-    render() {
-        return (
-            <div id="global_header">
-                <div class="content">
-                    <div class="logo">
-                        <span id="logo_holder">
-                            <a href="/">
-                                <img src="https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016" width="176" height="44" alt="Logo Header" />
-                            </a>
-                        </span>
-                    </div>
-
-                    <div class="supernav_container">
-                        <div class="menuitem supernav" onMouseLeave={this.handleLeave}>
-                            <a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store" onMouseEnter={this.handleHover}>
-                                STORE	</a>
-                            {this.state.showStoreDropdown && <SubmenuStore />}
-                        </div>
-                        <div class="menuitem supernav" onMouseLeave={this.handleLeave}>
-                            <a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">COMMUNITY</a>
-                        </div>
-                        <div class="menuitem" onMouseLeave={this.handleLeave}>
-                            <a class="menuitem supernav" href="https://store.steampowered.com/about/">ABOUT</a>
-                        </div>
-                        <div class="menuitem" onMouseLeave={this.handleLeave}>
-                            <a class="menuitem supernav" href="https://help.steampowered.com/en/">SUPPORT</a>
-                        </div>
-                    </div>
-
-                    <div id="global_actions">
-                        <div id="global_action_menu">
-                            <div class="header_installsteam_btn header_installsteam_btn_green">
-
-                                <a class="header_installsteam_btn_content" href="/clientdl">
-                                    Install Steam						</a>
-                            </div>
-
-
-                            <a class="global_action_link" href="https://store.steampowered.com/login/?redir=&amp;redir_ssl=1">login</a>
-                            &nbsp;|&nbsp;
-					<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
-
-                            {this.state.showLanguagesDropdown && <SubmenuLanguages />}
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        );
-    }
-}
-
-
-class SubmenuStore extends React.Component {
-    render() {
-        return (
-            <div class="supernav_content">
-                <div class="submenu_store" data-submenuid="store" >
-                    <a class="submenuitem" href="https://store.steampowered.com/">Featured</a>
-                    <a class="submenuitem" href="https://store.steampowered.com/explore/">Explore</a>
-                    <a class="submenuitem" href="https://store.steampowered.com/curators/">Curators</a>
-                    <a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">Wishlist</a>
-                    <a class="submenuitem" href="https://store.steampowered.com/news/">News</a>
-                    <a class="submenuitem" href="https://store.steampowered.com/stats/">Stats</a>
-                </div>
-            </div >
-        )
-    }
-}
-
-class SubmenuCommunity extends React.Component {
-    render() {
-        return (
-            <div class="submenu_community" data-submenuid="community">
-                <a class="submenuitem" href="https://steamcommunity.com/">Home</a>
-                <a class="submenuitem" href="https://steamcommunity.com/discussions/">Discussions</a>
-                <a class="submenuitem" href="https://steamcommunity.com/workshop/">Workshop</a>
-                <a class="submenuitem" href="https://steamcommunity.com/market/">Market</a>
-                <a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">Broadcasts</a>
-            </div>
-        )
-    }
-}
-
-class SubmenuLanguages extends React.Component {
-    render() {
-        return (
-            <div class="popup_block_new" id="language_dropdown">
-                <div class="popup_body popup_menu">
-                    <a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (Simplified Chinese)</a>
-                    <a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文 (Traditional Chinese)</a>
-                    <a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">日本語 (Japanese)</a>
-                    <a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">한국어 (Korean)</a>
-                    <a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">ไทย (Thai)</a>
-                    <a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">Български (Bulgarian)</a>
-                    <a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">Čeština (Czech)</a>
-                    <a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">Dansk (Danish)</a>
-                    <a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">Deutsch (German)</a>
-                    <a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">Español - España (Spanish - Spain)</a>
-                    <a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">Español - Latinoamérica (Spanish - Latin America)</a>
-                    <a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά (Greek)</a>
-                    <a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">Français (French)</a>
-                    <a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">Italiano (Italian)</a>
-                    <a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar (Hungarian)</a>
-                    <a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands (Dutch)</a>
-                    <a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk (Norwegian)</a>
-                    <a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">Polski (Polish)</a>
-                    <a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">Português (Portuguese)</a>
-                    <a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">Português - Brasil (Portuguese - Brazil)</a>
-                    <a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">Română (Romanian)</a>
-                    <a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">Русский (Russian)</a>
-                    <a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">Suomi (Finnish)</a>
-                    <a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">Svenska (Swedish)</a>
-                    <a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (Turkish)</a>
-                    <a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">Tiếng Việt (Vietnamese)</a>
-                    <a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (Ukrainian)</a>
-                    <a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank" rel="noopener noreferrer">Help us translate Steam</a>
-                </div>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div class='navbar' style={{height: '38px'}}>
+        <div class='bardropdown'>
+          <NavbarDropdown name='Your Store' options={this.state.yourstore} posOffset='0px' styleType='dropdownHeaderTitleFirst' style={{height: '38px', width: '85px'}}/>
+          <NavbarDropdown name="Games" options={this.state.games} posOffset='-85px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
+          <NavbarDropdown name='Software' options={this.state.software} posOffset='-170px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
+          <NavbarDropdown name='Hardware' options={this.state.hardware} posOffset='-255px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
+        </div>
+        <button class='navbarmenuitem' style={{height: '38px', width: '85px'}}>News</button>
+        <form class='searchbar'>
+          <input type='text' class='searchinput' placeholder='Search the store...' style={{height: '24px', width: '260px'}}></input>
+          <button class='searchbutton'><img src={searchlogo} style={{width: '17px'}} alt=''></img></button>
+        </form>
+        <CartButton />
+        <WishlistButton />
+      </div>
+    );
+  }
 }
 
 export default StoreHeader;
-;

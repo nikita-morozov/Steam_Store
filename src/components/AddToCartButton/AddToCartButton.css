@@ -1,0 +1,40 @@
+.ATCbutton {
+  position: inline;
+  margin: 4px 5.5px;
+  text-align: center;
+  /* vertical-align: sub; */
+  background-color: #9DCA0D;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 19px;
+  color: white;
+  transition-duration: .3s;
+}
+
+.ATCbutton:hover {
+  background-color: #5C7D0F;
+  transition-duration: .3s;
+}
+
+.ATCbuttonClicked {
+  position: inline;
+  margin: 4px 5.5px;
+  text-align: center;
+  /* vertical-align: sub; */
+  background-color: #5C7D0F;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 19px;
+  color: white;
+}
+
+.ATCbutton:focus, .ATCbuttonClicked:focus {
+  outline: 0;
+}
+
+.ATClogo {
+  vertical-align: sub;
+  padding-right: 10px;
+}
