@@ -1,5 +1,5 @@
 import React from 'react';
-//import ror from '../asset/ror2.jpg';
+import "./PromoImage.css"
 
 class PromoImage extends React.Component {
     constructor(props) {
