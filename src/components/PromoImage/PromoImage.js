@@ -1,5 +1,5 @@
 import React from 'react';
-//import ror from '../asset/ror2.jpg';
+import "./PromoImage.css"
 
 class PromoImage extends React.Component {
     constructor(props) {
@@ -14,7 +14,7 @@ class PromoImage extends React.Component {
 
     render() {
         return (
-            <img class='promo_lg' src={this.props.src[this.props.imgname]} alt={this.props.title + " promo"} />
+            <img id="promoImage" class='promo_lg' src={this.props.src[this.props.imgname]} alt={this.props.title + " promo"} />
         )
     }
 }

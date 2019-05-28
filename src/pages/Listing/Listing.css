@@ -2,7 +2,59 @@
     color: greenyellow
 }
 
+.listing{
+    text-align: left;
+    margin: auto;
+    justify-content: left;
+    align-items: unset;
+    background-color: #1B2837;
+}
+.container{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .oldprice {
     color: white;
     font-size: 18px
+}
+
+h1{
+    font-family: 'Motiva Sans', 'Arial';
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.carousel{
+    width: 60%;
+    float: left;
+    position: relative;
+}
+
+.queue{
+    width: 100%;
+    height: 30px;
+    clear: both;
+    background-color: #101C26; 
+    margin-top: 10px;
+}
+
+.info{
+    float: left;
+    width: 39%;
+    margin-left: 10px; 
+    background-color: #101C26; 
+
+}
+
+#border{
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#image{
+    width: 50%;
 }
