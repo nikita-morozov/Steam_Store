@@ -1,5 +1,6 @@
 import './shared_global.css'
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class SteamHeader extends React.Component {
     constructor(props) {
@@ -25,9 +26,9 @@ class SteamHeader extends React.Component {
                 <div class="content">
                     <div class="logo">
                         <span id="logo_holder">
-                            <a href="/">
+                            <Link to="/">
                                 <img src="https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016" width="176" height="44" alt="Logo Header" />
-                            </a>
+                            </Link>
                         </span>
                     </div>
 
