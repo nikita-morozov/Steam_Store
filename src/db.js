@@ -16,6 +16,14 @@ export const bdb = (
             "title": "Risk of Rain 4 YUHHHH",
             "img": {ror2},
             "imgname": "ror2"
+        },
+
+        "dota2": {
+            "price": "Free To Play",
+            "oldprice": "",
+            "title": "DOTA 2",
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/570/header.jpg?t=1557267263",
+            "imgname": "d2"
         }
     }
 )
