@@ -4,14 +4,10 @@
 
 .listing{
     text-align: left;
-    margin: auto;
+    margin: 0px;
     justify-content: left;
     align-items: unset;
     background-color: #1B2837;
-}
-.container{
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .oldprice {
@@ -43,7 +39,7 @@ h1{
 
 .info{
     float: left;
-    width: 39%;
+    width: 38%;
     margin-left: 10px; 
     background-color: #101C26; 
 

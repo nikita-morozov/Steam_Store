@@ -1,4 +1,6 @@
 import React from 'react';
+import "./PromoImage.css";
+
 
 class PromoImage extends React.Component {
     constructor(props) {

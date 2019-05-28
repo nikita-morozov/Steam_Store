@@ -53,7 +53,6 @@ class Listing extends React.Component {
                 </div>
               </div>
               <div class='queue'>
-
               </div>
             </div>
           </div>
