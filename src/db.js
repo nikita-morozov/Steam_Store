@@ -6,7 +6,7 @@ export const bdb = (
             "price": "$19.99",
             "oldprice": "$29.99",
             "title": "Risk of Rain 2",
-            "img": {ror2},
+            "img": "https://steamcdn-a.akamaihd.net/steam/apps/632360/header.jpg?t=1558455404",
             "imgname": "ror2",
             "c1": "https://steamcdn-a.akamaihd.net/steam/apps/632360/ss_76082d1683ec86903a7f071181c89ccaf78b857d.600x338.jpg?t=1558455404",
             "c2": "https://steamcdn-a.akamaihd.net/steam/apps/632360/ss_121003c290030ab310e1651a442609939141911e.600x338.jpg?t=1558455404",
