@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Steam-Store/static/css/main.bf2923d0.chunk.css",
+    "main.js": "/Steam-Store/static/js/main.a8a81d2d.chunk.js",
+    "main.js.map": "/Steam-Store/static/js/main.a8a81d2d.chunk.js.map",
+    "runtime~main.js": "/Steam-Store/static/js/runtime~main.87beefbe.js",
+    "runtime~main.js.map": "/Steam-Store/static/js/runtime~main.87beefbe.js.map",
+    "static/css/2.f74a8007.chunk.css": "/Steam-Store/static/css/2.f74a8007.chunk.css",
+    "static/js/2.d68090e8.chunk.js": "/Steam-Store/static/js/2.d68090e8.chunk.js",
+    "static/js/2.d68090e8.chunk.js.map": "/Steam-Store/static/js/2.d68090e8.chunk.js.map",
+    "index.html": "/Steam-Store/index.html",
+    "precache-manifest.9b8e227d051a1647c4cfa442cce9f9c5.js": "/Steam-Store/precache-manifest.9b8e227d051a1647c4cfa442cce9f9c5.js",
+    "service-worker.js": "/Steam-Store/service-worker.js",
+    "static/css/2.f74a8007.chunk.css.map": "/Steam-Store/static/css/2.f74a8007.chunk.css.map",
+    "static/css/main.bf2923d0.chunk.css.map": "/Steam-Store/static/css/main.bf2923d0.chunk.css.map",
+    "static/media/cart.svg": "/Steam-Store/static/media/cart.ead50864.svg",
+    "static/media/ror2.jpg": "/Steam-Store/static/media/ror2.abbd998d.jpg",
+    "static/media/search.svg": "/Steam-Store/static/media/search.5ae65154.svg",
+    "static/media/wishlist.svg": "/Steam-Store/static/media/wishlist.1b04d29d.svg"
+  }
+}
