@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Steam_Store/static/css/main.bf2923d0.chunk.css",
-    "main.js": "/Steam_Store/static/js/main.5afb25bb.chunk.js",
-    "main.js.map": "/Steam_Store/static/js/main.5afb25bb.chunk.js.map",
+    "main.js": "/Steam_Store/static/js/main.cc0cebfa.chunk.js",
+    "main.js.map": "/Steam_Store/static/js/main.cc0cebfa.chunk.js.map",
     "runtime~main.js": "/Steam_Store/static/js/runtime~main.12433b09.js",
     "runtime~main.js.map": "/Steam_Store/static/js/runtime~main.12433b09.js.map",
     "static/css/2.f74a8007.chunk.css": "/Steam_Store/static/css/2.f74a8007.chunk.css",
     "static/js/2.d68090e8.chunk.js": "/Steam_Store/static/js/2.d68090e8.chunk.js",
     "static/js/2.d68090e8.chunk.js.map": "/Steam_Store/static/js/2.d68090e8.chunk.js.map",
     "index.html": "/Steam_Store/index.html",
-    "precache-manifest.c8bc31f20a344b3a1da8a9b2e70c623c.js": "/Steam_Store/precache-manifest.c8bc31f20a344b3a1da8a9b2e70c623c.js",
+    "precache-manifest.9d8eb8656a7ed649dbd5dfa304ef4355.js": "/Steam_Store/precache-manifest.9d8eb8656a7ed649dbd5dfa304ef4355.js",
     "service-worker.js": "/Steam_Store/service-worker.js",
     "static/css/2.f74a8007.chunk.css.map": "/Steam_Store/static/css/2.f74a8007.chunk.css.map",
     "static/css/main.bf2923d0.chunk.css.map": "/Steam_Store/static/css/main.bf2923d0.chunk.css.map",
