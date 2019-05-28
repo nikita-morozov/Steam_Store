@@ -2,7 +2,7 @@
   "name": "steam-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikita-morozov.github.io/Steam-Store",
+  "homepage": "https://nikita-morozov.github.io/Steam_Store",
   "dependencies": {
     "@material-ui/core": "^4.0.0",
     "gh-pages": "^2.0.1",
