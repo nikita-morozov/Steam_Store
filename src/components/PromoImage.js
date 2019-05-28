@@ -12,10 +12,17 @@ class PromoImage extends React.Component {
         }
     }
 
+    undefcheck() {
+        return this.props.src[this.props.imgname] === undefined
+    }
+
     render() {
-        return (
-            <img class='promo_lg' src={this.props.src[this.props.imgname]} alt={this.props.title + " promo"} />
-        )
+        if (this.undefcheck) {
+            return(<img class='promo_lg' src={this.props.src} alt={this.props.title + " promo"} />)
+        }
+        else {
+            return(<img class='promo_lg' src={this.props.src[this.props.imgname]} alt={this.props.title + " promo"} />)
+        }
     }
 }
 
