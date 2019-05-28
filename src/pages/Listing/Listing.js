@@ -1,9 +1,10 @@
 import React from 'react';
 import './Listing.css';
 import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
-import PromoImage from '../../components/PromoImage.js';
-import {bdb} from '../../db.js';
+import PromoImage from '../../components/PromoImage/PromoImage.js';
+import { bdb } from '../../db.js';
 import SteamHeader from '../../components/SteamHeader/SteamHeader';
+import ListingCarousel from '../../components/ListingCarousel/ListingCarousel.js';
 
 class Listing extends React.Component {
 
@@ -40,19 +41,22 @@ class Listing extends React.Component {
         <SteamHeader />
         <StoreHeader />
         <div class='body'>
-          {console.log(this.state.promoloc)}
-            
-            <p class='price'>
-                <s class='oldprice'>{this.state.oldprice}</s>
-                {/* needs both parts of the BR tag for some reason??? */}
-                <br></br>
-                {this.state.price}
-            </p>
-            
-            <p class='title'>{this.state.title}</p>
-            
-            <PromoImage src={this.state.promoloc} imgname={this.state.imgname} title={this.state.title} />
-            
+          <div class='listing'>
+            <div class='container'>
+              <h1>{this.state.title}</h1>
+              <div class="carousel">
+                <ListingCarousel />
+              </div>
+              <div class='info' >
+                <div id='image'>
+                  <PromoImage src={this.state.promoloc} imgname={this.state.imgname} title={this.state.title} />
+                </div>
+              </div>
+              <div class='queue'>
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
