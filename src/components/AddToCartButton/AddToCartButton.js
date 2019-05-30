@@ -11,14 +11,14 @@ class AddToCartButton extends React.Component {
   }
 
   clicked() {
-    this.setState({buttonStyle: 'ATCbuttonClicked'});
+    this.setState({ buttonStyle: 'ATCbuttonClicked' });
   }
 
   render() {
     return (
       <div>
-        <button class={this.state.buttonStyle} style={{height: '32px', width: '163px'}} onClick={ (e) => { this.clicked(); } }>
-          <img src={cartlogo} alt='atc' class='ATClogo' />Add to Cart
+        <button className={this.state.buttonStyle} style={{ height: '32px', width: '163px' }} onClick={(e) => { this.clicked(); }}>
+          <img src={cartlogo} alt='atc' className='ATClogo' />Add to Cart
         </button>
       </div>
     );

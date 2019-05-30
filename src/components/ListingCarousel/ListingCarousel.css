@@ -1,3 +1,12 @@
 .image-gallery-left-nav, .image-gallery-right-nav {
     font-size: 2em;
 }
+
+.highlight_movie_marker {
+    position: absolute;
+    top: 16px;
+    left: 42px;
+    width: 32px;
+    height: 32px;
+    background-image: 'https://store.steampowered.com/public/images/v5/ico_game_highlight_video.png';
+}

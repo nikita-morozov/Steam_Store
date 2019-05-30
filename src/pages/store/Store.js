@@ -5,25 +5,25 @@ import StoreHeader from '../../components/StoreHeader/StoreHeader.js';
 import Carousel from '../../components/Carousel/Carousel.js';
 import SpecialOffers from '../../components/CarouselSpecialOffers/SpecialOffers.js';
 import StoreTabs from '../../components/StoreTabs/StoreTabs';
-import {bdb} from '../../db.js';
+import dbs from '../../dbs.json';
 
 class Store extends React.Component {
   constructor() {
     super();
     this.state = {
-      database: bdb
+      database: dbs
     }
   }
-  
+
 
   render() {
     return (
       <div>
         <SteamHeader />
         <StoreHeader />
-        <div class='body' id="test">
+        <div className='body' id="test">
           <Carousel />
-          <SpecialOffers />
+          {/*<SpecialOffers />*/}
           <div id="grid">
             <div id="gridContainer">
               <StoreTabs />

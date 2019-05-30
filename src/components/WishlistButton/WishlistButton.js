@@ -11,13 +11,13 @@ class WishlistButton extends React.Component {
   }
 
   clicked() {
-    this.setState({buttonStyle: 'WbuttonClicked'});
+    this.setState({ buttonStyle: 'WbuttonClicked' });
   }
 
   render() {
     return (
-      <button class={this.state.buttonStyle} style={{height: '32px', width: '128px'}} onClick={ (e) => { this.clicked(); } }>
-        <img src={wishlistlogo} alt='atc' class='Wlogo' />Wishlist
+      <button className={this.state.buttonStyle} style={{ height: '32px', width: '128px' }} onClick={(e) => { this.clicked(); }}>
+        <img src={wishlistlogo} alt='atc' className='Wlogo' />Wishlist
       </button>
     );
   }

@@ -22,8 +22,8 @@ class SteamHeader extends React.Component {
     render() {
         return (
             <div id="global_header">
-                <div class="content">
-                    <div class="logo">
+                <div className="content">
+                    <div id="logo">
                         <span id="logo_holder">
                             <a href="/">
                                 <img src="https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016" width="176" height="44" alt="Logo Header" />
@@ -31,35 +31,35 @@ class SteamHeader extends React.Component {
                         </span>
                     </div>
 
-                    <div class="supernav_container">
-                        <div class="menuitem supernav" onMouseLeave={this.handleLeave}>
-                            <a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store" onMouseEnter={this.handleHover}>
+                    <div className="supernav_container">
+                        <div className="menuitem supernav" onMouseLeave={this.handleLeave}>
+                            <a className="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store" onMouseEnter={this.handleHover}>
                                 STORE	</a>
                             {/* {this.state.showStoreDropdown && <SubmenuStore />} */}
                         </div>
-                        <div class="menuitem supernav" onMouseLeave={this.handleLeave}>
-                            <a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">COMMUNITY</a>
+                        <div className="menuitem supernav" onMouseLeave={this.handleLeave}>
+                            <a className="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">COMMUNITY</a>
                         </div>
-                        <div class="menuitem" onMouseLeave={this.handleLeave}>
-                            <a class="menuitem supernav" href="https://store.steampowered.com/about/">ABOUT</a>
+                        <div className="menuitem" onMouseLeave={this.handleLeave}>
+                            <a className="menuitem supernav" href="https://store.steampowered.com/about/">ABOUT</a>
                         </div>
-                        <div class="menuitem" onMouseLeave={this.handleLeave}>
-                            <a class="menuitem supernav" href="https://help.steampowered.com/en/">SUPPORT</a>
+                        <div className="menuitem" onMouseLeave={this.handleLeave}>
+                            <a className="menuitem supernav" href="https://help.steampowered.com/en/">SUPPORT</a>
                         </div>
                     </div>
 
                     <div id="global_actions">
                         <div id="global_action_menu">
-                            <div class="header_installsteam_btn header_installsteam_btn_green">
+                            <div className="header_installsteam_btn header_installsteam_btn_green">
 
-                                <a class="header_installsteam_btn_content" href="/clientdl">
+                                <a className="header_installsteam_btn_content" href="/clientdl">
                                     Install Steam						</a>
                             </div>
 
 
-                            <a class="global_action_link" href="https://store.steampowered.com/login/?redir=&amp;redir_ssl=1">login</a>
+                            <a className="global_action_link" href="https://store.steampowered.com/login/?redir=&amp;redir_ssl=1">login</a>
                             &nbsp;|&nbsp;
-					<span class="pulldown global_action_link" id="language_pulldown" onClick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+					<span className="pulldown global_action_link" id="language_pulldown">language</span>
 
                             {this.state.showLanguagesDropdown && <SubmenuLanguages />}
 

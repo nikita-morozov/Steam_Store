@@ -11,13 +11,13 @@ class CartButton extends React.Component {
   }
 
   clicked() {
-    this.setState({buttonStyle: 'CbuttonClicked'});
+    this.setState({ buttonStyle: 'CbuttonClicked' });
   }
 
   render() {
     return (
-      <button class={this.state.buttonStyle} style={{height: '32px', width: '98px'}} onClick={ (e) => { this.clicked(); } }>
-        <img src={cartlogo} alt='atc' class='Clogo' />Cart
+      <button className={this.state.buttonStyle} style={{ height: '32px', width: '98px' }} onClick={(e) => { this.clicked(); }}>
+        <img src={cartlogo} alt='atc' className='Clogo' />Cart
       </button>
     );
   }
