@@ -1052,7 +1052,7 @@ div#global_actions .user_avatar {
 	margin-left: 3px;
 }
 
-div#global_header div.logo {
+div#global_header div#logo {
 	float: left;
 	padding-top: 30px;
 	margin-right: 40px;

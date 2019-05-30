@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Store from './pages/store/Store';
 import Tester from './pages/Tester'
 import Listing from './pages/Listing/Listing'
@@ -10,7 +10,7 @@ import Notfound from './pages/Notfound';
 class App extends Component {
     render() {
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <Switch>
                         <Route exact path="/" component={Store} />
@@ -22,7 +22,7 @@ class App extends Component {
                         <Route path="*" component={Notfound} />
                     </Switch>
                 </div>
-    </Router>
+            </Router>
         );
     }
 }

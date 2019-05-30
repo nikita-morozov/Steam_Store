@@ -6,19 +6,20 @@ class AddToCartButton extends React.Component {
   constructor() {
     super();
     this.state = {
-      buttonStyle: 'ATWbutton'
+      buttonStyle: 'ATWbutton',
+      buttonText: 'Add to Wishlist'
     }
   }
 
   clicked() {
-    this.setState({buttonStyle: 'ATWbuttonClicked'});
+    this.setState({ buttonStyle: 'ATWbuttonClicked', buttonText: 'On Wishlist' });
   }
 
   render() {
     return (
       <div>
-        <button class={this.state.buttonStyle} style={{height: '32px', width: '193px'}} onClick={ (e) => { this.clicked(); } }>
-          <img src={wishlistlogo} alt='atc' class='ATWlogo' />Add to Wishlist
+        <button className={this.state.buttonStyle} style={{ height: '32px', width: '193px' }} onClick={(e) => { this.clicked(); }}>
+          <img src={wishlistlogo} alt='atc' className='ATWlogo' />{ this.state.buttonText }
         </button>
       </div>
     );

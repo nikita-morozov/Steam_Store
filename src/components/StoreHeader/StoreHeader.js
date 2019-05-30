@@ -203,17 +203,17 @@ class StoreHeader extends React.Component {
 
   render() {
     return (
-      <div class='navbar' style={{height: '38px'}}>
-        <div class='bardropdown'>
-          <NavbarDropdown name='Your Store' options={this.state.yourstore} posOffset='0px' scrollPadding='0px' styleType='dropdownHeaderTitleFirst' style={{height: '38px', width: '85px'}}/>
-          <NavbarDropdown name="Games" options={this.state.games} posOffset='-85px' scrollPadding='5px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
-          <NavbarDropdown name='Software' options={this.state.software} posOffset='-170px' scrollPadding='5px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
-          <NavbarDropdown name='Hardware' options={this.state.hardware} posOffset='-255px' scrollPadding='0px' styleType='dropdownHeaderTitle' style={{height: '38px', width: '85px'}}/>
+      <div className='navbar' style={{ height: '38px' }}>
+        <div className='bardropdown'>
+          <NavbarDropdown name='Your Store' options={this.state.yourstore} posOffset='0px' scrollPadding='0px' styleType='dropdownHeaderTitleFirst' style={{ height: '38px', width: '85px' }} />
+          <NavbarDropdown name="Games" options={this.state.games} posOffset='-85px' scrollPadding='5px' styleType='dropdownHeaderTitle' style={{ height: '38px', width: '85px' }} />
+          <NavbarDropdown name='Software' options={this.state.software} posOffset='-170px' scrollPadding='5px' styleType='dropdownHeaderTitle' style={{ height: '38px', width: '85px' }} />
+          <NavbarDropdown name='Hardware' options={this.state.hardware} posOffset='-255px' scrollPadding='0px' styleType='dropdownHeaderTitle' style={{ height: '38px', width: '85px' }} />
         </div>
-        <button class='navbarmenuitem' style={{height: '38px', width: '85px'}}>News</button>
-        <form class='searchbar'>
-          <input type='text' class='searchinput' placeholder='Search the store...' style={{height: '24px', width: '260px'}}></input>
-          <button class='searchbutton'><img src={searchlogo} style={{width: '17px'}} alt=''></img></button>
+        <button className='navbarmenuitem' style={{ height: '38px', width: '85px' }}>News</button>
+        <form className='searchbar'>
+          <input type='text' className='searchinput' placeholder='Search the store...' style={{ height: '24px', width: '260px' }}></input>
+          <button className='searchbutton'><img src={searchlogo} style={{ width: '17px' }} alt=''></img></button>
         </form>
         <CartButton />
         <WishlistButton />
