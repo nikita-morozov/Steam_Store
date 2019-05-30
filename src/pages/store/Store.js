@@ -22,7 +22,7 @@ class Store extends React.Component {
         <SteamHeader />
         <StoreHeader />
         <div class='body' id="test">
-          <Carousel />
+          <Carousel games={bdb} />
           <SpecialOffers />
           <div id="grid">
             <div id="gridContainer">
