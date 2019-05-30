@@ -22,8 +22,8 @@ class Store extends React.Component {
         <SteamHeader />
         <StoreHeader />
         <div className='body' id="test">
-          <Carousel />
-          {/*<SpecialOffers />*/}
+          <Carousel /> //games={bdb}
+          {/*<SpecialOffers />*/} //not commented out
           <div id="grid">
             <div id="gridContainer">
               <StoreTabs />

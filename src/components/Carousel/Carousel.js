@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Carousel.css'
+import DropOver from '../DropOver/DropOver.js';
 import dbs from '../../dbs.json';
 
 class Carousel extends React.Component {
@@ -22,9 +23,14 @@ class Carousel extends React.Component {
             <div className="home_ctn">
                 <div className="home_page_content special_offers">
                     <h2 style={{ marginTop: '50px' }}>FEATURED & RECOMMENDED</h2>
-                    <div className="carousel_container spotlight" id="spotlight_carousel">
+                    <div className="carousel_container" id="spotlight_carousel">
+                        {/* <button class='leftbutton' style={{height: '170px', left: '0px'}}>LT</button> */}
                         <div className="carousel_item">
                             <div className="focus">
+                                <DropOver 
+                                img="https://steamcdn-a.akamaihd.net/steam/apps/1088360/header.jpg?t=1558460254" 
+                                imgType='wideImage' 
+                                tall={false}/>
                                 <div className="store_capsule_column">
                                     <Link to={'/listing/' + this.state.co1}>
                                         <div className="capsule header"><img id="wideImage" src={dbs['table']['games'][this.state.co1]["img"]} alt={dbs['table']['games'][this.state.co1]["imgname"]} /></div>
@@ -52,6 +58,7 @@ class Carousel extends React.Component {
                                 </div>
                             </div>
                         </div>
+                        {/* <button class='rightbutton' style={{left: '1326px', height: '170px'}}>RT</button> */}
                     </div>
                 </div>
             </div >
