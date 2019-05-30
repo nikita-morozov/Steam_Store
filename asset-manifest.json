@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Steam_Store/static/css/main.6818a480.chunk.css",
-    "main.js": "/Steam_Store/static/js/main.a116e979.chunk.js",
-    "main.js.map": "/Steam_Store/static/js/main.a116e979.chunk.js.map",
+    "main.css": "/Steam_Store/static/css/main.d0be1c7b.chunk.css",
+    "main.js": "/Steam_Store/static/js/main.0a662052.chunk.js",
+    "main.js.map": "/Steam_Store/static/js/main.0a662052.chunk.js.map",
     "runtime~main.js": "/Steam_Store/static/js/runtime~main.12433b09.js",
     "runtime~main.js.map": "/Steam_Store/static/js/runtime~main.12433b09.js.map",
     "static/css/2.f74a8007.chunk.css": "/Steam_Store/static/css/2.f74a8007.chunk.css",
     "static/js/2.41ca1b20.chunk.js": "/Steam_Store/static/js/2.41ca1b20.chunk.js",
     "static/js/2.41ca1b20.chunk.js.map": "/Steam_Store/static/js/2.41ca1b20.chunk.js.map",
     "index.html": "/Steam_Store/index.html",
-    "precache-manifest.517bd45448a2ed63292fbe0f6dfd3e92.js": "/Steam_Store/precache-manifest.517bd45448a2ed63292fbe0f6dfd3e92.js",
+    "precache-manifest.bea116772f58fd6351f26edcf34c96d8.js": "/Steam_Store/precache-manifest.bea116772f58fd6351f26edcf34c96d8.js",
     "service-worker.js": "/Steam_Store/service-worker.js",
     "static/css/2.f74a8007.chunk.css.map": "/Steam_Store/static/css/2.f74a8007.chunk.css.map",
-    "static/css/main.6818a480.chunk.css.map": "/Steam_Store/static/css/main.6818a480.chunk.css.map",
-    "static/media/cart.svg": "/Steam_Store/static/media/cart.fdf9d2c5.svg",
-    "static/media/search.svg": "/Steam_Store/static/media/search.c59d7d4a.svg",
-    "static/media/wishlist.svg": "/Steam_Store/static/media/wishlist.c55464f2.svg"
+    "static/css/main.d0be1c7b.chunk.css.map": "/Steam_Store/static/css/main.d0be1c7b.chunk.css.map",
+    "static/media/cart.svg": "/Steam_Store/static/media/cart.ead50864.svg",
+    "static/media/search.svg": "/Steam_Store/static/media/search.5ae65154.svg",
+    "static/media/wishlist.svg": "/Steam_Store/static/media/wishlist.1b04d29d.svg"
   }
 }
