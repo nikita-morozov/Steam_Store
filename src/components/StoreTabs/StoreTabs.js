@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "../StoreTabs/StoreTabs.css";
 import Grid from '../Grid/Grid';
 export default () => (
-  <Tabs>
+  <Tabs >
     <TabList>
       <Tab>New and Trending</Tab>
       <Tab>Top Selling</Tab>

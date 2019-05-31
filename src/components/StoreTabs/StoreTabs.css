@@ -19,7 +19,7 @@
   padding: 6px 24px;
   cursor: pointer;
   font-family: 'Arial';
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .react-tabs__tab--selected {
@@ -51,6 +51,7 @@
 
 .react-tabs__tab-panel {
   display: none;
+  margin-top: 30px;
 }
 
 .react-tabs__tab-panel--selected {
