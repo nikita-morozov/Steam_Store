@@ -1,0 +1,40 @@
+.SMbutton {
+  position: inline;
+  margin: 4px 5.5px;
+  text-align: center;
+  /* vertical-align: sub; */
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 19px;
+  color: white;
+  transition-duration: .3s;
+}
+
+.SMbutton:hover {
+  border: solid 2px #2A465E;
+  transition-duration: .3s;
+}
+
+.SMbuttonClicked {
+  position: inline;
+  margin: 4px 5.5px;
+  text-align: center;
+  /* vertical-align: sub; */
+  background-color: #9DCA0D;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 19px;
+  color: white;
+}
+
+.SMbutton:focus, .SMbuttonClicked:focus {
+  outline: 0;
+}
+
+.SMlogo {
+  vertical-align: sub;
+  padding-right: 10px;
+}

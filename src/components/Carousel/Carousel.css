@@ -66,8 +66,9 @@ h2{
     width: 305px;
     z-index: 600;
     bottom: 177px;
-    outline: solid 1px red;
+    background-color: #2A465E;
     left: 315px;
+    flex-direction: column;
 }
 
 .store_capsule_row-new-tall{
@@ -78,8 +79,9 @@ h2{
     height: 350px;
     z-index: 600;
     bottom: 357px;
-    outline: solid 1px red;
+    background-color: #2A465E;
     left: 315px;
+    flex-direction: column;
 }
 
 .capsule_header{
@@ -103,6 +105,10 @@ h2{
 #wideImage{
     width: 305px;
     height: 170px;
+}
+
+#imageTall{
+    width: 100%;
 }
 
 .leftbutton, .rightbutton {

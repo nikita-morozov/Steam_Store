@@ -28,34 +28,50 @@ class Carousel extends React.Component {
                         <div className="carousel_item">
                             <div className="focus">
                                 <DropOver 
-                                img="https://steamcdn-a.akamaihd.net/steam/apps/1088360/header.jpg?t=1558460254" 
+                                img={dbs['table']['games'][this.state.co1]['img']} 
                                 imgType='wideImage' 
-                                tall={false}/>
-                                <div className="store_capsule_column">
-                                    <Link to={'/listing/' + this.state.co1}>
-                                        <div className="capsule header"><img id="wideImage" src={dbs['table']['games'][this.state.co1]["img"]} alt={dbs['table']['games'][this.state.co1]["imgname"]} /></div>
-                                    </Link>
-                                </div>
-                                <div className="store_capsule_column">
-                                    <Link to={'/listing/' + this.state.co2}>
-                                        <div className="capsule header"><img id="wideImage" src={dbs['table']['games'][this.state.co2]["img"]} alt={dbs['table']['games'][this.state.co2]["imgname"]} /></div>
-                                    </Link>
-                                </div>
-                                <div className="store_capsule_column">
-                                    <Link to={'/listing/' + this.state.co3}>
-                                        <div className="capsule header"><img id="wideImage" src={dbs['table']['games'][this.state.co3]["img"]} alt={dbs['table']['games'][this.state.co3]["imgname"]} /></div>
-                                    </Link>
-                                </div>
-                                <div className="store_capsule_column">
-                                    <Link to={'/listing/' + this.state.co4}>
-                                        <div className="capsule header"><img id="wideImage" src={dbs['table']['games'][this.state.co4]["img"]} alt={dbs['table']['games'][this.state.co4]["imgname"]} /></div>
-                                    </Link>
-                                </div>
-                                <div className="store_capsule_column" id="last">
-                                    <Link to={'/listing/' + this.state.co5}>
-                                        <div className="capsule header"><img id="wideImage" src={dbs['table']['games'][this.state.co5]["img"]} alt={dbs['table']['games'][this.state.co5]["imgname"]} /></div>
-                                    </Link>
-                                </div>
+                                tall={false}
+                                title={dbs['table']['games'][this.state.co1]['title']}
+                                description={dbs['table']['games'][this.state.co1]['description']}
+                                tags={dbs['table']['games'][this.state.co1]['genre']}
+                                price={dbs['table']['games'][this.state.co1]['price']}
+                                link={'/listing/' + this.state.co1}/>
+                                <DropOver 
+                                img={dbs['table']['games'][this.state.co2]['img']} 
+                                imgType='wideImage' 
+                                tall={false}
+                                title={dbs['table']['games'][this.state.co2]['title']}
+                                description={dbs['table']['games'][this.state.co2]['description']}
+                                tags={dbs['table']['games'][this.state.co2]['genre']}
+                                price={dbs['table']['games'][this.state.co2]['price']}
+                                link={'/listing/' + this.state.co2}/>
+                                <DropOver 
+                                img={dbs['table']['games'][this.state.co3]['img']} 
+                                imgType='wideImage' 
+                                tall={false}
+                                title={dbs['table']['games'][this.state.co3]['title']}
+                                description={dbs['table']['games'][this.state.co3]['description']}
+                                tags={dbs['table']['games'][this.state.co3]['genre']}
+                                price={dbs['table']['games'][this.state.co3]['price']}
+                                link={'/listing/' + this.state.co3}/>
+                                <DropOver 
+                                img={dbs['table']['games'][this.state.co4]['img']} 
+                                imgType='wideImage' 
+                                tall={false}
+                                title={dbs['table']['games'][this.state.co4]['title']}
+                                description={dbs['table']['games'][this.state.co4]['description']}
+                                tags={dbs['table']['games'][this.state.co4]['genre']}
+                                price={dbs['table']['games'][this.state.co4]['price']}
+                                link={'/listing/' + this.state.co4}/>
+                                <DropOver 
+                                img={dbs['table']['games'][this.state.co5]['img']} 
+                                imgType='wideImage' 
+                                tall={false}
+                                title={dbs['table']['games'][this.state.co5]['title']}
+                                description={dbs['table']['games'][this.state.co5]['description']}
+                                tags={dbs['table']['games'][this.state.co5]['genre']}
+                                price={dbs['table']['games'][this.state.co5]['price']}
+                                link={'/listing/' + this.state.co5}/>
                             </div>
                         </div>
                         {/* <button class='rightbutton' style={{left: '1326px', height: '170px'}}>RT</button> */}
