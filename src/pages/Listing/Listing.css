@@ -325,7 +325,7 @@ h2.bb_tag {
     font-size: 12px;
     margin-top: 30px;
     overflow: hidden;
-    font-family: "Motiva Sans", Sans-serif;
+    font-family: "Arial", Sans-serif;
     font-weight: normal;
 }
 
@@ -339,18 +339,7 @@ h2.bb_tag {
     list-style-position: outside;
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
 div.image-gallery-slide{
-    height: 479px;
     background-color: #1B2837;
     margin-bottom: -20px;
 }
