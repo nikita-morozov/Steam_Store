@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Steam_Store/static/css/main.d0be1c7b.chunk.css",
-    "main.js": "/Steam_Store/static/js/main.0a662052.chunk.js",
-    "main.js.map": "/Steam_Store/static/js/main.0a662052.chunk.js.map",
+    "main.css": "/Steam_Store/static/css/main.0e18b735.chunk.css",
+    "main.js": "/Steam_Store/static/js/main.07097c17.chunk.js",
+    "main.js.map": "/Steam_Store/static/js/main.07097c17.chunk.js.map",
     "runtime~main.js": "/Steam_Store/static/js/runtime~main.12433b09.js",
     "runtime~main.js.map": "/Steam_Store/static/js/runtime~main.12433b09.js.map",
     "static/css/2.f74a8007.chunk.css": "/Steam_Store/static/css/2.f74a8007.chunk.css",
-    "static/js/2.41ca1b20.chunk.js": "/Steam_Store/static/js/2.41ca1b20.chunk.js",
-    "static/js/2.41ca1b20.chunk.js.map": "/Steam_Store/static/js/2.41ca1b20.chunk.js.map",
+    "static/js/2.47860cad.chunk.js": "/Steam_Store/static/js/2.47860cad.chunk.js",
+    "static/js/2.47860cad.chunk.js.map": "/Steam_Store/static/js/2.47860cad.chunk.js.map",
     "index.html": "/Steam_Store/index.html",
-    "precache-manifest.bea116772f58fd6351f26edcf34c96d8.js": "/Steam_Store/precache-manifest.bea116772f58fd6351f26edcf34c96d8.js",
+    "precache-manifest.0e2e81e1337a7b2c7e388ec58f2080c6.js": "/Steam_Store/precache-manifest.0e2e81e1337a7b2c7e388ec58f2080c6.js",
     "service-worker.js": "/Steam_Store/service-worker.js",
     "static/css/2.f74a8007.chunk.css.map": "/Steam_Store/static/css/2.f74a8007.chunk.css.map",
-    "static/css/main.d0be1c7b.chunk.css.map": "/Steam_Store/static/css/main.d0be1c7b.chunk.css.map",
+    "static/css/main.0e18b735.chunk.css.map": "/Steam_Store/static/css/main.0e18b735.chunk.css.map",
     "static/media/cart.svg": "/Steam_Store/static/media/cart.ead50864.svg",
+    "static/media/cartgreen.svg": "/Steam_Store/static/media/cartgreen.cc5b626f.svg",
     "static/media/search.svg": "/Steam_Store/static/media/search.5ae65154.svg",
-    "static/media/wishlist.svg": "/Steam_Store/static/media/wishlist.1b04d29d.svg"
+    "static/media/wishlist.svg": "/Steam_Store/static/media/wishlist.1b04d29d.svg",
+    "static/media/wishlistblue.svg": "/Steam_Store/static/media/wishlistblue.9e91e5e8.svg"
   }
 }
