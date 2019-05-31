@@ -8,7 +8,7 @@ h2{
 }
 
 .home_ctn {
-	overflow: hidden;
+	overflow: scroll hidden;
     margin: 0;
     padding: 0;
 }
@@ -21,6 +21,11 @@ h2{
     position: relative;
     display: block;
     clear: both;
+    overflow-x: scroll;
+}
+
+.carousel_container {
+    display: flex;
 }
 
 .spotlight_img {
@@ -32,7 +37,7 @@ h2{
     display: block;
     overflow-x: hidden;
     overflow-y: hidden;
-    padding: 0; 
+    padding: 0;
 }
 
 .focus{
@@ -44,12 +49,37 @@ h2{
     position: relative;
 }
 
+.focus::-webkit-scrollbar {
+    display: none;
+}
+
 .store_capsule_row{
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-origin: padding-box;
+    display: flex;
     position: relative;
     width: 305px;
+}
+
+.store_capsule_row-new{
+    display: flex;
+    position: relative;
+    float: right;
+    width: 305px;
+    z-index: 600;
+    bottom: 177px;
+    outline: solid 1px red;
+    left: 315px;
+}
+
+.store_capsule_row-new-tall{
+    display: flex;
+    position: relative;
+    float: right;
+    width: 305px;
+    height: 350px;
+    z-index: 600;
+    bottom: 357px;
+    outline: solid 1px red;
+    left: 315px;
 }
 
 .capsule_header{
@@ -63,7 +93,26 @@ h2{
     width: 305px;
 }
 
+.store_capsule_column_inuse{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 305px;
+    margin-right: 315px;
+}
+
 #wideImage{
     width: 305px;
     height: 170px;
+}
+
+.leftbutton, .rightbutton {
+    position: flex;
+    z-index: 500;
+    width: 44px;
+    opacity: .3;
+    border: none;
+}
+
+.leftbutton:hover, .rightbutton:hover {
+    opacity: .4;
 }

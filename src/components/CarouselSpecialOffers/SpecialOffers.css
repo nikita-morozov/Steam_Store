@@ -32,7 +32,7 @@ h2{
     display: block;
     overflow-x: hidden;
     overflow-y: hidden;
-    padding: 0; 
+    padding: 0;
 }
 
 .focus{
@@ -42,6 +42,12 @@ h2{
     display: flex;
     margin: 0;
     position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.focus::-webkit-scrollbar {
+    display: none;
 }
 
 .store_capsule_row{
@@ -52,9 +58,17 @@ h2{
     width: 305px;
 }
 
+.store_capsule_row2{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    position: relative;
+    width: 305px;
+    top: 5px;
+}
+
 .capsule_header{
     width: 305px;
-
 }
 
 .store_capsule_column{
