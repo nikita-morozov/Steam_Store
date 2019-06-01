@@ -21,9 +21,13 @@ class App extends Component {
         }
     }
 
-    cartAdder() {
+    cartAdder(id) {
         var arr = this.state.cartItems
-        var itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
+        if (id === undefined) {
+            var itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
+        } else {
+            var itemid = id
+        }
         if (!(arr.includes(itemid))) {
             arr.push(itemid)
             this.setState({
@@ -32,9 +36,13 @@ class App extends Component {
         }
     }
 
-    wishlistAdder() {
+    wishlistAdder(id) {
         var arr = this.state.wishItems
-        var itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
+        if (id === undefined) {
+            var itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
+        } else {
+            var itemid = id
+        }
         if (!(arr.includes(itemid))) {
             arr.push(itemid)
             this.setState({
