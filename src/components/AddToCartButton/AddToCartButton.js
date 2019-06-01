@@ -3,17 +3,20 @@ import './AddToCartButton.css';
 import cartlogo from '../../asset/cart.svg';
 
 class AddToCartButton extends React.Component {
-  constructor() {
+  constructor(props) {
     super();
     this.state = {
       buttonStyle: 'ATCbutton',
-      buttonText: 'Add to Cart'
+      buttonText: 'Add to Cart',
+      id: window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
     }
   }
 
   clicked() {
     this.setState({ buttonStyle: 'ATCbuttonClicked', buttonText: 'In Cart' });
 
+    this.props.handler()
+    console.log(this.state.cartItems)
   }
 
   render() {
