@@ -36,6 +36,10 @@ class DropOver extends React.Component {
 
   componentDidUpdate() {
     const {inUse} = this.state
+    if (document.getElementById('forceView') !== null) {
+      var lmnt = document.getElementById('forceView')
+      lmnt.scrollIntoView({ behavior: 'smooth', block: 'nearest'});
+    }
     setTimeout(() => {
       if (inUse) {
         window.addEventListener('click', this.exit)
@@ -80,7 +84,7 @@ class DropOver extends React.Component {
       fixedDesc = description;
     }
     return (
-      <div class={styleUpdate} onClick={() => this.enter()} on>
+      <div class={styleUpdate} onMouseEnter={() => this.enter()} onMouseLeave={() => this.exit()}>
           {/* <Link to='/listing/ror2'> */}
               <div class="store_capsule_row">
                   <div class="capsule header">
@@ -89,7 +93,7 @@ class DropOver extends React.Component {
                   </div>
               </div>
               {inUse && 
-                <div class={itemCss} style={{height: itemHeight}}>
+                <div id='forceView' class={itemCss} style={{height: itemHeight}}>
                   <div id='titleContainer'>
                     <h1 id='gameTitle'>{fixedTitle}</h1>
                     {tall && <p id='gameDesc'>{fixedDesc}</p>}
@@ -107,7 +111,7 @@ class DropOver extends React.Component {
                       <ATWMiniButton />
                     </div>
                     <div id='seeMore'>
-                      <Link to={link}>
+                      <Link to={link} onClick={() => window.scrollTo(0, 0)}>
                         <SeeMoreButton id='seeMore'/>
                       </Link>
                     </div>
