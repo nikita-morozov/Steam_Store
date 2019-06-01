@@ -22,10 +22,13 @@ class App extends Component {
 
     cartAdder() {
         var arr = this.state.cartItems
-        arr.push(window.location.href.substring(window.location.href.lastIndexOf('/') + 1))
-        this.setState({
-            cartItems: arr
-        });
+        var itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
+        if (!(arr.includes(itemid))) {
+            arr.push(itemid)
+            this.setState({
+                cartItems: arr
+            });
+        }
     }
 
     render() {
