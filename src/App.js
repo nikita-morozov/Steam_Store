@@ -13,6 +13,7 @@ class App extends Component {
         super(props);
 
         this.cartAdder = this.cartAdder.bind(this)
+        this.wishlistAdder = this.wishlistAdder.bind(this)
 
         this.state = {
             cartItems: [],
@@ -31,6 +32,17 @@ class App extends Component {
         }
     }
 
+    wishlistAdder() {
+        var arr = this.state.wishItems
+        var itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
+        if (!(arr.includes(itemid))) {
+            arr.push(itemid)
+            this.setState({
+                wishItems: arr
+            });
+        }
+    }
+
     render() {
         return (
             <Router basename={process.env.PUBLIC_URL}>
@@ -39,7 +51,7 @@ class App extends Component {
                         <Route exact path="/" component={Store} />
                         <Route path="/test" component={Tester} />
                         <Route path="/clientdl" component={DownloadClient} />
-                        <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} />} />
+                        <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} />} />
                         
                         {/* DONT TOUCH THIS ONE, IT MUST STAY AT THE BOTTOM OF THE LIST */}
                         <Route path="*" component={Notfound} />
