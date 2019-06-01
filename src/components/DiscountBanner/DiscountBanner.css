@@ -1,0 +1,10 @@
+#discountTag {
+  position: absolute;
+  top: 5px;
+  right: -40px;
+  background-color: #4C6B21;
+  font-size: 25px;
+  color: #A4D006;
+  padding: 5px 40px;
+  transform: rotate(45deg);
+}

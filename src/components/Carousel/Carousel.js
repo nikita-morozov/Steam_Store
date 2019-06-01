@@ -22,7 +22,7 @@ class Carousel extends React.Component {
         return (
             <div className="home_ctn">
                 <div className="home_page_content special_offers">
-                    <h2 style={{ marginTop: '50px' }}>FEATURED & RECOMMENDED</h2>
+                    <h2>FEATURED & RECOMMENDED</h2>
                     <div className="carousel_container" id="spotlight_carousel">
                         {/* <button class='leftbutton' style={{height: '170px', left: '0px'}}>LT</button> */}
                         <div className="carousel_item">
@@ -34,7 +34,9 @@ class Carousel extends React.Component {
                                 title={dbs['table']['games'][this.state.co1]['title']}
                                 description={dbs['table']['games'][this.state.co1]['description']}
                                 tags={dbs['table']['games'][this.state.co1]['genre']}
-                                price={dbs['table']['games'][this.state.co1]['price']}
+                                price={dbs['table']['games'][this.state.co1]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co1]['oldprice']} 
+                                discount={dbs['table']['games'][this.state.co1]['discount']} 
                                 link={'/listing/' + this.state.co1}/>
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co2]['img']} 
@@ -43,7 +45,9 @@ class Carousel extends React.Component {
                                 title={dbs['table']['games'][this.state.co2]['title']}
                                 description={dbs['table']['games'][this.state.co2]['description']}
                                 tags={dbs['table']['games'][this.state.co2]['genre']}
-                                price={dbs['table']['games'][this.state.co2]['price']}
+                                price={dbs['table']['games'][this.state.co2]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co2]['oldprice']}  
+                                discount={dbs['table']['games'][this.state.co2]['discount']} 
                                 link={'/listing/' + this.state.co2}/>
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co3]['img']} 
@@ -52,7 +56,9 @@ class Carousel extends React.Component {
                                 title={dbs['table']['games'][this.state.co3]['title']}
                                 description={dbs['table']['games'][this.state.co3]['description']}
                                 tags={dbs['table']['games'][this.state.co3]['genre']}
-                                price={dbs['table']['games'][this.state.co3]['price']}
+                                price={dbs['table']['games'][this.state.co3]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co3]['oldprice']} 
+                                discount={dbs['table']['games'][this.state.co3]['discount']} 
                                 link={'/listing/' + this.state.co3}/>
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co4]['img']} 
@@ -61,7 +67,9 @@ class Carousel extends React.Component {
                                 title={dbs['table']['games'][this.state.co4]['title']}
                                 description={dbs['table']['games'][this.state.co4]['description']}
                                 tags={dbs['table']['games'][this.state.co4]['genre']}
-                                price={dbs['table']['games'][this.state.co4]['price']}
+                                price={dbs['table']['games'][this.state.co4]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co4]['oldprice']}  
+                                discount={dbs['table']['games'][this.state.co4]['discount']} 
                                 link={'/listing/' + this.state.co4}/>
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co5]['img']} 
@@ -70,7 +78,9 @@ class Carousel extends React.Component {
                                 title={dbs['table']['games'][this.state.co5]['title']}
                                 description={dbs['table']['games'][this.state.co5]['description']}
                                 tags={dbs['table']['games'][this.state.co5]['genre']}
-                                price={dbs['table']['games'][this.state.co5]['price']}
+                                price={dbs['table']['games'][this.state.co5]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co5]['oldprice']}  
+                                discount={dbs['table']['games'][this.state.co5]['discount']} 
                                 link={'/listing/' + this.state.co5}/>
                             </div>
                         </div>

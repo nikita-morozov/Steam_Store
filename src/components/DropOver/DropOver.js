@@ -8,6 +8,7 @@ import ATCMiniButton from '../ATCMiniButton/ATCMiniButton.js';
 import ATWMiniButton from '../ATWMiniButton/ATWMiniButton.js';
 import SeeMoreButton from '../SeeMoreButton/SeeMoreButton.js';
 import Tag from '../Tag/Tag.js'
+import DiscountBanner from '../DiscountBanner/DiscountBanner.js';
 
 class DropOver extends React.Component {
   constructor(props) {
@@ -49,19 +50,34 @@ class DropOver extends React.Component {
   }
 
   render() {
-    const{img, imgType, tall, title, description, tags, price, link} = this.props;
+    const{img, imgType, tall, title, description, tags, oldPrice, price, link, discount} = this.props;
     const{inUse, styleUpdate} = this.state;
+
     var itemHeight = '170px'
     var itemCss = "store_capsule_row-new"
     var fixedTitle = ''
+    var fixedDesc= ''
+    var hasDiscount = false;
+
     if (tall) {
       itemHeight = '350px'
       itemCss = "store_capsule_row-new-tall"
     }
+
+    if (discount !== null) {
+      hasDiscount = true;
+    }
+
     if (title.length > 20 && title.includes(':')) {
       fixedTitle = title.substring(0,title.indexOf(':'))
     } else {
       fixedTitle = title;
+    }
+
+    if (description.length > 130) {
+      fixedDesc = description.substring(0, 131) + '...'
+    } else {
+      fixedDesc = description;
     }
     return (
       <div class={styleUpdate} onClick={() => this.enter()} on>
@@ -69,19 +85,21 @@ class DropOver extends React.Component {
               <div class="store_capsule_row">
                   <div class="capsule header">
                     <img id={imgType} src={img} alt="" />
+                    {hasDiscount && <DiscountBanner percent={discount} />}
                   </div>
               </div>
               {inUse && 
                 <div class={itemCss} style={{height: itemHeight}}>
                   <div id='titleContainer'>
                     <h1 id='gameTitle'>{fixedTitle}</h1>
-                    {tall && <p id='gameDesc'>{description}</p>}
+                    {tall && <p id='gameDesc'>{fixedDesc}</p>}
                   </div>
                   {tall && <div id='tagContainer'>
-                    <Tag text={tags} />
+                    <Tag id='individualTag' text={tags} />
                   </div>}
                   <div id='buttonContainer'>
                     <p id='gamePrice'>{price}</p>
+                    <p id='gameOldPrice'>{oldPrice}</p>
                     <div id='addToCart'>
                       <ATCMiniButton />
                     </div>
@@ -90,7 +108,7 @@ class DropOver extends React.Component {
                     </div>
                     <div id='seeMore'>
                       <Link to={link}>
-                        <SeeMoreButton />
+                        <SeeMoreButton id='seeMore'/>
                       </Link>
                     </div>
                   </div>
