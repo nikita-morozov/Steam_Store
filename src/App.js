@@ -56,7 +56,7 @@ class App extends Component {
             <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <Switch>
-                        <Route exact path="/" component={Store} />
+                        <Route exact path="/" render={(props) => <Store {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} />} />
                         <Route path="/test" component={Tester} />
                         <Route path="/clientdl" component={DownloadClient} />
                         <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} />} />

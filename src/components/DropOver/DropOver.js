@@ -101,10 +101,10 @@ class DropOver extends React.Component {
                     <p id='gamePrice'>{price}</p>
                     <p id='gameOldPrice'>{oldPrice}</p>
                     <div id='addToCart'>
-                      <ATCMiniButton />
+                      <ATCMiniButton cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
                     </div>
                     <div id='addToWishlist'>
-                      <ATWMiniButton />
+                      <ATWMiniButton cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
                     </div>
                     <div id='seeMore'>
                       <Link to={link}>
