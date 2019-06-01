@@ -3,12 +3,11 @@ h2{
     font-size: 19px;
     text-align: left;
     font-weight: normal;
-    margin-top: 35px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
 .home_ctn {
-	overflow: scroll hidden;
     margin: 0;
     padding: 0;
 }
@@ -21,7 +20,6 @@ h2{
     position: relative;
     display: block;
     clear: both;
-    overflow-x: scroll;
 }
 
 .carousel_container {
@@ -47,6 +45,8 @@ h2{
     display: flex;
     margin: 0;
     position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .focus::-webkit-scrollbar {
@@ -57,6 +57,7 @@ h2{
     display: flex;
     position: relative;
     width: 305px;
+    overflow: hidden;
 }
 
 .store_capsule_row-new{
@@ -85,8 +86,7 @@ h2{
 }
 
 .capsule_header{
-    width: 305px;
-
+    position: absolute;
 }
 
 .store_capsule_column{
@@ -108,7 +108,8 @@ h2{
 }
 
 #imageTall{
-    width: 100%;
+    width: 305px;
+    height: 350px;
 }
 
 .leftbutton, .rightbutton {

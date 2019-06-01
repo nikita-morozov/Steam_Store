@@ -7,10 +7,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-.home_ctn {
+.home_ctn2 {
 	overflow: hidden;
-	margin: 0;
-    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .carousel_items {

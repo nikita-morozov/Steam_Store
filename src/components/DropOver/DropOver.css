@@ -11,17 +11,27 @@
   font-size: 19px;
 }
 
+#gameOldPrice {
+  color: #bbbbbb;
+  text-decoration: line-through;
+  font-size: 15px;
+  font-family: "Arial";
+  position: absolute;
+  text-align: left;
+  bottom: 98px;
+}
+
 #gamePrice {
   position: absolute;
   text-align: left;
   font-size: 29px;
-  bottom: 72.5px;
+  bottom: 61px;
 }
 
 #addToCart {
   position: absolute;
   bottom: 65px;
-  right: 74px;
+  right: 70px;
 }
 
 #addToWishlist {
@@ -33,12 +43,12 @@
 #seeMore {
   position: absolute;
   bottom: 15px;
-  left: 20px;
+  left: 15px;
 }
 
 #tagContainer {
   text-align: left;
-  padding-top: 40px;
+  padding-top: 0px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -48,7 +58,7 @@
   overflow-wrap: break-word;
   padding-left: 20px;
   padding-right: 20px;
-  max-height: 170px;
+  max-height: 163px;
   overflow: hidden; 
   box-shadow: -15px -15px 20px 0px #2A465E inset;
 }
@@ -70,4 +80,11 @@
 .seeMoreButton:hover {
   background-color: 'transparent';
   
+}
+
+#individualTag {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
