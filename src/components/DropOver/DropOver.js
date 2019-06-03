@@ -15,7 +15,8 @@ class DropOver extends React.Component {
     super(props);
     this.state = {
       inUse: false,
-      styleUpdate: 'store_capsule_column'
+      styleUpdate: 'store_capsule_column',
+      id: this.props.id
     }
     this.exit = this.exit.bind(this)
   }
@@ -101,10 +102,10 @@ class DropOver extends React.Component {
                     <p id='gamePrice'>{price}</p>
                     <p id='gameOldPrice'>{oldPrice}</p>
                     <div id='addToCart'>
-                      <ATCMiniButton cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
+                      <ATCMiniButton id={this.state.id} cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
                     </div>
                     <div id='addToWishlist'>
-                      <ATWMiniButton cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
+                      <ATWMiniButton id={this.state.id} cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
                     </div>
                     <div id='seeMore'>
                       <Link to={link}>

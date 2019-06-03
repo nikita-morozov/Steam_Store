@@ -12,7 +12,7 @@ class ATCMiniButton extends React.Component {
 
   clicked() {
     this.setState({buttonStyle: 'ATCMbuttonClicked'});
-    this.props.cartAdder();
+    this.props.cartAdder(this.props.id);
   }
 
   render() {

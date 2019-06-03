@@ -12,7 +12,7 @@ class ATWMiniButton extends React.Component {
 
   clicked() {
     this.setState({buttonStyle: 'ATWMbuttonClicked'});
-    this.props.wishlistAdder();
+    this.props.wishlistAdder(this.props.id);
   }
 
   render() {

@@ -36,8 +36,9 @@ class SpecialOffers extends React.Component {
                                 oldPrice={dbs['table']['games'][this.state.co1]['oldprice']}  
                                 discount={dbs['table']['games'][this.state.co1]['discount']} 
                                 link={'/listing/' + this.state.co1}
-                                cartAdder={this.props.cartAdder(this.state.co1)}
-                                wishlistAdder={this.props.wishlistAdder(this.state.co1)}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co1}
                                 />
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co2]['img']} 
@@ -50,8 +51,9 @@ class SpecialOffers extends React.Component {
                                 oldPrice={dbs['table']['games'][this.state.co2]['oldprice']}  
                                 discount={dbs['table']['games'][this.state.co2]['discount']} 
                                 link={'/listing/' + this.state.co2}
-                                cartAdder={this.props.cartAdder(this.state.co2)}
-                                wishlistAdder={this.props.wishlistAdder(this.state.co2)}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co2}
                                 />
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co3]['img']} 
@@ -64,8 +66,9 @@ class SpecialOffers extends React.Component {
                                 oldPrice={dbs['table']['games'][this.state.co3]['oldprice']}  
                                 discount={dbs['table']['games'][this.state.co3]['discount']} 
                                 link={'/listing/' + this.state.co3}
-                                cartAdder={this.props.cartAdder(this.state.co3)}
-                                wishlistAdder={this.props.wishlistAdder(this.state.co3)}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co3}
                                 />
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co4]['img']} 
@@ -78,8 +81,9 @@ class SpecialOffers extends React.Component {
                                 oldPrice={dbs['table']['games'][this.state.co4]['oldprice']}  
                                 discount={dbs['table']['games'][this.state.co4]['discount']} 
                                 link={'/listing/' + this.state.co4}
-                                cartAdder={this.props.cartAdder(this.state.co4)}
-                                wishlistAdder={this.props.wishlistAdder(this.state.co4)}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co4}
                                 />
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co5]['img']} 
@@ -92,8 +96,9 @@ class SpecialOffers extends React.Component {
                                 oldPrice={dbs['table']['games'][this.state.co5]['oldprice']}  
                                 discount={dbs['table']['games'][this.state.co5]['discount']} 
                                 link={'/listing/' + this.state.co5}
-                                cartAdder={this.props.cartAdder(this.state.co5)}
-                                wishlistAdder={this.props.wishlistAdder(this.state.co5)}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co5}
                                 />
                             </div>
                         </div>
