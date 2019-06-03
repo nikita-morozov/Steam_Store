@@ -9,10 +9,10 @@ class Carousel extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            co1: "1064790",
+            co1: "565180",
             co2: "1081850",
-            co3: "1085190",
-            co4: "697550",
+            co3: "727130",
+            co4: "857980",
             co5: "1082720",
             co6: "925460",
         }
