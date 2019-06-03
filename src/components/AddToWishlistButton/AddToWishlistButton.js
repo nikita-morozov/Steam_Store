@@ -7,12 +7,14 @@ class AddToCartButton extends React.Component {
     super();
     this.state = {
       buttonStyle: 'ATWbutton',
-      buttonText: 'Add to Wishlist'
+      buttonText: 'Add to Wishlist',
+      id: window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
     }
   }
 
   clicked() {
     this.setState({ buttonStyle: 'ATWbuttonClicked', buttonText: 'On Wishlist' });
+    this.props.handler()
   }
 
   render() {

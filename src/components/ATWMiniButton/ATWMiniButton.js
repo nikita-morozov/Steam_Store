@@ -3,7 +3,7 @@ import './ATWMiniButton.css';
 import wishlistlogo from '../../asset/wishlistblue.svg';
 
 class ATWMiniButton extends React.Component {
-  constructor() {
+  constructor(props) {
     super();
     this.state = {
       buttonStyle: 'ATWMbutton'
@@ -12,6 +12,7 @@ class ATWMiniButton extends React.Component {
 
   clicked() {
     this.setState({buttonStyle: 'ATWMbuttonClicked'});
+    this.props.wishlistAdder(this.props.id);
   }
 
   render() {

@@ -16,6 +16,9 @@ class Listing extends React.Component {
   constructor(props) {
     super(props);
 
+    this.cartHandler = this.cartHandler.bind(this);
+    this.wishlistHandler = this.wishlistHandler.bind(this);
+
     this.state = {
       id: window.location.href.substring(window.location.href.lastIndexOf('/') + 1),
       price: "",
@@ -23,10 +26,20 @@ class Listing extends React.Component {
       discount: "",
       title: "",
       promoloc: "",
-      imgname: ""
+      imgname: "",
+      cartAdder: this.props.cartAdder,
+      wishlistAdder: this.props.wishlistAdder
     }
   }
 
+  cartHandler() {
+    this.props.cartAdder()
+  }
+
+  wishlistHandler() {
+    this.props.wishlistAdder()
+  }
+  
   componentDidMount() {
     this.setState(
       {
@@ -131,10 +144,10 @@ class Listing extends React.Component {
                       <div className='queueBreak'></div>
                       <div id="interactiveButtons">
                         <div id="cart">
-                          <AddToCartButton />
+                          <AddToCartButton handler={this.cartHandler}/>
                         </div>
                         <div id="wishlist">
-                          <AddToWishlistButton />
+                          <AddToWishlistButton handler={this.wishlistHandler}/>
                         </div>
                       </div>
                     </div>
