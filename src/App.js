@@ -82,7 +82,7 @@ class App extends Component {
             <div>
             {this.state.cartOpen ?  
                 <Cart  
-                          text='Click "Close Button" to hide popup'  
+                          text='hey this is the cart'  
                           closePopup={this.toggleCart.bind(this)}  
                 />  
                 : null  
