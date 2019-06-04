@@ -2,6 +2,7 @@ import './Grid.css'
 import React from 'react';
 import { Link } from 'react-router-dom';
 import dbs from '../../dbs.json';
+import DropDown from '../DropDown/DropDown.js'
 
 class Grid extends React.Component {
 
@@ -22,51 +23,114 @@ class Grid extends React.Component {
     render() {
         return (
             <div className="grid_items">
-                <div className="grid_capsule">
-                    <Link to={'/listing/' + this.state.co1}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co1]["img"]} alt={dbs['table']['games'][this.state.co1]["imgname"]} /></div>
-                    </Link>
-                </div>
-                <div className="grid_capsule">
-                    <Link to={'/listing/' + this.state.co2}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co2]["img"]} alt={dbs['table']['games'][this.state.co2]["imgname"]} /></div>
-                    </Link>
-                </div>
-                <div className="grid_capsule">
-                    <Link to={'/listing/' + this.state.co3}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co3]["img"]} alt={dbs['table']['games'][this.state.co3]["imgname"]} /></div>
-                    </Link>
-                </div>
-                <div className="grid_capsule">
-                    <Link to={'/listing/' + this.state.co4}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co4]["img"]} alt={dbs['table']['games'][this.state.co4]["imgname"]} /></div>
-                    </Link>
-                </div>
-                <div className="grid_capsule" id="last">
-                    <Link to={'/listing/' + this.state.co5}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co5]["img"]} alt={dbs['table']['games'][this.state.co5]["imgname"]} /></div>
-                    </Link>
-                </div>
-                <div className="grid_capsule">
-                    <Link to={'/listing/' + this.state.co6}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co6]["img"]} alt={dbs['table']['games'][this.state.co6]["imgname"]} /></div>
-                    </Link>
-                </div>
-                <div className="grid_capsule">
-                    <Link to={'/listing/' + this.state.co7}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co7]["img"]} alt={dbs['table']['games'][this.state.co7]["imgname"]} /></div>
-                    </Link>
-                </div>
-                <div className="grid_capsule">
-                    <Link to={'/listing/' + this.state.co8}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co8]["img"]} alt={dbs['table']['games'][this.state.co8]["imgname"]} /></div>
-                    </Link>
-                </div>
-                <div className="grid_capsule">
-                    <Link to={'/listing/' + this.state.co9}>
-                        <div className="capsule header"><img id="gridImage" src={dbs['table']['games'][this.state.co9]["img"]} alt={dbs['table']['games'][this.state.co9]["imgname"]} /></div>
-                    </Link>
-                </div>
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co1]['img']}
+                    imgname={dbs['table']['games'][this.state.co1]['imgname']}
+                    title={dbs['table']['games'][this.state.co1]['title']}
+                    description={dbs['table']['games'][this.state.co1]['description']}
+                    tags={dbs['table']['games'][this.state.co1]['genre']}
+                    price={dbs['table']['games'][this.state.co1]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co1]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co1]['discount']} 
+                    link={'/listing/' + this.state.co1} 
+                    id={this.state.co1}
+                />
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co2]['img']}
+                    imgname={dbs['table']['games'][this.state.co2]['imgname']}
+                    title={dbs['table']['games'][this.state.co2]['title']}
+                    description={dbs['table']['games'][this.state.co2]['description']}
+                    tags={dbs['table']['games'][this.state.co2]['genre']}
+                    price={dbs['table']['games'][this.state.co2]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co2]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co2]['discount']} 
+                    link={'/listing/' + this.state.co2} 
+                    id={this.state.co2}
+                />
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co3]['img']}
+                    imgname={dbs['table']['games'][this.state.co3]['imgname']}
+                    title={dbs['table']['games'][this.state.co3]['title']}
+                    description={dbs['table']['games'][this.state.co3]['description']}
+                    tags={dbs['table']['games'][this.state.co3]['genre']}
+                    price={dbs['table']['games'][this.state.co3]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co3]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co3]['discount']} 
+                    link={'/listing/' + this.state.co3}
+                    id={this.state.co3}
+                />
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co4]['img']}
+                    imgname={dbs['table']['games'][this.state.co4]['imgname']}
+                    title={dbs['table']['games'][this.state.co4]['title']}
+                    description={dbs['table']['games'][this.state.co4]['description']}
+                    tags={dbs['table']['games'][this.state.co4]['genre']}
+                    price={dbs['table']['games'][this.state.co4]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co4]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co4]['discount']} 
+                    link={'/listing/' + this.state.co4}
+                    id={this.state.co4}
+                />
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co5]['img']}
+                    imgname={dbs['table']['games'][this.state.co5]['imgname']}
+                    title={dbs['table']['games'][this.state.co5]['title']}
+                    description={dbs['table']['games'][this.state.co5]['description']}
+                    tags={dbs['table']['games'][this.state.co5]['genre']}
+                    price={dbs['table']['games'][this.state.co5]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co5]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co5]['discount']} 
+                    link={'/listing/' + this.state.co5}
+                    id={this.state.co5}
+                />
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co6]['img']}
+                    imgname={dbs['table']['games'][this.state.co6]['imgname']}
+                    title={dbs['table']['games'][this.state.co6]['title']}
+                    description={dbs['table']['games'][this.state.co6]['description']}
+                    tags={dbs['table']['games'][this.state.co6]['genre']}
+                    price={dbs['table']['games'][this.state.co6]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co6]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co6]['discount']} 
+                    link={'/listing/' + this.state.co6}
+                    id={this.state.co6}
+                />
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co7]['img']}
+                    imgname={dbs['table']['games'][this.state.co7]['imgname']}
+                    title={dbs['table']['games'][this.state.co7]['title']}
+                    description={dbs['table']['games'][this.state.co7]['description']}
+                    tags={dbs['table']['games'][this.state.co7]['genre']}
+                    price={dbs['table']['games'][this.state.co7]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co7]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co7]['discount']} 
+                    link={'/listing/' + this.state.co7}
+                    id={this.state.co7}
+                />
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co8]['img']}
+                    imgname={dbs['table']['games'][this.state.co8]['imgname']}
+                    title={dbs['table']['games'][this.state.co8]['title']}
+                    description={dbs['table']['games'][this.state.co8]['description']}
+                    tags={dbs['table']['games'][this.state.co8]['genre']}
+                    price={dbs['table']['games'][this.state.co8]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co8]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co8]['discount']} 
+                    link={'/listing/' + this.state.co8}
+                    id={this.state.co8}
+                />
+                <DropDown 
+                    img={dbs['table']['games'][this.state.co9]['img']}
+                    imgname={dbs['table']['games'][this.state.co9]['imgname']}
+                    title={dbs['table']['games'][this.state.co9]['title']}
+                    description={dbs['table']['games'][this.state.co9]['description']}
+                    tags={dbs['table']['games'][this.state.co9]['genre']}
+                    price={dbs['table']['games'][this.state.co9]['price']} 
+                    oldPrice={dbs['table']['games'][this.state.co9]['oldprice']} 
+                    discount={dbs['table']['games'][this.state.co9]['discount']} 
+                    link={'/listing/' + this.state.co9}
+                    id={this.state.co9}
+                />
             </div>
         );
     }

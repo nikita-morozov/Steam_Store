@@ -73,6 +73,7 @@ class SteamHeader extends React.Component {
 }
 
 
+// eslint-disable-next-line no-unused-vars
 class SubmenuStore extends React.Component {
     render() {
         return (
