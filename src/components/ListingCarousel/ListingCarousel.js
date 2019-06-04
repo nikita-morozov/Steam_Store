@@ -147,11 +147,18 @@ class ListingCarousel extends React.Component {
     }
 
     carouselArray() {
+        //initialize variables
         var arr = [];
-        var videos = dbs[this.state.id]['v'].length;
+        var videos = 0;
 
-        for (var j = 1; j <= videos; j++) {
-            arr[j - 1] = {
+        //calculates number of videos
+        if ('v' in dbs[this.state.id]) {
+            videos = dbs[this.state.id]['v'].length;
+        }
+
+        //add videos into array using some of the carousel images
+        for (var j = 0; j < videos; j++) {
+            arr[j] = {
                 original: dbs[this.state.id]['c'][j],
                 embedUrl: dbs[this.state.id]['v'][j],
                 thumbnail: dbs[this.state.id]['c'][j],
@@ -159,23 +166,37 @@ class ListingCarousel extends React.Component {
                 renderItem: this._renderVideo.bind(this)
             }
         }
-        var k = videos;
-        if (k === 0) {
-            arr[0] = {
-                original: dbs[this.state.id]['a'][0],
-                thumbnail: dbs[this.state.id]['c'][0]
+
+        var carouselImages = dbs[this.state.id]['c'].length;
+
+        for (var carouselIndex = videos; carouselIndex < carouselImages; carouselIndex++) {
+            arr[carouselIndex] = {
+                original: dbs[this.state.id]['a'][carouselIndex-videos],
+                thumbnail: dbs[this.state.id]['c'][carouselIndex],
             };
-        }
-        while (dbs[this.state.id]['c'][(k + videos)] != null) {
-            arr[k] = {
-                original: dbs[this.state.id]['a'][(k)],
-                thumbnail: dbs[this.state.id]['c'][(k + videos)],
-            };
-            k++;
         }
 
         return arr;
     }
+    //if no videos, populate first item in array
+    /*if (videos === 0) {
+        arr[0] = {
+            original: dbs[this.state.id]['a'][0],
+            thumbnail: dbs[this.state.id]['c'][0]
+        };
+    }*/
+
+    //add remaining images with a video index ofset (to ensure that the array isnt grabbing video carousel images)
+    /*while (carouselIndex+videos<carouselImages) {
+        arr[carouselIndex+videos] = {
+            original: dbs[this.state.id]['a'][carouselIndex],
+            thumbnail: dbs[this.state.id]['c'][(carouselIndex+videos)],
+        };
+        carouselIndex++;
+    }
+ 
+    return arr;
+}*/
 
     render() {
         return (

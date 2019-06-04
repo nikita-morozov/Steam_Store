@@ -23,7 +23,7 @@ class Store extends React.Component {
     return (
       <div>
         <SteamHeader />
-        <StoreHeader />
+        <StoreHeader toggleCart={this.props.toggleCart} toggleWishlist={this.props.toggleWishlist}/>
         <div className='body' id="test">
           {/* games={dbs} */}
           <Carousel cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />

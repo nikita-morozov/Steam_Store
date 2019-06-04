@@ -8,7 +8,7 @@ class DiscountBanner extends React.Component {
     }
   }
 
-
+  
   render() {
     return (
       <div id='discountTag'>{this.props.percent}</div>

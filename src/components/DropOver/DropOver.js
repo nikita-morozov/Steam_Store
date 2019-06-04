@@ -27,7 +27,7 @@ class DropOver extends React.Component {
       styleUpdate: 'store_capsule_column_inuse'
     })
   }
-  
+
   exit() {
     this.setState({
       inUse: false,
@@ -55,8 +55,8 @@ class DropOver extends React.Component {
   }
 
   render() {
-    const{img, imgType, tall, title, description, tags, oldPrice, price, link, discount} = this.props;
-    const{inUse, styleUpdate} = this.state;
+    const { img, imgType, tall, title, description, tags, oldPrice, price, link, discount } = this.props;
+    const { inUse, styleUpdate } = this.state;
 
     var itemHeight = '170px'
     var itemCss = "store_capsule_row-new"
@@ -75,69 +75,69 @@ class DropOver extends React.Component {
       hasDiscount = true;
     }
 
-    /*if (title.length > 20 && title.includes(':')) {
-      fixedTitle = title.substring(0,title.indexOf(':'))
+    if (title.length > 20 && title.includes(':')) {
+      fixedTitle = title.substring(0, title.indexOf(':'))
     } else {
       fixedTitle = title;
-    } 
+    }
 
     if (description.length > 130) {
       fixedDesc = description.substring(0, 131) + '...'
     } else {
       fixedDesc = description;
-    }*/
+    }
 
     return (
       <div class={styleUpdate} id={placement} onMouseEnter={() => this.enter()} onMouseLeave={() => this.exit()}>
-          {/* <Link to='/listing/ror2'> */}
-              <div class="store_capsule_row">
-                  <div class="capsule header">
-                    <img id={imgType} src={img} alt="" />
-                    {hasDiscount && <DiscountBanner percent={discount} />}
-                  </div>
+        {/* <Link to='/listing/ror2'> */}
+        <div class="store_capsule_row">
+          <div class="capsule header">
+            <img id={imgType} src={img} alt="" />
+            {hasDiscount && <DiscountBanner percent={discount} />}
+          </div>
+        </div>
+        {inUse &&
+          <div id='forceView' class={itemCss} style={{ height: itemHeight }}>
+            <div id='titleContainer'>
+              <h1 id='gameTitle'>{fixedTitle}</h1>
+              {tall && <p id='gameDesc'>{fixedDesc}</p>}
+            </div>
+            {tall && <div id='tagContainer'>
+              {tags.map((tag) => (<Tag id='individualTag' text={tag} />))}
+            </div>}
+            <div id='buttonContainer'>
+              <p id='gamePrice'>{price}</p>
+              <p id='gameOldPrice'>{oldPrice}</p>
+              <div id='addToCart'>
+                <ATCMiniButton
+                  id={this.state.id}
+                  cartAdder={this.props.cartAdder}
+                  wishlistAdder={this.props.wishlistAdder}
+                  tall='44px'
+                  wide='44px'
+                  size='scale(1)'
+                />
               </div>
-              {inUse && 
-                <div id='forceView' class={itemCss} style={{height: itemHeight}}>
-                  <div id='titleContainer'>
-                    <h1 id='gameTitle'>{fixedTitle}</h1>
-                    {tall && <p id='gameDesc'>{fixedDesc}</p>}
-                  </div>
-                  {tall && <div id='tagContainer'>
-                    <Tag id='individualTag' text={tags} />
-                  </div>}
-                  <div id='buttonContainer'>
-                    <p id='gamePrice'>{price}</p>
-                    <p id='gameOldPrice'>{oldPrice}</p>
-                    <div id='addToCart'>
-                      <ATCMiniButton 
-                        id={this.state.id} 
-                        cartAdder={this.props.cartAdder} 
-                        wishlistAdder={this.props.wishlistAdder} 
-                        tall='44px' 
-                        wide='44px' 
-                        size='scale(1)'
-                      />
-                    </div>
-                    <div id='addToWishlist'>
-                      <ATWMiniButton 
-                        id={this.state.id} 
-                        cartAdder={this.props.cartAdder} 
-                        wishlistAdder={this.props.wishlistAdder} 
-                        tall='44px' 
-                        wide='44px' 
-                        size='scale(1)'
-                      />
-                    </div>
-                    <div id='seeMore'>
-                      <Link to={link} onClick={() => window.scrollTo(0, 0)}>
-                        <SeeMoreButton id='seeMore' tall='40px' wide='265px'/>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                //src={dbs['table']['games'][this.state.co1]["img"]} 
-                //alt={dbs['table']['games'][this.state.co1]["imgname"]} 
-              }
+              <div id='addToWishlist'>
+                <ATWMiniButton
+                  id={this.state.id}
+                  cartAdder={this.props.cartAdder}
+                  wishlistAdder={this.props.wishlistAdder}
+                  tall='44px'
+                  wide='44px'
+                  size='scale(1)'
+                />
+              </div>
+              <div id='seeMore'>
+                <Link to={link} onClick={() => window.scrollTo(0, 0)}>
+                  <SeeMoreButton id='seeMore' tall='40px' wide='265px' />
+                </Link>
+              </div>
+            </div>
+          </div>
+          //src={dbs['table']['games'][this.state.co1]["img"]} 
+          //alt={dbs['table']['games'][this.state.co1]["imgname"]} 
+        }
       </div>
     );
   }
