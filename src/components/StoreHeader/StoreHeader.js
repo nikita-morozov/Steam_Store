@@ -216,7 +216,7 @@ class StoreHeader extends React.Component {
           <button className='searchbutton'><img src={searchlogo} style={{ width: '17px' }} alt=''></img></button>
         </form>
         <CartButton toggle={this.props.toggleCart}/>
-        <WishlistButton />
+        <WishlistButton toggle={this.props.toggleWishlist}/>
       </div>
     );
   }
