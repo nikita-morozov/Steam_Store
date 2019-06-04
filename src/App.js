@@ -91,7 +91,8 @@ class App extends Component {
             {this.state.cartOpen ?  
                 <Cart  
                           text='hey this is the cart'  
-                          closePopup={this.toggleCart.bind(this)}  
+                          closePopup={this.toggleCart.bind(this)}
+                          cartItems={this.state.cartItems}  
                 />  
                 : null  
             }
