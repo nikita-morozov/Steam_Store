@@ -6,7 +6,7 @@ class SeeMoreButton extends React.Component {
     super();
     this.state = {
       buttonStyle: 'SMbutton',
-      buttonText: 'see more...'
+      buttonText: 'SEE MORE'
     }
   }
 

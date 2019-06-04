@@ -52,7 +52,7 @@ class NavbarDropdown extends React.Component {
         <div className='dropdownHeader'>
           <button className={this.state.styleType} style={{ height: '38px', width: '85px' }}>{ddName}</button>
         </div>
-        {inUse && <ul className='dropdownList' style={{ left: this.state.posOffset, paddingBottom: this.state.scrollPadding }} onClick={e => e.stopPropagation()}>
+        {inUse && <ul className='dropdownList' style={{ paddingBottom: this.state.scrollPadding }} onClick={e => e.stopPropagation()}>
           {options.map((instance) => (
             <li className='dropdownListItem' key={instance.name}>
               {instance.name}

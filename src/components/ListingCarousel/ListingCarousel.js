@@ -114,7 +114,7 @@ class ListingCarousel extends React.Component {
                         <div className='video-wrapper'>
                             <div
                                 className='close-video'
-                                onClick={this._toggleShowVideo.bind(this, item.embedUrl)}
+                                onLoad={this._toggleShowVideo.bind(this, item.embedUrl)}
                             >
                             </div>
                             <iframe
@@ -148,13 +148,13 @@ class ListingCarousel extends React.Component {
 
     carouselArray() {
         var arr = [];
-        var videos = dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['v'].length;
+        var videos = dbs[this.state.id]['v'].length;
 
         for (var j = 1; j <= videos; j++) {
             arr[j - 1] = {
-                original: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c'][j],
-                embedUrl: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['v'][j],
-                thumbnail: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c'][j],
+                original: dbs[this.state.id]['c'][j],
+                embedUrl: dbs[this.state.id]['v'][j],
+                thumbnail: dbs[this.state.id]['c'][j],
                 class: 'highlight_movie_marker',
                 renderItem: this._renderVideo.bind(this)
             }
@@ -162,14 +162,14 @@ class ListingCarousel extends React.Component {
         var k = videos;
         if (k === 0) {
             arr[0] = {
-                original: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['a'][0],
-                thumbnail: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c'][0]
+                original: dbs[this.state.id]['a'][0],
+                thumbnail: dbs[this.state.id]['c'][0]
             };
         }
-        while (dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c'][(k + videos)] != null) {
+        while (dbs[this.state.id]['c'][(k + videos)] != null) {
             arr[k] = {
-                original: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['a'][(k)],
-                thumbnail: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c'][(k + videos)],
+                original: dbs[this.state.id]['a'][(k)],
+                thumbnail: dbs[this.state.id]['c'][(k + videos)],
             };
             k++;
         }

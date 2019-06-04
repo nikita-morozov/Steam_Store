@@ -4,6 +4,13 @@ import DropOver from '../DropOver/DropOver.js';
 import dbs from '../../dbs.json'
 
 class SpecialOffers extends React.Component {
+    scrollRight() {
+        document.getElementById('soscrollbox').scrollBy({left: 305, behavior: 'smooth'})
+    }
+
+    scrollLeft() {
+        document.getElementById('soscrollbox').scrollBy({left: -305, behavior: 'smooth'})
+    }
 
     render() {
         return (
@@ -11,9 +18,9 @@ class SpecialOffers extends React.Component {
                 <div className="home_page_content special_offers">
                     <h2>SPECIAL OFFERS</h2>
                     <div class="carousel_container" id="spotlight_carousel">
-                        {/* <button class='leftbutton' style={{height: '350px', left: '0px'}}>LT</button> */}
+                        <button class='leftbutton' style={{height: '350px', left: '0px'}}><i class="arrow left" onClick={() => this.scrollLeft()}></i></button>
                         <div class="carousel_items">
-                            <div class="focus">
+                            <div class="focus" id='soscrollbox'>
                                 <DropOver
                                     img={dbs[Object.keys(dbs)[21]]['img']}
                                     imgType='imageTall'
@@ -91,7 +98,7 @@ class SpecialOffers extends React.Component {
                                 />
                             </div>
                         </div>
-                        {/* <button class='rightbutton' style={{left: '1326px', height: '350px'}}>RT</button> */}
+                        <button class='rightbutton' style={{left: '1326px', height: '350px'}}><i class="arrow right" onClick={() => this.scrollRight()}></i></button>
                     </div>
                 </div>
             </div>

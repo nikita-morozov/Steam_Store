@@ -1,10 +1,11 @@
 h2{
     font-family: 'Motiva Sans', 'Arial';
-    font-size: 19px;
+    font-size: 29px;
     text-align: left;
     font-weight: normal;
     margin-top: 0px;
     margin-bottom: 10px;
+    margin-left: 44px;
 }
 
 .home_ctn {
@@ -139,10 +140,32 @@ h2{
     position: flex;
     z-index: 500;
     width: 44px;
-    opacity: .3;
+    opacity: .6;
     border: none;
+    background-color: transparent;
 }
 
-.leftbutton:hover, .rightbutton:hover {
-    opacity: .4;
+i {
+    width: 15px;
+    height: 15px;
+    border: solid #66C0F4;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    opacity: .6;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    opacity: .6;
+}
+
+.right:hover, .left:hover {
+    opacity: 1;
 }
