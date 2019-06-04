@@ -7,12 +7,15 @@ class SpecialOffers extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            co1: "565180",
-            co2: "1081850",
-            co3: "727130",
-            co4: "857980",
-            co5: "1082720",
-            co6: "925460",
+            co1: "606150",
+            co2: "1086160",
+            co3: "1081850",
+            co4: "489940",
+            co5: "565180",
+            co6: "1085190",
+            co7: "1061270",
+            co8: "727130",
+            co9: "1063830"
         }
     }
 
@@ -99,6 +102,66 @@ class SpecialOffers extends React.Component {
                                 cartAdder={this.props.cartAdder}
                                 wishlistAdder={this.props.wishlistAdder}
                                 id={this.state.co5}
+                                />
+                                <DropOver 
+                                img={dbs['table']['games'][this.state.co6]['img']} 
+                                imgType='imageTall' 
+                                tall={true} 
+                                title={dbs['table']['games'][this.state.co6]['title']}
+                                description={dbs['table']['games'][this.state.co6]['description']}
+                                tags={dbs['table']['games'][this.state.co6]['genre']}
+                                price={dbs['table']['games'][this.state.co6]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co6]['oldprice']}  
+                                discount={dbs['table']['games'][this.state.co6]['discount']} 
+                                link={'/listing/' + this.state.co6}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co6}
+                                />
+                                <DropOver 
+                                img={dbs['table']['games'][this.state.co7]['img']} 
+                                imgType='imageTall' 
+                                tall={true} 
+                                title={dbs['table']['games'][this.state.co7]['title']}
+                                description={dbs['table']['games'][this.state.co7]['description']}
+                                tags={dbs['table']['games'][this.state.co7]['genre']}
+                                price={dbs['table']['games'][this.state.co7]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co7]['oldprice']}  
+                                discount={dbs['table']['games'][this.state.co7]['discount']} 
+                                link={'/listing/' + this.state.co7}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co7}
+                                />
+                                <DropOver 
+                                img={dbs['table']['games'][this.state.co8]['img']} 
+                                imgType='imageTall' 
+                                tall={true} 
+                                title={dbs['table']['games'][this.state.co8]['title']}
+                                description={dbs['table']['games'][this.state.co8]['description']}
+                                tags={dbs['table']['games'][this.state.co8]['genre']}
+                                price={dbs['table']['games'][this.state.co8]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co8]['oldprice']}  
+                                discount={dbs['table']['games'][this.state.co8]['discount']} 
+                                link={'/listing/' + this.state.co8}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co8}
+                                />
+                                <DropOver 
+                                img={dbs['table']['games'][this.state.co9]['img']} 
+                                imgType='imageTall' 
+                                tall={true} 
+                                title={dbs['table']['games'][this.state.co9]['title']}
+                                description={dbs['table']['games'][this.state.co9]['description']}
+                                tags={dbs['table']['games'][this.state.co9]['genre']}
+                                price={dbs['table']['games'][this.state.co9]['price']} 
+                                oldPrice={dbs['table']['games'][this.state.co9]['oldprice']}  
+                                discount={dbs['table']['games'][this.state.co9]['discount']} 
+                                link={'/listing/' + this.state.co9}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co9}
                                 />
                             </div>
                         </div>
