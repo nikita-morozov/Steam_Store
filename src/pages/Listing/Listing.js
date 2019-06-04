@@ -43,20 +43,20 @@ class Listing extends React.Component {
   componentDidMount() {
     this.setState(
       {
-        price: dbs['table']['games'][this.state.id]["price"],
-        oldprice: dbs['table']['games'][this.state.id]["oldprice"],
-        discount: dbs['table']['games'][this.state.id]["discount"],
-        title: dbs['table']['games'][this.state.id]["title"],
-        promoloc: dbs['table']['games'][this.state.id]["img"],
-        imgname: dbs['table']['games'][this.state.id]["imgname"],
-        description: dbs['table']['games'][this.state.id]["description"],
-        releasedate: dbs['table']['games'][this.state.id]["releasedate"],
-        developer: dbs['table']['games'][this.state.id]["developer"],
-        publisher: dbs['table']['games'][this.state.id]["publisher"],
-        developerlink: dbs['table']['games'][this.state.id]["developerlink"],
-        publisherlink: dbs['table']['games'][this.state.id]["publisherlink"],
-        game_description: dbs['table']['games'][this.state.id]["game_description"],
-        system_requirements: dbs['table']['games'][this.state.id]["system_requirements"]
+        price: dbs[this.state.id]["price"],
+        oldprice: dbs[this.state.id]["oldprice"],
+        discount: dbs[this.state.id]["discount"],
+        title: dbs[this.state.id]["title"],
+        promoloc: dbs[this.state.id]["img"],
+        imgname: dbs[this.state.id]["imgname"],
+        description: dbs[this.state.id]["description"],
+        releasedate: dbs[this.state.id]["releasedate"],
+        developer: dbs[this.state.id]["developer"],
+        publisher: dbs[this.state.id]["publisher"],
+        developerlink: dbs[this.state.id]["developerlink"],
+        publisherlink: dbs[this.state.id]["publisherlink"],
+        game_description: dbs[this.state.id]["game_description"],
+        system_requirements: dbs[this.state.id]["system_requirements"]
       }
     )
   }
@@ -79,7 +79,7 @@ class Listing extends React.Component {
                     <PromoImage src={this.state.promoloc} imgname={this.state.imgname} title={this.state.title} />
                   </div>
                   <div id="description">
-                    <p>{dbs['table']['games'][this.state.id]["description"]}</p>
+                    <p>{dbs[this.state.id]["description"]}</p>
                     <div className="user_reviews">
                       <div className="user_reviews_summary_row">
                         <div className="subtitleColumn">Recent Reviews:</div>
@@ -105,29 +105,29 @@ class Listing extends React.Component {
                       </div>
                       <div className="release_date">
                         <div className="subtitleColumn">Release Date:</div>
-                        <div className="date">{dbs['table']['games'][this.state.id]["releasedate"]}</div>
+                        <div className="date">{dbs[this.state.id]["releasedate"]}</div>
                       </div>
                       <div className="dev_row">
                         <div className="subtitleColumn">Developer:</div>
                         <div className="summaryColumn" id="developers_list">
-                          <a id="listingLink" href={dbs['table']['games'][this.state.id]["developerlink"]}>{dbs['table']['games'][this.state.id]["developer"]}</a>
+                          <a id="listingLink" href={dbs[this.state.id]["developerlink"]}>{dbs[this.state.id]["developer"]}</a>
                         </div>
                       </div>
                       <div className="dev_row">
                         <div className="subtitleColumn">Publisher:</div>
                         <div className="summaryColumn">
-                          <a id="listingLink" href={dbs['table']['games'][this.state.id]["publisherlink"]}>{dbs['table']['games'][this.state.id]["publisher"]}</a>
+                          <a id="listingLink" href={dbs[this.state.id]["publisherlink"]}>{dbs[this.state.id]["publisher"]}</a>
                         </div>
                       </div>
                     </div>
                     <div id="tags">
-                      <Tag text={dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre']} />
-                      <Tag text={dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 2']} />
-                      <Tag text={dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 3']} />
-                      <Tag text={dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 4']} />
-                      <Tag text={dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 5']} />
-                      <Tag text={dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 6']} />
-                      <Tag text={dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 7']} />
+                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre']} />
+                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 2']} />
+                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 3']} />
+                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 4']} />
+                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 5']} />
+                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 6']} />
+                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 7']} />
                     </div>
                     <div id="priceLine">
                       <div id="operatingSystems">

@@ -27,80 +27,80 @@ class Carousel extends React.Component {
                         {/* <button class='leftbutton' style={{height: '170px', left: '0px'}}>LT</button> */}
                         <div className="carousel_item">
                             <div className="focus">
-                                <DropOver 
-                                img={dbs['table']['games'][this.state.co1]['img']} 
-                                imgType='wideImage' 
-                                tall={false}
-                                title={dbs['table']['games'][this.state.co1]['title']}
-                                description={dbs['table']['games'][this.state.co1]['description']}
-                                tags={dbs['table']['games'][this.state.co1]['genre']}
-                                price={dbs['table']['games'][this.state.co1]['price']} 
-                                oldPrice={dbs['table']['games'][this.state.co1]['oldprice']} 
-                                discount={dbs['table']['games'][this.state.co1]['discount']} 
-                                link={'/listing/' + this.state.co1}
-                                cartAdder={this.props.cartAdder}
-                                wishlistAdder={this.props.wishlistAdder}
-                                id={this.state.co1}
+                                <DropOver
+                                    img={dbs[Object.keys(dbs)[1]]['img']}
+                                    imgType='wideImage'
+                                    tall={false}
+                                    title={dbs[Object.keys(dbs)[1]]['title']}
+                                    description={dbs[Object.keys(dbs)[1]]['description']}
+                                    tags={dbs[Object.keys(dbs)[1]]['genre']}
+                                    price={dbs[Object.keys(dbs)[1]]['price']}
+                                    oldPrice={dbs[Object.keys(dbs)[1]]['oldprice']}
+                                    discount={dbs[Object.keys(dbs)[1]]['discount']}
+                                    link={'/listing/' + Object.keys(dbs)[1]}
+                                    cartAdder={this.props.cartAdder}
+                                    wishlistAdder={this.props.wishlistAdder}
+                                    id={Object.keys(dbs)[1]['id']}
                                 />
-                                <DropOver 
-                                img={dbs['table']['games'][this.state.co2]['img']} 
-                                imgType='wideImage' 
-                                tall={false}
-                                title={dbs['table']['games'][this.state.co2]['title']}
-                                description={dbs['table']['games'][this.state.co2]['description']}
-                                tags={dbs['table']['games'][this.state.co2]['genre']}
-                                price={dbs['table']['games'][this.state.co2]['price']} 
-                                oldPrice={dbs['table']['games'][this.state.co2]['oldprice']}  
-                                discount={dbs['table']['games'][this.state.co2]['discount']} 
-                                link={'/listing/' + this.state.co2}
-                                cartAdder={this.props.cartAdder}
-                                wishlistAdder={this.props.wishlistAdder}
-                                id={this.state.co2}
+                                <DropOver
+                                    img={dbs[Object.keys(dbs)[2]]['img']}
+                                    imgType='wideImage'
+                                    tall={false}
+                                    title={dbs[Object.keys(dbs)[2]]['title']}
+                                    description={dbs[Object.keys(dbs)[2]]['description']}
+                                    tags={dbs[Object.keys(dbs)[2]]['genre']}
+                                    price={dbs[Object.keys(dbs)[2]]['price']}
+                                    oldPrice={dbs[Object.keys(dbs)[2]]['oldprice']}
+                                    discount={dbs[Object.keys(dbs)[2]]['discount']}
+                                    link={'/listing/' + Object.keys(dbs)[2]}
+                                    cartAdder={this.props.cartAdder}
+                                    wishlistAdder={this.props.wishlistAdder}
+                                    id={Object.keys(dbs)[2]['id']}
                                 />
-                                <DropOver 
-                                img={dbs['table']['games'][this.state.co3]['img']} 
-                                imgType='wideImage' 
-                                tall={false}
-                                title={dbs['table']['games'][this.state.co3]['title']}
-                                description={dbs['table']['games'][this.state.co3]['description']}
-                                tags={dbs['table']['games'][this.state.co3]['genre']}
-                                price={dbs['table']['games'][this.state.co3]['price']} 
-                                oldPrice={dbs['table']['games'][this.state.co3]['oldprice']} 
-                                discount={dbs['table']['games'][this.state.co3]['discount']} 
-                                link={'/listing/' + this.state.co3}
-                                cartAdder={this.props.cartAdder}
-                                wishlistAdder={this.props.wishlistAdder}
-                                id={this.state.co3}
+                                <DropOver
+                                    img={dbs[Object.keys(dbs)[3]]['img']}
+                                    imgType='wideImage'
+                                    tall={false}
+                                    title={dbs[Object.keys(dbs)[3]]['title']}
+                                    description={dbs[Object.keys(dbs)[3]]['description']}
+                                    tags={dbs[Object.keys(dbs)[3]]['genre']}
+                                    price={dbs[Object.keys(dbs)[3]]['price']}
+                                    oldPrice={dbs[Object.keys(dbs)[3]]['oldprice']}
+                                    discount={dbs[Object.keys(dbs)[3]]['discount']}
+                                    link={'/listing/' + Object.keys(dbs)[3]}
+                                    cartAdder={this.props.cartAdder}
+                                    wishlistAdder={this.props.wishlistAdder}
+                                    id={Object.keys(dbs)[3]['id']}
                                 />
-                                <DropOver 
-                                img={dbs['table']['games'][this.state.co4]['img']} 
-                                imgType='wideImage' 
-                                tall={false}
-                                title={dbs['table']['games'][this.state.co4]['title']}
-                                description={dbs['table']['games'][this.state.co4]['description']}
-                                tags={dbs['table']['games'][this.state.co4]['genre']}
-                                price={dbs['table']['games'][this.state.co4]['price']} 
-                                oldPrice={dbs['table']['games'][this.state.co4]['oldprice']}  
-                                discount={dbs['table']['games'][this.state.co4]['discount']} 
-                                link={'/listing/' + this.state.co4}
-                                cartAdder={this.props.cartAdder}
-                                wishlistAdder={this.props.wishlistAdder}
-                                id={this.state.co4}
+                                <DropOver
+                                    img={dbs[Object.keys(dbs)[4]]['img']}
+                                    imgType='wideImage'
+                                    tall={false}
+                                    title={dbs[Object.keys(dbs)[4]]['title']}
+                                    description={dbs[Object.keys(dbs)[4]]['description']}
+                                    tags={dbs[Object.keys(dbs)[4]]['genre']}
+                                    price={dbs[Object.keys(dbs)[4]]['price']}
+                                    oldPrice={dbs[Object.keys(dbs)[4]]['oldprice']}
+                                    discount={dbs[Object.keys(dbs)[4]]['discount']}
+                                    link={'/listing/' + Object.keys(dbs)[4]}
+                                    cartAdder={this.props.cartAdder}
+                                    wishlistAdder={this.props.wishlistAdder}
+                                    id={Object.keys(dbs)[4]['id']}
                                 />
-                                <DropOver 
-                                img={dbs['table']['games'][this.state.co5]['img']} 
-                                imgType='wideImage' 
-                                tall={false}
-                                title={dbs['table']['games'][this.state.co5]['title']}
-                                description={dbs['table']['games'][this.state.co5]['description']}
-                                tags={dbs['table']['games'][this.state.co5]['genre']}
-                                price={dbs['table']['games'][this.state.co5]['price']} 
-                                oldPrice={dbs['table']['games'][this.state.co5]['oldprice']}  
-                                discount={dbs['table']['games'][this.state.co5]['discount']} 
-                                link={'/listing/' + this.state.co5}
-                                cartAdder={this.props.cartAdder}
-                                wishlistAdder={this.props.wishlistAdder}
-                                id={this.state.co5}
+                                <DropOver
+                                    img={dbs[Object.keys(dbs)[5]]['img']}
+                                    imgType='wideImage'
+                                    tall={false}
+                                    title={dbs[Object.keys(dbs)[5]]['title']}
+                                    description={dbs[Object.keys(dbs)[5]]['description']}
+                                    tags={dbs[Object.keys(dbs)[5]]['genre']}
+                                    price={dbs[Object.keys(dbs)[5]]['price']}
+                                    oldPrice={dbs[Object.keys(dbs)[5]]['oldprice']}
+                                    discount={dbs[Object.keys(dbs)[5]]['discount']}
+                                    link={'/listing/' + Object.keys(dbs)[5]}
+                                    cartAdder={this.props.cartAdder}
+                                    wishlistAdder={this.props.wishlistAdder}
+                                    id={Object.keys(dbs)[5]['id']}
                                 />
                             </div>
                         </div>
