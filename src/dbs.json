@@ -1315,15 +1315,6 @@
 		"reviewsall": "Very Positive\n(2,806)",
 		"reviewsrecent": "Very Positive\n(51)"
 	},
-	"10952": {
-		"id": "10952",
-		"urlid": "bundle/10952",
-		"oldprice": "$34.98",
-		"price": "$20.98",
-		"imgname": "DbD+D",
-		"title": "Dead by Daylight + Deathgarden",
-		"discount": "-40%"
-	},
 	"271590": {
 		"id": "271590",
 		"urlid": "app/271590",
@@ -1684,15 +1675,6 @@
 		"reviewsall": "Very Positive\n(205,828)",
 		"platform 2": "https://store.steampowered.com/public/images/v6/icon_platform_mac.png?v=3",
 		"reviewsrecent": "Mostly Positive\n(2,003)"
-	},
-	"7611": {
-		"id": "7611",
-		"urlid": "bundle/7611",
-		"oldprice": "$79.97",
-		"price": "$26.97",
-		"imgname": "SSP",
-		"title": "Stellaris: Starter Pack",
-		"discount": "-66%"
 	},
 	"393380": {
 		"id": "393380",
@@ -2056,13 +2038,6 @@
 		"platform 2": "https://store.steampowered.com/public/images/v6/icon_platform_mac.png?v=3",
 		"platform 3": "https://store.steampowered.com/public/images/v6/icon_platform_linux.png?v=3",
 		"reviewsrecent": "Very Positive\n(35,435)"
-	},
-	"359550": {
-		"id": "359550",
-		"urlid": "app/359550",
-		"price": "$19.99",
-		"imgname": "TCRSS",
-		"title": "Tom Clancy's Rainbow Six\u00ae Siege"
 	},
 	"230410": {
 		"id": "230410",

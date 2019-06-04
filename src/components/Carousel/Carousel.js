@@ -5,18 +5,6 @@ import dbs from '../../dbs.json';
 
 class Carousel extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            co1: "565180",
-            co2: "1081850",
-            co3: "727130",
-            co4: "857980",
-            co5: "1082720",
-            co6: "925460",
-        }
-    }
-
     render() {
         return (
             <div className="home_ctn">

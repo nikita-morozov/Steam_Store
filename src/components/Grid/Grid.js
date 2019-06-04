@@ -5,20 +5,6 @@ import DropDown from '../DropDown/DropDown.js'
 
 class Grid extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            co1: "857980",
-            co2: "1061270",
-            co3: "727130",
-            co4: "944300",
-            co5: "1086160",
-            co6: "732690",
-            co7: "1063830",
-            co8: "956580",
-            co9: "565180",
-        }
-    }
     render() {
         return (
             <div className="grid_items">

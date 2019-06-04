@@ -75,13 +75,13 @@ class DropOver extends React.Component {
       hasDiscount = true;
     }
 
-    if (title.length > 20 && title.includes(':')) {
+    /*if (title.length > 20 && title.includes(':')) {
       fixedTitle = title.substring(0,title.indexOf(':'))
     } else {
       fixedTitle = title;
     } 
 
-    /*if (description.length > 130) {
+    if (description.length > 130) {
       fixedDesc = description.substring(0, 131) + '...'
     } else {
       fixedDesc = description;
