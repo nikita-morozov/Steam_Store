@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4df0b860b138cfffc5218922c4fba952",
+    "revision": "1ab7675781258a2e8b4e89fd830fb13a",
     "url": "/Steam_Store/index.html"
   },
   {
-    "revision": "5c7835774e33efe90297",
+    "revision": "a70f60ebb08b1fb7239a",
     "url": "/Steam_Store/static/css/2.f74a8007.chunk.css"
   },
   {
-    "revision": "7d9f5c0a1cbdee2057fe",
-    "url": "/Steam_Store/static/css/main.43d21661.chunk.css"
+    "revision": "86808811f5c44363e684",
+    "url": "/Steam_Store/static/css/main.43dd64cf.chunk.css"
   },
   {
-    "revision": "5c7835774e33efe90297",
-    "url": "/Steam_Store/static/js/2.5e32a818.chunk.js"
+    "revision": "a70f60ebb08b1fb7239a",
+    "url": "/Steam_Store/static/js/2.62b8181c.chunk.js"
   },
   {
-    "revision": "7d9f5c0a1cbdee2057fe",
-    "url": "/Steam_Store/static/js/main.9288512b.chunk.js"
+    "revision": "86808811f5c44363e684",
+    "url": "/Steam_Store/static/js/main.39949478.chunk.js"
   },
   {
     "revision": "d4238b1bb08010a16479",
