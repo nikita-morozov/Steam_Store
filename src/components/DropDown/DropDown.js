@@ -39,7 +39,7 @@ class DropDown extends React.Component {
   }
 
   componentDidUpdate() {
-    const {inUse, id} = this.state;
+    const {inUse} = this.state;
     
     if (document.getElementById('dropdowncontainer') !== null) {
       var lmnt = document.getElementById('dropdowncontainer');
@@ -110,10 +110,10 @@ class DropDown extends React.Component {
                       <p id='gamePriceDown'>{price}</p>
                       <p id='gameOldPriceDown'>{oldPrice}</p>
                       <div id='addToCartDown'>
-                        <ATCMiniButton tall='66px' wide='66px' size='scale(1.5)'/>
+                        <ATCMiniButton cartAdder={this.props.cartAdder} tall='66px' wide='66px' size='scale(1.5)'/>
                       </div>
                       <div id='addToWishlistDown'>
-                        <ATWMiniButton tall='66px' wide='66px' size='scale(1.5)'/>
+                        <ATWMiniButton wishlistAdder={this.props.wishlistAdder} tall='66px' wide='66px' size='scale(1.5)'/>
                       </div>
                       <div id='seeMoreDown'>
                         <Link to={link} onClick={() => window.scrollTo(0, 0)}>
