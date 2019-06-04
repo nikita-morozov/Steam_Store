@@ -80,7 +80,7 @@ class App extends Component {
                         <Route exact path="/" render={(props) => <Store {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart} toggleWishlist={this.toggleWishlist}/>} />
                         <Route path="/test" component={Tester} />
                         <Route path="/clientdl" component={DownloadClient} />
-                        <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart}/>} />
+                        <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart} toggleWishlist={this.toggleWishlist}/>} />
                         
                         {/* DONT TOUCH THIS ONE, IT MUST STAY AT THE BOTTOM OF THE LIST */}
                         <Route path="*" component={Notfound} />
