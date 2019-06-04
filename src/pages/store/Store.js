@@ -30,7 +30,7 @@ class Store extends React.Component {
           <SpecialOffers cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
           <div id="grid">
             <div id="gridContainer">
-              <StoreTabs />
+              <StoreTabs cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder}/>
             </div>
           </div>
         </div>
