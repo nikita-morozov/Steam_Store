@@ -96,9 +96,9 @@ class App extends Component {
                 : null  
             }
             {this.state.wishlistOpen ?  
-                <Cart  
+                <Wishlist  
                           text='hey this is the wishlist'  
-                          closePopup={this.toggleWishlist.bind(this)}  
+                          closeWishlist={this.toggleWishlist.bind(this)}  
                 />  
                 : null  
             }
