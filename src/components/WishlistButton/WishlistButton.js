@@ -12,6 +12,7 @@ class WishlistButton extends React.Component {
 
   clicked() {
     this.setState({ buttonStyle: 'WbuttonClicked' });
+    this.props.toggle();
   }
 
   render() {

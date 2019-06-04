@@ -3,7 +3,7 @@ import './CartButton.css';
 import cartlogo from '../../asset/cart.svg';
 
 class CartButton extends React.Component {
-  constructor() {
+  constructor(props) {
     super();
     this.state = {
       buttonStyle: 'Cbutton'
@@ -12,6 +12,7 @@ class CartButton extends React.Component {
 
   clicked() {
     this.setState({ buttonStyle: 'CbuttonClicked' });
+    this.props.toggle();
   }
 
   render() {
