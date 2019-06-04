@@ -15,7 +15,7 @@ class App extends Component {
 
         this.cartAdder = this.cartAdder.bind(this)
         this.wishlistAdder = this.wishlistAdder.bind(this)
-        this.togglePopup = this.togglePopup.bind(this)
+        this.toggleCart = this.toggleCart.bind(this)
 
         this.state = {
             cartItems: [],
@@ -57,7 +57,7 @@ class App extends Component {
         }
     }
 
-    togglePopup() {
+    toggleCart() {
         this.setState({
             cartOpen: !this.state.cartOpen
         })
@@ -69,10 +69,10 @@ class App extends Component {
             <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <Switch>
-                        <Route exact path="/" render={(props) => <Store {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.togglePopup}/>} />
+                        <Route exact path="/" render={(props) => <Store {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart}/>} />
                         <Route path="/test" component={Tester} />
                         <Route path="/clientdl" component={DownloadClient} />
-                        <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} />} />
+                        <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart}/>} />
                         
                         {/* DONT TOUCH THIS ONE, IT MUST STAY AT THE BOTTOM OF THE LIST */}
                         <Route path="*" component={Notfound} />
@@ -83,7 +83,7 @@ class App extends Component {
             {this.state.cartOpen ?  
                 <Cart  
                           text='Click "Close Button" to hide popup'  
-                          closePopup={this.togglePopup.bind(this)}  
+                          closePopup={this.toggleCart.bind(this)}  
                 />  
                 : null  
             }

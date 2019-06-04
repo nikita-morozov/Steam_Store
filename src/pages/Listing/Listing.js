@@ -65,7 +65,7 @@ class Listing extends React.Component {
     return (
       <div>
         <SteamHeader />
-        <StoreHeader />
+        <StoreHeader toggleCart={this.props.toggleCart}/>
         <div className='body'>
           <div className='listing'>
             <div className='container'>
