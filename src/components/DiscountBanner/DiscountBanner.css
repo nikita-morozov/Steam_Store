@@ -7,4 +7,6 @@
   color: #A4D006;
   padding: 5px 40px;
   transform: rotate(45deg);
+  border: solid 2px white;
+  z-index: 601;
 }

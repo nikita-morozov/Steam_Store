@@ -1,18 +1,28 @@
 .grid_items {
-    width: 1370px;
+    width: 1390px;
 	margin: 0;
     padding: 0;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     align-items: stretch;
     justify-items: center;
     text-align: center;
+    position: relative;
 }
 
 .grid_capsule{
     width: 450px;
     height: 210px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+.grid_capsule-inuse {
+    width: 450px;
+    height: 210px;
+    margin-bottom: 600px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 #gridImage{

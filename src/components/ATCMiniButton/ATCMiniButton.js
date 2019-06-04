@@ -16,10 +16,11 @@ class ATCMiniButton extends React.Component {
   }
 
   render() {
+    const {tall, wide, size} = this.props;
     return (
       <div>
-        <button class={this.state.buttonStyle} style={{height: '44px', width: '44px'}} onClick={ (e) => { this.clicked(); } }>
-          <img src={cartlogo} alt='atc' class='ATCMlogo' />
+        <button class={this.state.buttonStyle} style={{height: tall, width: wide}} onClick={ (e) => { this.clicked(); } }>
+          <img src={cartlogo} alt='atc' class='ATCMlogo' style={{transform: size}} />
         </button>
       </div>
     );

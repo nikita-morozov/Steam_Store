@@ -6,8 +6,8 @@ import dbs from '../../dbs.json';
 
 class ListingCarousel extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             showIndex: false,
             showBullets: false,
@@ -24,6 +24,7 @@ class ListingCarousel extends React.Component {
             slideOnThumbnailOver: false,
             thumbnailPosition: 'bottom',
             showVideo: {},
+            id: this.props.gameId,
         };
 
         this.images = this.carouselArray();
@@ -88,6 +89,7 @@ class ListingCarousel extends React.Component {
     }
 
     _toggleShowVideo(url) {
+        // eslint-disable-next-line react/no-direct-mutation-state
         this.state.showVideo[url] = !Boolean(this.state.showVideo[url]);
         this.setState({
             showVideo: this.state.showVideo
@@ -110,13 +112,14 @@ class ListingCarousel extends React.Component {
                 {
                     this.state.showVideo[item.embedUrl] ?
                         <div className='video-wrapper'>
-                            <a
+                            <div
                                 className='close-video'
                                 onClick={this._toggleShowVideo.bind(this, item.embedUrl)}
                             >
-                            </a>
+                            </div>
                             <iframe
-                                width='810'
+                                width='810' 
+                                title='01' 
                                 height='453.422'
                                 src={item.embedUrl}
                                 frameBorder='0'
@@ -125,9 +128,9 @@ class ListingCarousel extends React.Component {
                             </iframe>
                         </div>
                         :
-                        <a onMouseEnter={this._toggleShowVideo.bind(this, item.embedUrl)}>
+                        <div onLoad={this._toggleShowVideo.bind(this, item.embedUrl)}>
                             <div className='play-button'></div>
-                            <img src={item.original} />
+                            <img src={item.original} alt=''/>
                             {
                                 item.description &&
                                 <span
@@ -137,7 +140,7 @@ class ListingCarousel extends React.Component {
                                     {item.description}
                                 </span>
                             }
-                        </a>
+                        </div>
                 }
             </div>
         );
@@ -148,14 +151,14 @@ class ListingCarousel extends React.Component {
         var videos = 0;
         for (var i = 1; i <= 13; i++) {
             if (i === 1) {
-                if (dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['v'] != null) {
+                if (dbs['table']['games'][this.state.id]['v'] != null) {
                     videos++;
                 }
                 else {
                     break;
                 }
             } else {
-                if (dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['v ' + i] != null) {
+                if (dbs['table']['games'][this.state.id]['v ' + i] != null) {
                     videos++;
                 } else {
                     break;
@@ -166,17 +169,17 @@ class ListingCarousel extends React.Component {
         for (var j = 1; j <= videos; j++) {
             if (j === 1) {
                 arr[j - 1] = {
-                    original: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c'],
-                    embedUrl: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['v'],
-                    thumbnail: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c'],
+                    original: dbs['table']['games'][this.state.id]['c'],
+                    embedUrl: dbs['table']['games'][this.state.id]['v'],
+                    thumbnail: dbs['table']['games'][this.state.id]['c'],
                     class: 'highlight_movie_marker',
                     renderItem: this._renderVideo.bind(this)
                 };
             } else {
                 arr[j - 1] = {
-                    original: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c ' + j],
-                    embedUrl: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['v ' + j],
-                    thumbnail: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c ' + j],
+                    original: dbs['table']['games'][this.state.id]['c ' + j],
+                    embedUrl: dbs['table']['games'][this.state.id]['v ' + j],
+                    thumbnail: dbs['table']['games'][this.state.id]['c ' + j],
                     class: 'highlight_movie_marker',
                     renderItem: this._renderVideo.bind(this)
                 };
@@ -186,14 +189,14 @@ class ListingCarousel extends React.Component {
         var k = videos;
         if (k === 0) {
             arr[0] = {
-                original: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['a'],
-                thumbnail: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c']
+                original: dbs['table']['games'][this.state.id]['a'],
+                thumbnail: dbs['table']['games'][this.state.id]['c']
             };
         }
-        while (dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c ' + (k + 1 + videos)] != null) {
+        while (dbs['table']['games'][this.state.id]['c ' + (k + 1 + videos)] != null) {
             arr[k] = {
-                original: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['a ' + (k + 1)],
-                thumbnail: dbs['table']['games'][window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['c ' + (k + 1 + videos)],
+                original: dbs['table']['games'][this.state.id]['a ' + (k + 1)],
+                thumbnail: dbs['table']['games'][this.state.id]['c ' + (k + 1 + videos)],
             };
             k++;
         }
