@@ -6,6 +6,7 @@ import Tester from './pages/Tester'
 import Listing from './pages/Listing/Listing'
 import DownloadClient from './pages/DownloadClient'
 import Notfound from './pages/Notfound';
+import Cart from './components/Cart/Cart.js'
 
 class App extends Component {
 
@@ -14,10 +15,13 @@ class App extends Component {
 
         this.cartAdder = this.cartAdder.bind(this)
         this.wishlistAdder = this.wishlistAdder.bind(this)
+        this.togglePopup = this.togglePopup.bind(this)
 
         this.state = {
             cartItems: [],
-            wishItems: []
+            wishItems: [],
+            cartOpen: false,
+            wishlistOpen: false
         }
     }
 
@@ -53,12 +57,19 @@ class App extends Component {
         }
     }
 
+    togglePopup() {
+        this.setState({
+            cartOpen: !this.state.cartOpen
+        })
+    }
+
     render() {
         return (
+            <div>
             <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <Switch>
-                        <Route exact path="/" render={(props) => <Store {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} />} />
+                        <Route exact path="/" render={(props) => <Store {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.togglePopup}/>} />
                         <Route path="/test" component={Tester} />
                         <Route path="/clientdl" component={DownloadClient} />
                         <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} />} />
@@ -68,6 +79,16 @@ class App extends Component {
                     </Switch>
                 </div>
             </Router>
+            <div>
+            {this.state.cartOpen ?  
+                <Cart  
+                          text='Click "Close Button" to hide popup'  
+                          closePopup={this.togglePopup.bind(this)}  
+                />  
+                : null  
+            }
+            </div> 
+            </div>
         );
     }
 }

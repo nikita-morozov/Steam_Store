@@ -7,7 +7,7 @@ import NavbarDropdown from '../NavbarDropdown/NavbarDropdown.js';
 
 
 class StoreHeader extends React.Component {
-  constructor() {
+  constructor(props) {
     super();
     this.state = {
       yourstore: [
@@ -215,7 +215,7 @@ class StoreHeader extends React.Component {
           <input type='text' className='searchinput' placeholder='Search the store...' style={{ height: '24px', width: '260px' }}></input>
           <button className='searchbutton'><img src={searchlogo} style={{ width: '17px' }} alt=''></img></button>
         </form>
-        <CartButton />
+        <CartButton toggle={this.props.toggleCart}/>
         <WishlistButton />
       </div>
     );
