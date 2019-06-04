@@ -64,6 +64,17 @@ h1{
     clear: both;
 }
 
+video:-webkit-full-page-media {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0px;
+}
+
 .info{
     float: left;
     width: 530px;
@@ -341,5 +352,5 @@ h2.bb_tag {
 
 div.image-gallery-slide{
     background-color: #1B2837;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
