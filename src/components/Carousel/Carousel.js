@@ -8,10 +8,10 @@ class Carousel extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            co1: "1064790",
+            co1: "565180",
             co2: "1081850",
-            co3: "1085190",
-            co4: "697550",
+            co3: "727130",
+            co4: "857980",
             co5: "1082720",
             co6: "925460",
         }
@@ -36,7 +36,11 @@ class Carousel extends React.Component {
                                 price={dbs['table']['games'][this.state.co1]['price']} 
                                 oldPrice={dbs['table']['games'][this.state.co1]['oldprice']} 
                                 discount={dbs['table']['games'][this.state.co1]['discount']} 
-                                link={'/listing/' + this.state.co1}/>
+                                link={'/listing/' + this.state.co1}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co1}
+                                />
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co2]['img']} 
                                 imgType='wideImage' 
@@ -47,7 +51,11 @@ class Carousel extends React.Component {
                                 price={dbs['table']['games'][this.state.co2]['price']} 
                                 oldPrice={dbs['table']['games'][this.state.co2]['oldprice']}  
                                 discount={dbs['table']['games'][this.state.co2]['discount']} 
-                                link={'/listing/' + this.state.co2}/>
+                                link={'/listing/' + this.state.co2}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co2}
+                                />
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co3]['img']} 
                                 imgType='wideImage' 
@@ -58,7 +66,11 @@ class Carousel extends React.Component {
                                 price={dbs['table']['games'][this.state.co3]['price']} 
                                 oldPrice={dbs['table']['games'][this.state.co3]['oldprice']} 
                                 discount={dbs['table']['games'][this.state.co3]['discount']} 
-                                link={'/listing/' + this.state.co3}/>
+                                link={'/listing/' + this.state.co3}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co3}
+                                />
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co4]['img']} 
                                 imgType='wideImage' 
@@ -69,7 +81,11 @@ class Carousel extends React.Component {
                                 price={dbs['table']['games'][this.state.co4]['price']} 
                                 oldPrice={dbs['table']['games'][this.state.co4]['oldprice']}  
                                 discount={dbs['table']['games'][this.state.co4]['discount']} 
-                                link={'/listing/' + this.state.co4}/>
+                                link={'/listing/' + this.state.co4}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co4}
+                                />
                                 <DropOver 
                                 img={dbs['table']['games'][this.state.co5]['img']} 
                                 imgType='wideImage' 
@@ -80,7 +96,11 @@ class Carousel extends React.Component {
                                 price={dbs['table']['games'][this.state.co5]['price']} 
                                 oldPrice={dbs['table']['games'][this.state.co5]['oldprice']}  
                                 discount={dbs['table']['games'][this.state.co5]['discount']} 
-                                link={'/listing/' + this.state.co5}/>
+                                link={'/listing/' + this.state.co5}
+                                cartAdder={this.props.cartAdder}
+                                wishlistAdder={this.props.wishlistAdder}
+                                id={this.state.co5}
+                                />
                             </div>
                         </div>
                         {/* <button class='rightbutton' style={{left: '1326px', height: '170px'}}>RT</button> */}

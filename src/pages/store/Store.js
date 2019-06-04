@@ -8,10 +8,13 @@ import StoreTabs from '../../components/StoreTabs/StoreTabs';
 import dbs from '../../dbs.json';
 
 class Store extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+
     this.state = {
-      database: dbs
+      database: dbs,
+      cartAdder: this.props.cartAdder,
+      wishlistAdder: this.props.wishlistAdder
     }
   }
 
@@ -23,8 +26,8 @@ class Store extends React.Component {
         <StoreHeader />
         <div className='body' id="test">
           {/* games={dbs} */}
-          <Carousel />
-          <SpecialOffers />
+          <Carousel cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
+          <SpecialOffers cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
           <div id="grid">
             <div id="gridContainer">
               <StoreTabs />

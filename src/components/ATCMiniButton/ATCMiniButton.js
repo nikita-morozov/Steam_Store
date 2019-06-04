@@ -3,7 +3,7 @@ import './ATCMiniButton.css';
 import cartlogo from '../../asset/cartgreen.svg';
 
 class ATCMiniButton extends React.Component {
-  constructor() {
+  constructor(props) {
     super();
     this.state = {
       buttonStyle: 'ATCMbutton'
@@ -12,6 +12,7 @@ class ATCMiniButton extends React.Component {
 
   clicked() {
     this.setState({buttonStyle: 'ATCMbuttonClicked'});
+    this.props.cartAdder(this.props.id);
   }
 
   render() {
