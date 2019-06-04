@@ -100,6 +100,7 @@ class App extends Component {
                 <Wishlist  
                           text='hey this is the wishlist'  
                           closeWishlist={this.toggleWishlist.bind(this)}  
+                          wishlistItems={this.state.wishItems}
                 />  
                 : null  
             }

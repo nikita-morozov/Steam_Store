@@ -21,7 +21,7 @@ class Cart extends React.Component {
         for (let i = 0; i < this.state.ids.length; i++) {
             let children = []
             //Inner loop to create children
-                children.push(<td><img src={dbs['table']['games'][this.state.ids[i]]['img']} width="300" /></td>)
+                children.push(<td><img src={dbs['table']['games'][this.state.ids[i]]['img']} width="300" alt={dbs['table']['games'][this.state.ids[i]]['title']} /></td>)
                 children.push(<td>{dbs['table']['games'][this.state.ids[i]]['title']}</td>)
                 children.push(<td>{dbs['table']['games'][this.state.ids[i]]['price']}</td>)
                 total += parseFloat(dbs['table']['games'][this.state.ids[i]]['price'].substring(1))
@@ -29,8 +29,9 @@ class Cart extends React.Component {
             table.push(<tr>{children}</tr>)
         }
         let pChild = []
-        pChild.push(<td>Total Due:</td>)
-        pChild.push(<td>${total}</td>)
+        pChild.push(<td></td>)
+        pChild.push(<td className="totaldue" >Total Due:</td>)
+        pChild.push(<td className="totalprice" >${total}</td>)
         table.push(<tr>{pChild}</tr>)
         return table
     }
