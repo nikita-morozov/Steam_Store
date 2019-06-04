@@ -1,72 +1,76 @@
-#gameTitle {
-  margin-top: 15px;
+#gameTitleDown {
+  margin-top: 20px;
   text-align: left;
   font-size: 29px;
   max-height: 29px;
   white-space: nowrap;
 }
 
-#gameDesc {
+#gameDescDown {
   text-align: left;
   font-size: 19px;
+  margin-top: 25px;
 }
 
-#gameOldPrice {
+#gameOldPriceDown {
   color: #bbbbbb;
   text-decoration: line-through;
-  font-size: 15px;
+  font-size: 19px;
   font-family: "Arial";
   position: absolute;
   text-align: left;
-  bottom: 98px;
+  bottom: 165px;
 }
 
-#gamePrice {
+#gamePriceDown {
   position: absolute;
   text-align: left;
   font-size: 29px;
-  bottom: 61px;
+  bottom: 125px;
 }
 
-#addToCart {
+#addToCartDown {
   position: absolute;
-  bottom: 65px;
-  right: 70px;
+  bottom: 125px;
+  right: 120px;
+  z-index: 800;
 }
 
-#addToWishlist {
+#addToWishlistDown {
   position: absolute;
-  bottom: 65px;
-  right: 15px;
+  bottom: 125px;
+  right: 35px;
+  z-index: 800;
 }
 
-#seeMore {
+#seeMoreDown {
   position: absolute;
-  bottom: 15px;
-  left: 15px;
+  bottom: 40px;
+  right: 35px;
   cursor: default;
 }
 
-#tagContainer {
+#tagContainerDown {
+  display: flex;
   text-align: left;
-  padding-top: 0px;
+  flex-direction: row;
+  padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  z-index: 500;
 }
 
-#titleContainer {
+#titleContainerDown {
   font-family: 'Motiva Sans', 'Arial';
   overflow-wrap: break-word;
   padding-left: 20px;
-  padding-right: 20px;
-  max-height: 163px;
+  padding-right: 25px;
+  max-height: 290px;
   overflow: hidden; 
   cursor: default;
-  z-index: 500;
+  max-width: 490px;
 }
 
-#buttonContainer {
+#buttonContainerDown {
   display: relative;
   padding-left: 20px;
   padding-right: 20px;
@@ -84,7 +88,17 @@
 
 .seeMoreButton:hover {
   background-color: 'transparent';
-  
+}
+
+.ddContainer {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  text-align: left;
+  background-color: #1B2838;
+  width: 1390px;
+  margin-top: 5px;
+  left: 0;
 }
 
 #individualTag {
@@ -96,4 +110,14 @@
 
 a {
   cursor: default;
+}
+
+.bannerUt {
+  position: relative;
+  overflow: hidden;
+}
+
+#imgvid {
+  padding: 20px 0px 0px 40px;
+  width: 58.5%;
 }

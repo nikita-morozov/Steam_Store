@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Carousel.css'
 import DropOver from '../DropOver/DropOver.js';
 import dbs from '../../dbs.json';

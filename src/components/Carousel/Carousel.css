@@ -66,10 +66,22 @@ h2{
     float: right;
     width: 305px;
     z-index: 600;
-    bottom: 177px;
-    background-color: #2A465E;
-    left: 315px;
+    bottom: 176px;
+    background-color: #2A465EDD;
+    left: 0px;
     flex-direction: column;
+    animation-name: fadein;
+    animation-timing-function: ease-in-out;
+    animation-duration: .2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
 }
 
 .store_capsule_row-new-tall{
@@ -77,12 +89,15 @@ h2{
     position: relative;
     float: right;
     width: 305px;
-    height: 350px;
-    z-index: 600;
-    bottom: 357px;
-    background-color: #2A465E;
-    left: 315px;
+    height: 355px;
+    z-index: 500;
+    bottom: 356px;
+    background-color: #2A465EDD;
+    left: 0px;
     flex-direction: column;
+    animation-name: fadein;
+    animation-timing-function: ease-in-out;
+    animation-duration: .2s;
 }
 
 .capsule_header{
@@ -95,11 +110,19 @@ h2{
     width: 305px;
 }
 
-.store_capsule_column_inuse{
+#featandrec.store_capsule_column_inuse {
     padding-right: 10px;
     padding-bottom: 10px;
     width: 305px;
-    margin-right: 315px;
+    margin-right: 0px;
+}
+
+#specoff.store_capsule_column_inuse {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 305px;
+    margin-right: 0px;
+    transition-duration: .3s;
 }
 
 #wideImage{

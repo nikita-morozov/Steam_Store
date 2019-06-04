@@ -36,18 +36,18 @@ class DropOver extends React.Component {
   }
 
   componentDidUpdate() {
-    const {inUse} = this.state
-    if (document.getElementById('forceView') !== null) {
-      var lmnt = document.getElementById('forceView')
-      lmnt.scrollIntoView({ behavior: 'smooth', block: 'nearest'});
-    }
-    setTimeout(() => {
-      if (inUse) {
-        window.addEventListener('click', this.exit)
-      } else {
-        window.removeEventListener('click', this.exit)
-      }
-    }, 0)
+    // const {inUse} = this.state
+    // if (document.getElementById('forceView') !== null) {
+    //   var lmnt = document.getElementById('forceView')
+    //   lmnt.scrollIntoView({ behavior: 'smooth', block: 'nearest'});
+    // }
+    // setTimeout(() => {
+    //   if (inUse) {
+    //     window.addEventListener('click', this.exit)
+    //   } else {
+    //     window.removeEventListener('click', this.exit)
+    //   }
+    // }, 0)
   }
 
   componentWillUnmount() {
@@ -61,12 +61,14 @@ class DropOver extends React.Component {
     var itemHeight = '170px'
     var itemCss = "store_capsule_row-new"
     var fixedTitle = ''
-    var fixedDesc= ''
+    var fixedDesc = ''
     var hasDiscount = false;
+    var placement = 'featandrec';
 
     if (tall) {
       itemHeight = '350px'
       itemCss = "store_capsule_row-new-tall"
+      placement = 'specoff'
     }
 
     if (discount !== null) {
@@ -86,7 +88,7 @@ class DropOver extends React.Component {
     }*/
 
     return (
-      <div class={styleUpdate} onMouseEnter={() => this.enter()} onMouseLeave={() => this.exit()}>
+      <div class={styleUpdate} id={placement} onMouseEnter={() => this.enter()} onMouseLeave={() => this.exit()}>
           {/* <Link to='/listing/ror2'> */}
               <div class="store_capsule_row">
                   <div class="capsule header">
@@ -107,14 +109,28 @@ class DropOver extends React.Component {
                     <p id='gamePrice'>{price}</p>
                     <p id='gameOldPrice'>{oldPrice}</p>
                     <div id='addToCart'>
-                      <ATCMiniButton id={this.state.id} cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
+                      <ATCMiniButton 
+                        id={this.state.id} 
+                        cartAdder={this.props.cartAdder} 
+                        wishlistAdder={this.props.wishlistAdder} 
+                        tall='44px' 
+                        wide='44px' 
+                        size='scale(1)'
+                      />
                     </div>
                     <div id='addToWishlist'>
-                      <ATWMiniButton id={this.state.id} cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
+                      <ATWMiniButton 
+                        id={this.state.id} 
+                        cartAdder={this.props.cartAdder} 
+                        wishlistAdder={this.props.wishlistAdder} 
+                        tall='44px' 
+                        wide='44px' 
+                        size='scale(1)'
+                      />
                     </div>
                     <div id='seeMore'>
                       <Link to={link} onClick={() => window.scrollTo(0, 0)}>
-                        <SeeMoreButton id='seeMore'/>
+                        <SeeMoreButton id='seeMore' tall='40px' wide='265px'/>
                       </Link>
                     </div>
                   </div>

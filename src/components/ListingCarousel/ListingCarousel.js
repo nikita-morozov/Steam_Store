@@ -6,8 +6,8 @@ import dbs from '../../dbs.json';
 
 class ListingCarousel extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             showIndex: false,
             showBullets: false,
@@ -24,6 +24,7 @@ class ListingCarousel extends React.Component {
             slideOnThumbnailOver: false,
             thumbnailPosition: 'bottom',
             showVideo: {},
+            id: this.props.gameId,
         };
 
         this.images = this.carouselArray();
@@ -88,6 +89,7 @@ class ListingCarousel extends React.Component {
     }
 
     _toggleShowVideo(url) {
+        // eslint-disable-next-line react/no-direct-mutation-state
         this.state.showVideo[url] = !Boolean(this.state.showVideo[url]);
         this.setState({
             showVideo: this.state.showVideo
@@ -110,13 +112,14 @@ class ListingCarousel extends React.Component {
                 {
                     this.state.showVideo[item.embedUrl] ?
                         <div className='video-wrapper'>
-                            <a
+                            <div
                                 className='close-video'
                                 onClick={this._toggleShowVideo.bind(this, item.embedUrl)}
                             >
-                            </a>
+                            </div>
                             <iframe
                                 width='810'
+                                title='01'
                                 height='453.422'
                                 src={item.embedUrl}
                                 frameBorder='0'
@@ -125,9 +128,9 @@ class ListingCarousel extends React.Component {
                             </iframe>
                         </div>
                         :
-                        <a onMouseEnter={this._toggleShowVideo.bind(this, item.embedUrl)}>
+                        <div onLoad={this._toggleShowVideo.bind(this, item.embedUrl)}>
                             <div className='play-button'></div>
-                            <img src={item.original} />
+                            <img src={item.original} alt='' />
                             {
                                 item.description &&
                                 <span
@@ -137,7 +140,7 @@ class ListingCarousel extends React.Component {
                                     {item.description}
                                 </span>
                             }
-                        </a>
+                        </div>
                 }
             </div>
         );
@@ -156,7 +159,6 @@ class ListingCarousel extends React.Component {
                 renderItem: this._renderVideo.bind(this)
             }
         }
-
         var k = videos;
         if (k === 0) {
             arr[0] = {

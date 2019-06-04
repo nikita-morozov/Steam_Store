@@ -72,7 +72,7 @@ class Listing extends React.Component {
               <div id="topLine">
                 <h1>{this.state.title}</h1>
                 <div className="carousel">
-                  <ListingCarousel />
+                  <ListingCarousel gameId={this.state.id}/>
                 </div>
                 <div className='info' >
                   <div id='image'>

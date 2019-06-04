@@ -4,7 +4,7 @@
   text-align: center;
   /* vertical-align: sub; */
   background-color: transparent;
-  border: solid 2px white;
+  border: solid 1px white;
   border-radius: 5px;
   align-self: center;
   font-size: 19px;
@@ -13,7 +13,7 @@
 }
 
 .SMbutton:hover {
-  border: solid 2px #2A465E;
+  border: solid 3px white;
   transition-duration: .3s;
 }
 
@@ -32,9 +32,4 @@
 
 .SMbutton:focus, .SMbuttonClicked:focus {
   outline: 0;
-}
-
-.SMlogo {
-  vertical-align: sub;
-  padding-right: 10px;
 }
