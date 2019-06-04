@@ -39,7 +39,7 @@ class DropDown extends React.Component {
   }
 
   componentDidUpdate() {
-    const {inUse, id} = this.state;
+    const {inUse} = this.state;
     
     if (document.getElementById('dropdowncontainer') !== null) {
       var lmnt = document.getElementById('dropdowncontainer');

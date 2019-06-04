@@ -23,10 +23,11 @@ class App extends Component {
 
     cartAdder(id) {
         var arr = this.state.cartItems
+        var itemid = ''
         if (id === undefined) {
-            var itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
+            itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
         } else {
-            var itemid = id
+            itemid = id
         }
         if (!(arr.includes(itemid))) {
             arr.push(itemid)
@@ -38,10 +39,11 @@ class App extends Component {
 
     wishlistAdder(id) {
         var arr = this.state.wishItems
+        var itemid = ''
         if (id === undefined) {
-            var itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
+            itemid = window.location.href.substring(window.location.href.lastIndexOf('/') + 1)
         } else {
-            var itemid = id
+            itemid = id
         }
         if (!(arr.includes(itemid))) {
             arr.push(itemid)

@@ -1,6 +1,5 @@
 import './Grid.css'
 import React from 'react';
-import { Link } from 'react-router-dom';
 import dbs from '../../dbs.json';
 import DropDown from '../DropDown/DropDown.js'
 
