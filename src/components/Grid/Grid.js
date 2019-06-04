@@ -34,6 +34,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co1]['discount']} 
                     link={'/listing/' + this.state.co1} 
                     id={this.state.co1}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
                 <DropDown 
                     img={dbs['table']['games'][this.state.co2]['img']}
@@ -46,6 +48,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co2]['discount']} 
                     link={'/listing/' + this.state.co2} 
                     id={this.state.co2}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
                 <DropDown 
                     img={dbs['table']['games'][this.state.co3]['img']}
@@ -58,6 +62,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co3]['discount']} 
                     link={'/listing/' + this.state.co3}
                     id={this.state.co3}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
                 <DropDown 
                     img={dbs['table']['games'][this.state.co4]['img']}
@@ -70,6 +76,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co4]['discount']} 
                     link={'/listing/' + this.state.co4}
                     id={this.state.co4}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
                 <DropDown 
                     img={dbs['table']['games'][this.state.co5]['img']}
@@ -82,6 +90,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co5]['discount']} 
                     link={'/listing/' + this.state.co5}
                     id={this.state.co5}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
                 <DropDown 
                     img={dbs['table']['games'][this.state.co6]['img']}
@@ -94,6 +104,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co6]['discount']} 
                     link={'/listing/' + this.state.co6}
                     id={this.state.co6}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
                 <DropDown 
                     img={dbs['table']['games'][this.state.co7]['img']}
@@ -106,6 +118,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co7]['discount']} 
                     link={'/listing/' + this.state.co7}
                     id={this.state.co7}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
                 <DropDown 
                     img={dbs['table']['games'][this.state.co8]['img']}
@@ -118,6 +132,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co8]['discount']} 
                     link={'/listing/' + this.state.co8}
                     id={this.state.co8}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
                 <DropDown 
                     img={dbs['table']['games'][this.state.co9]['img']}
@@ -130,6 +146,8 @@ class Grid extends React.Component {
                     discount={dbs['table']['games'][this.state.co9]['discount']} 
                     link={'/listing/' + this.state.co9}
                     id={this.state.co9}
+                    cartAdder={this.props.cartAdder}
+                    wishlistAdder={this.props.wishlistAdder}
                 />
             </div>
         );
