@@ -114,7 +114,7 @@ class ListingCarousel extends React.Component {
                         <div className='video-wrapper'>
                             <div
                                 className='close-video'
-                                onClick={this._toggleShowVideo.bind(this, item.embedUrl)}
+                                onLoad={this._toggleShowVideo.bind(this, item.embedUrl)}
                             >
                             </div>
                             <iframe

@@ -1,15 +1,18 @@
 .dropdown {
   display: flex;
   position: relative;
+  flex-direction: column;
   width: 85px;
-  height: 38px;
+  max-height: 200px;
   z-index: 405;
   transition-duration: .4s;
+  z-index: 850;
 }
 
 .dropdown:hover, .dropdown:active {
   background-color: #2A465E;
   transition-duration: .4s;
+  z-index: 850;
 }
 
 .dropdownHeader {
@@ -21,6 +24,7 @@
   background-color: inherit;
   z-index: 406;
   cursor: default;
+  z-index: 850;
 }
 
 .dropdownHeaderTitleFirst {
@@ -33,6 +37,7 @@
   background-color: inherit;
   color: white;
   font-size: 13px;
+  z-index: 850;
 }
 
 .dropdownHeaderTitle {
@@ -45,16 +50,18 @@
   background-color: inherit;
   color: white;
   font-size: 13px;
+  z-index: 850;
 }
 
 .dropdownList {
   display: flex;
+  flex-direction: column;
   position: absolute;
   width: fit-content;
-  overflow-x: overlay;
-  max-width: 977px;
+  overflow: hidden overlay;
+  max-height: 400px;
   top: 38px;
-  z-index: 406;
+  z-index: 850;
   vertical-align: middle;
   cursor: default;
   background-color: #2A465E;
@@ -72,7 +79,7 @@
 }
 
 .dropdownList::-webkit-scrollbar {
-  height: 5px;
+  width: 5px;
   background-color: inherit;
 }
 
