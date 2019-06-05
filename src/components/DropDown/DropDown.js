@@ -94,7 +94,7 @@ class DropDown extends React.Component {
             {hasDiscount && <DiscountBanner percent={discount} />}
           </div>
           {inUse && 
-                <div class="ddContainer" id='dropdowncontainer' style={{height: '540px'}} onClick={e => e.stopPropagation()}>
+                <div class="ddContainer" id='dropdowncontainer' style={{height: '560px'}} onClick={e => e.stopPropagation()}>
                   <div id='imgvid'>
                     <ListingCarousel gameId={id} />
                   </div>
