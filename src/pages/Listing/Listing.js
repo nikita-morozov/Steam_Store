@@ -28,7 +28,8 @@ class Listing extends React.Component {
       promoloc: "",
       imgname: "",
       cartAdder: this.props.cartAdder,
-      wishlistAdder: this.props.wishlistAdder
+      wishlistAdder: this.props.wishlistAdder,
+      tags: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre']
     }
   }
 
@@ -121,13 +122,7 @@ class Listing extends React.Component {
                       </div>
                     </div>
                     <div id="tags">
-                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre']} />
-                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 2']} />
-                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 3']} />
-                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 4']} />
-                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 5']} />
-                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 6']} />
-                      <Tag text={dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre 7']} />
+                      {this.state.tags.map((tag) => (<Tag id='individualTag' text={tag} />))}
                     </div>
                     <div id="priceLine">
                       <div id="operatingSystems">

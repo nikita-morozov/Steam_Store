@@ -21,7 +21,7 @@ class Wishlist extends React.Component {
         for (let i = 0; i < this.state.ids.length; i++) {
             let children = []
             //Inner loop to create children
-                children.push(<td><img src={dbs['table']['games'][this.state.ids[i]]['img']} width="300" /></td>)
+                children.push(<td><img src={dbs['table']['games'][this.state.ids[i]]['img']} width="300" alt=''/></td>)
                 children.push(<td>{dbs['table']['games'][this.state.ids[i]]['title']}</td>)
                 children.push(<td>{dbs['table']['games'][this.state.ids[i]]['price']}</td>)
             //Create the parent and add the children

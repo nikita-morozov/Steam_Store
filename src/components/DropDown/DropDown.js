@@ -104,7 +104,7 @@ class DropDown extends React.Component {
                       <p id='gameDescDown'>{description}</p>
                     </div>
                     <div id='tagContainerDown'>
-                      <Tag id='individualTag' text={tags} />
+                      {tags.map((tag) => (<Tag id='individualTag' text={tag} />))}
                     </div>
                     <div id='buttonContainerDown'>
                       <p id='gamePriceDown'>{price}</p>
