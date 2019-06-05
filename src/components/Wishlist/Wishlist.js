@@ -21,9 +21,9 @@ class Wishlist extends React.Component {
         for (let i = 0; i < this.state.ids.length; i++) {
             let children = []
             //Inner loop to create children
-                children.push(<td><img src={dbs['table']['games'][this.state.ids[i]]['img']} width="300" alt=''/></td>)
-                children.push(<td>{dbs['table']['games'][this.state.ids[i]]['title']}</td>)
-                children.push(<td>{dbs['table']['games'][this.state.ids[i]]['price']}</td>)
+            children.push(<td><img src={dbs[this.state.ids[i]]['img']} width="300" alt='' /></td>)
+            children.push(<td>{dbs[this.state.ids[i]]['title']}</td>)
+            children.push(<td>{dbs[this.state.ids[i]]['price']}</td>)
             //Create the parent and add the children
             table.push(<tr>{children}</tr>)
         }
@@ -31,16 +31,16 @@ class Wishlist extends React.Component {
     }
 
     render() {
-        return(
-            <div className='popup'>  
-                <div className='popupinner'>  
-                    <h1>{this.props.text}</h1> 
+        return (
+            <div className='popup'>
+                <div className='popupinner_wishlist'>
+                    <h1>{this.props.text}</h1>
                     <table>
-                    {this.create()}
+                        {this.create()}
                     </table>
-                    <button onClick={this.props.closeWishlist}>close me</button>  
-                </div>  
-            </div>  
+                    <button onClick={this.props.closeWishlist}>close me</button>
+                </div>
+            </div>
         );
     }
 }

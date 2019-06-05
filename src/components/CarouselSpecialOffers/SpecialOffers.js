@@ -5,11 +5,11 @@ import dbs from '../../dbs.json'
 
 class SpecialOffers extends React.Component {
     scrollRight() {
-        document.getElementById('soscrollbox').scrollBy({left: 305, behavior: 'smooth'})
+        document.getElementById('soscrollbox').scrollBy({ left: 305, behavior: 'smooth' })
     }
 
     scrollLeft() {
-        document.getElementById('soscrollbox').scrollBy({left: -305, behavior: 'smooth'})
+        document.getElementById('soscrollbox').scrollBy({ left: -305, behavior: 'smooth' })
     }
 
     render() {
@@ -18,7 +18,7 @@ class SpecialOffers extends React.Component {
                 <div className="home_page_content special_offers">
                     <h2>SPECIAL OFFERS</h2>
                     <div class="carousel_container" id="spotlight_carousel">
-                        <button class='leftbutton' style={{height: '350px', left: '0px'}}><i class="arrow left" onClick={() => this.scrollLeft()}></i></button>
+                        <button class='leftbutton' style={{ height: '350px', left: '0px' }}><u class="arrow left" onClick={() => this.scrollLeft()}></u></button>
                         <div class="carousel_items">
                             <div class="focus" id='soscrollbox'>
                                 <DropOver
@@ -98,7 +98,7 @@ class SpecialOffers extends React.Component {
                                 />
                             </div>
                         </div>
-                        <button class='rightbutton' style={{left: '1326px', height: '350px'}}><i class="arrow right" onClick={() => this.scrollRight()}></i></button>
+                        <button class='rightbutton' style={{ left: '1326px', height: '350px' }}><u class="arrow right" onClick={() => this.scrollRight()}></u></button>
                     </div>
                 </div>
             </div>

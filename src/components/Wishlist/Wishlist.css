@@ -8,10 +8,11 @@
     right: 0;  
     bottom: 0;  
     margin: auto;  
-    background-color: rgba(0,0,0, 0.5);  
+    background-color: rgba(0,0,0, 0.8);  
     z-index: 899;
   }  
-  .popupinner {  
+
+  .popupinner_wishlist {  
     position: absolute;  
     left: 25%;  
     right: 25%;  

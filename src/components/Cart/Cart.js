@@ -21,10 +21,10 @@ class Cart extends React.Component {
         for (let i = 0; i < this.state.ids.length; i++) {
             let children = []
             //Inner loop to create children
-                children.push(<td><img src={dbs['table']['games'][this.state.ids[i]]['img']} width="300" alt={dbs['table']['games'][this.state.ids[i]]['title']} /></td>)
-                children.push(<td>{dbs['table']['games'][this.state.ids[i]]['title']}</td>)
-                children.push(<td>{dbs['table']['games'][this.state.ids[i]]['price']}</td>)
-                total += parseFloat(dbs['table']['games'][this.state.ids[i]]['price'].substring(1))
+            children.push(<td><img src={dbs[this.state.ids[i]]['img']} width="300" alt={dbs[this.state.ids[i]]['title']} /></td>)
+            children.push(<td>{dbs[this.state.ids[i]]['title']}</td>)
+            children.push(<td>{dbs[this.state.ids[i]]['price']}</td>)
+            total += parseFloat(dbs[this.state.ids[i]]['price'].substring(1))
             //Create the parent and add the children
             table.push(<tr>{children}</tr>)
         }
@@ -37,16 +37,16 @@ class Cart extends React.Component {
     }
 
     render() {
-        return(
-            <div className='popup'>  
-                <div className='popupinner'>  
+        return (
+            <div className='popup'>
+                <div className='popupinner'>
                     <h1>Items</h1>
                     <table>
-                    {this.create()}
+                        {this.create()}
                     </table>
-                    <button onClick={this.props.closePopup}>close me</button>  
-                </div>  
-            </div>  
+                    <button onClick={this.props.closePopup}>close me</button>
+                </div>
+            </div>
         );
     }
 }

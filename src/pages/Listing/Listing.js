@@ -10,7 +10,6 @@ import AddToCartButton from '../../components/AddToCartButton/AddToCartButton';
 import AddToWishlistButton from '../../components/AddToWishlistButton/AddToWishlistButton';
 import QueueButton from '../../components/QueueButton/QueueButton';
 
-
 class Listing extends React.Component {
 
   constructor(props) {
@@ -29,7 +28,8 @@ class Listing extends React.Component {
       imgname: "",
       cartAdder: this.props.cartAdder,
       wishlistAdder: this.props.wishlistAdder,
-      tags: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre']
+      tags: dbs[window.location.href.substring(window.location.href.lastIndexOf('/') + 1)]['genre'],
+      sidebar: ""
     }
   }
 
@@ -40,7 +40,7 @@ class Listing extends React.Component {
   wishlistHandler() {
     this.props.wishlistAdder()
   }
-  
+
   componentDidMount() {
     this.setState(
       {
@@ -57,7 +57,8 @@ class Listing extends React.Component {
         developerlink: dbs[this.state.id]["developerlink"],
         publisherlink: dbs[this.state.id]["publisherlink"],
         game_description: dbs[this.state.id]["game_description"],
-        system_requirements: dbs[this.state.id]["system_requirements"]
+        system_requirements: dbs[this.state.id]["system_requirements"],
+        sidebar: dbs[this.state.id]["sidebarhtml"]
       }
     )
   }
@@ -66,14 +67,14 @@ class Listing extends React.Component {
     return (
       <div>
         <SteamHeader />
-        <StoreHeader toggleCart={this.props.toggleCart} toggleWishlist={this.props.toggleWishlist}/>
+        <StoreHeader toggleCart={this.props.toggleCart} toggleWishlist={this.props.toggleWishlist} />
         <div className='body'>
           <div className='listing'>
             <div className='container'>
               <div id="topLine">
                 <h1>{this.state.title}</h1>
                 <div className="carousel">
-                  <ListingCarousel gameId={this.state.id}/>
+                  <ListingCarousel gameId={this.state.id} />
                 </div>
                 <div className='info' >
                   <div id='image'>
@@ -139,10 +140,10 @@ class Listing extends React.Component {
                       <div className='queueBreak'></div>
                       <div id="interactiveButtons">
                         <div id="cart">
-                          <AddToCartButton handler={this.cartHandler}/>
+                          <AddToCartButton handler={this.cartHandler} />
                         </div>
                         <div id="wishlist">
-                          <AddToWishlistButton handler={this.wishlistHandler}/>
+                          <AddToWishlistButton handler={this.wishlistHandler} />
                         </div>
                       </div>
                     </div>
@@ -165,9 +166,7 @@ class Listing extends React.Component {
                 <div id="game_desc" dangerouslySetInnerHTML={{ __html: this.state.game_description }}></div>
                 <div id="sys_req" dangerouslySetInnerHTML={{ __html: this.state.system_requirements }}></div>
               </div>
-              <div id='detailBar'>
-                <h2>Is this game relevant to you?</h2>
-              </div>
+              <div id="detailBar" dangerouslySetInnerHTML={{ __html: this.state.sidebar }}></div>
             </div>
           </div>
         </div>

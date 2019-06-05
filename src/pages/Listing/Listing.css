@@ -220,6 +220,11 @@ p{
     color: #acb2b8;
 }
 
+a{
+    color: #67c1f5;
+    text-decoration: none;
+}
+
 #game_desc img{
     width: 790px;
 }
@@ -303,13 +308,10 @@ h2{
 
 #detailBar{
     float: left;
-    width: 510px;
-    padding: 10px;
+    width: 530px;
     margin-top: 10px;
-    margin-left: 10px;
-    background-color: #101C26; 
+    margin-left: 10px; 
     padding-bottom: 10px;
-    height: 500px;
 }
 
 h2.bb_tag {
@@ -346,6 +348,26 @@ h2.bb_tag {
     text-align: -webkit-match-parent;
 }
 
+.game_area_description {
+    line-height: 1.5em;
+    font-size: 14px;
+    margin-top: 30px;
+    overflow: hidden;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+#game_desc > h2{
+    font-family: "Motiva Sans", Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+
 .bb_ul > li {
     list-style-position: outside;
 }
@@ -354,3 +376,187 @@ div.image-gallery-slide{
     background-color: #1B2837;
     margin-bottom: 0px;
 }
+
+.image-gallery-image{
+    height: 470px;
+}
+
+#detailBar > div.block.responsive_apppage_details_right.heading{
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 5px 5px 8px;
+}
+
+#detailBar > div.block.responsive_apppage_details_right.recommendation_noinfo {
+    color: #acb2b8;
+    font-size: 14px;
+    line-height: 22px;
+    background: linear-gradient(to right, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 100%);
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.btnv6_blue_hoverfade {
+    border-radius: 2px;
+    border: none;
+    margin-left: 20px;
+    padding: 4px 8px 4px 8px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+}
+
+#category_block{
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    background: linear-gradient(to right, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 100%);
+    font-size: 12px;
+}
+
+.game_area_details_specs {
+    min-height: 26px;
+    position: relative;
+    margin-bottom: 2px;
+    background-color: rgba( 0, 0, 0, 0.2 );
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+}
+
+.game_area_details_specs a.name {
+    margin-left: 37px;
+    min-height: 22px;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 18px;
+    background: rgba( 103, 193, 245, 0.1 );
+    color: #67c1f5;
+    display: block;
+    text-decoration: none;
+    border-radius: 1px;
+}
+
+.game_area_details_specs .icon {
+    position: absolute;
+    left: 0px;
+    width: 30px;
+    min-height: 22px;
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 6px;
+    height: 100%;
+}
+
+img.category_icon {
+    width: 26px;
+    height: 16px;
+    vertical-align: top;
+}
+
+.details_block.vrsupport {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    color: #61686d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.responsive_apppage_details_right{
+    background: linear-gradient(to right, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 100%);
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+}
+
+.block .block_title {
+    font-size: 12px;
+    color: #8f98a0;
+    margin-bottom: 2px;
+}
+
+table.game_language_options {
+    border-collapse: collapse;
+}
+
+Table {
+    display: table;
+    font-size: 12px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.game_language_options tr {
+    border-bottom: 1px solid #626366;
+}
+
+.game_language_options th {
+    font-size: 12px;
+    color: #b0aeac;
+    font-weight: normal;
+    text-align: center;
+}
+
+.game_language_options td.checkcol, .game_language_options th.checkcol {
+    width: 145px;
+}
+
+.game_language_options td {
+    color: #8f98a0;
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.game_language_options td span {
+    font-weight: bold;
+    color: #67c1f5;
+}
+
+.block.responsive_apppage_details_left {
+    background: linear-gradient(to right, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 100%);
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    display: block;
+}
+
+.block .block_title.vrsupport {
+    margin-bottom: 10px;
+}
+
+.block .block_title {
+    font-size: 12px;
+    color: #8f98a0;
+}
+
+.DRM_notice {
+    color: #e1c48a;
+    padding: 4px 8px;
+    line-height: 17px;
+    border-radius: 1px;
+    margin-top: 12px;
+    background: -ms-linear-gradient(-45deg, rgba(130,114,81,0.5) 0%,rgba(226,197,139,0.5) 100%);
+    background: linear-gradient(135deg, rgba(130,114,81,0.5) 0%,rgba(226,197,139,0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80827251', endColorstr='#80e2c58b',GradientType=1 );
+}
+

@@ -5,11 +5,11 @@ import dbs from '../../dbs.json';
 
 class Carousel extends React.Component {
     scrollRight() {
-        document.getElementById('frscrollbox').scrollBy({left: 305, behavior: 'smooth'})
+        document.getElementById('frscrollbox').scrollBy({ left: 305, behavior: 'smooth' })
     }
 
     scrollLeft() {
-        document.getElementById('frscrollbox').scrollBy({left: -305, behavior: 'smooth'})
+        document.getElementById('frscrollbox').scrollBy({ left: -305, behavior: 'smooth' })
     }
 
     render() {
@@ -18,7 +18,7 @@ class Carousel extends React.Component {
                 <div className="home_page_content special_offers">
                     <h2>FEATURED & RECOMMENDED</h2>
                     <div className="carousel_container" id="spotlight_carousel">
-                        <button class='leftbutton' style={{height: '170px', left: '0px'}}><i class="arrow left" onClick={() => this.scrollLeft()}></i></button>
+                        <button class='leftbutton' style={{ height: '170px', left: '0px' }}><u class="arrow left" onClick={() => this.scrollLeft()}></u></button>
                         <div className="carousel_item">
                             <div className="focus" id='frscrollbox'>
                                 <DropOver
@@ -98,7 +98,7 @@ class Carousel extends React.Component {
                                 />
                             </div>
                         </div>
-                        <button class='rightbutton' style={{left: '1326px', height: '170px'}}><i class="arrow right" onClick={() => this.scrollRight()}></i></button>
+                        <button class='rightbutton' style={{ left: '1326px', height: '170px' }}><u class="arrow right" onClick={() => this.scrollRight()}></u></button>
                     </div>
                 </div>
             </div >
