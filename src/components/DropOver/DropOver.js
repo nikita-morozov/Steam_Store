@@ -58,7 +58,7 @@ class DropOver extends React.Component {
     const { img, imgType, tall, title, description, tags, oldPrice, price, link, discount } = this.props;
     const { inUse, styleUpdate } = this.state;
 
-    var itemHeight = '170px'
+    var itemHeight = '172px'
     var itemCss = "store_capsule_row-new"
     var fixedTitle = ''
     var fixedDesc = ''
@@ -66,7 +66,7 @@ class DropOver extends React.Component {
     var placement = 'featandrec';
 
     if (tall) {
-      itemHeight = '350px'
+      itemHeight = '352px'
       itemCss = "store_capsule_row-new-tall"
       placement = 'specoff'
     }
