@@ -1,32 +1,29 @@
 .Wbutton {
-  display: flexbox;
-  position: inline;
-  margin: 4px 5.5px;
+  margin: 5px 5.5px;
   text-align: center;
-  /* vertical-align: sub; */
-  background-color: #2A465E;
+  vertical-align: sub;
+  background-color: #3D6599;
   border: none;
   border-radius: 5px;
-  align-self: center;
+  /*align-self: center;*/
   font-size: 19px;
   color: white;
   transition-duration: .3s;
 }
 
 .Wbutton:hover {
-  background-color: #66C0F4;
+  background-color: #2970CC;
   transition-duration: .3s;
 }
 
 .WbuttonClicked {
-  position: inline;
-  margin: 4px 5.5px;
+  margin: 5px 5.5px;
   text-align: center;
   /* vertical-align: sub; */
-  background-color: #66C0F4;
+  background-color: #2970CC;
   border: none;
   border-radius: 5px;
-  align-self: center;
+  /* align-self: center;*/
   font-size: 19px;
   color: white;
 }

@@ -2,11 +2,11 @@
   position: absolute;
   top: 5px;
   right: -40px;
-  background-color: #4C6B21;
+  background-color: #5E8033;
   font-size: 25px;
-  color: #A4D006;
+  color: #C3FF00;
   padding: 5px 40px;
   transform: rotate(45deg);
-  border: solid 2px white;
+  border: solid 2px #283303;
   z-index: 601;
 }

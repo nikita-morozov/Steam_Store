@@ -1,4 +1,597 @@
 {
+	"805550": {
+		"id": "805550",
+		"urlid": "app/805550",
+		"oldprice": null,
+		"price": "$44.99",
+		"imgname": "ACC",
+		"title": "Assetto Corsa Competizione",
+		"discount": null,
+		"img": "https://steamcdn-a.akamaihd.net/steam/apps/805550/header.jpg?t=1559566329",
+		"imgtall": "https://steamcdn-a.akamaihd.net/steam/marketing/2330082410784101252//images/English.jpg",
+		"description": "Assetto Corsa Competizione is the new official Blancpain GT Series videogame. Thanks to the extraordinary quality of simulation, the game will allow you to experience the real atmosphere of the FIA \u200b\u200bGT3 homologated championship, competing against official drivers, teams, cars and circuits.",
+		"releasedate": "May 29, 2019",
+		"developer": "Kunos Simulazioni",
+		"publisher": "Kunos Simulazioni",
+		"developerlink": "https://store.steampowered.com/search/?developer=Kunos%20Simulazioni&snr=1_5_9__400",
+		"publisherlink": "https://store.steampowered.com/search/?developer=Kunos%20Simulazioni&snr=1_5_9__400",
+		"game_description": "<H2>About This Game</H2>Screenshots and/or trailers may show content which may be not yet available. This content, once available, will be made available to previous ACC owners at no additional charge. For the full release roadmap, please check the following schedule: <A href=\"https://steamcommunity.com/linkfilter/?url=https://www.assettocorsa.net/competizione/roadmap/\" rel=noopener target=_blank>https://www.assettocorsa.net/competizione/roadmap/</A><BR><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/805550/extras/004.jpg?t=1559566329\"><BR><BR><STRONG>Assetto Corsa Competizione is the new official Blancpain GT Series videogame. </STRONG><BR>Thanks to the extraordinary quality of simulation, the game will allow you to experience the real atmosphere of the GT3 championship, competing against official drivers, teams, cars and circuits reproduced in-game with the highest level of accuracy ever achieved. <BR>Sprint, Endurance and Spa 24 Hours races will come to life with an incredible level of realism, in both single and multiplayer modes.<BR>Assetto Corsa Competizione will feature Blancpain GT Series\u2019 2018 Season, and will also include Season 2019, that will be provided as a free update during Summer 2019.<BR>Assetto Corsa Competizione is born from KUNOS Simulazioni's long-term experience, and it takes full advantage of Unreal Engine 4 to ensure photorealistic weather conditions and graphics, night races, motion capture animations, reaching a new standard in terms of driving realism and immersion, thanks to its further improved tyre and aerodynamic models.<BR>Designed to innovate, Assetto Corsa Competizione will be set to promote eSports, bringing players at the heart of the Blancpain GT Series and putting them behind the wheel of Ferraris, Lamborghinis, McLarens and many other prestigious GT racing cars, all reproduced with outstanding level of detail.<BR><BR><STRONG>REALISTIC SIMULATION</STRONG><BR>Assetto Corsa Competizione is designed to faithfully recreate the performance and the driving experience of real Blancpain GT Series cars through a sophisticated mathematical model that accurately replicates tyre grip, aerodynamic impact, engine parameters, suspensions and electronics systems that determine vehicle balance, as well as the influence of mechanical damage on the car's drivability.<BR><BR><STRONG>NEW-GENERATION GRAPHICS AND VISUAL EFFECTS</STRONG><BR>Unreal Engine 4 guarantees photorealistic rendering and an accurate representation of scenarios, car materials and weather conditions. Thanks to the multi-channel audio sampling of real GT cars, the game conveys captivating and immersive acoustic surroundings and realistic environmental effects.<BR><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/805550/extras/001.jpg?t=1559566329\"><BR><BR><STRONG>CARE FOR DETAILS</STRONG><BR>Even the secondary details are faithfully reproduced to make you feel the thrill of being in the cockpit of a real racing car. Doors, windshield wipers, headlights, racing lights, racing equipment and control devices such as ABS, traction control, engine ignition and ECU mapping, are all under the driver\u2019s management to assure the best performance and offer the player total control of the car.<BR><BR><STRONG>THE MOST ACCURATE CIRCUITS</STRONG><BR>Thanks to Laserscan technology, every official circuit is recreated with the utmost accuracy: all curbs and details perfectly fit their real counterparts to grant a gaming experience as faithful to reality as possible.<BR><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/805550/extras/003.jpg?t=1559566329\"><BR><BR><STRONG>ADVANCED MULTIPLAYER FUNCTIONALITY</STRONG><BR>A well-structured ranking system will evaluate individual performance and driving behaviour to reward the most virtuous drivers and promote fair play in online competitions. The matchmaking function makes sure that you can compete with opponents of similar skill level and easily find online races to join, while the leaderboa",
+		"system_requirements": "<H2>System Requirements</H2> <DIV class=sysreq_contents> <DIV class=\"game_area_sys_req sysreq_content active\" data-os=\"win\"> <DIV class=game_area_sys_req_leftCol> <UL><STRONG>Minimum:</STRONG><BR> <UL class=bb_ul> <LI>Requires a 64-bit processor and operating system<BR> <LI><STRONG>OS:</STRONG> Windows 7 64-bit Service Pack 1<BR> <LI><STRONG>Processor:</STRONG> Intel Core i5-4460 or AMD FX-8120<BR> <LI><STRONG>Memory:</STRONG> 4 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> GeForce GTX 460 2GB, Radeon HD 7770<BR> <LI><STRONG>DirectX:</STRONG> Version 11<BR> <LI><STRONG>Storage:</STRONG> 50 GB available space<BR> <LI><STRONG>Sound Card:</STRONG> Integrated</LI></UL></UL></DIV> <DIV class=game_area_sys_req_rightCol> <UL><STRONG>Recommended:</STRONG><BR> <UL class=bb_ul> <LI>Requires a 64-bit processor and operating system<BR> <LI><STRONG>OS:</STRONG> Windows 10 64-bit<BR> <LI><STRONG>Processor:</STRONG> Intel Core i5-8600K or AMD Ryzen 5 2600X<BR> <LI><STRONG>Memory:</STRONG> 16 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> GeForce GTX 1070 8 GB, Radeon RX 580 8GB<BR> <LI><STRONG>DirectX:</STRONG> Version 11<BR> <LI><STRONG>Storage:</STRONG> 50 GB available space<BR> <LI><STRONG>Sound Card:</STRONG> Integrated</LI></UL></UL></DIV> <DIV style=\"CLEAR: both\"></DIV></DIV></DIV>",
+		"versiontitle": [
+			"Buy Assetto Corsa Competizione"
+		],
+		"versionfinalprice": [
+			"$44.99"
+		],
+		"versionhtml": [
+			"<DIV class=game_area_purchase_game_wrapper><DIV class=game_area_purchase_game> <FORM method=post name=add_to_cart_245453 action=https://store.steampowered.com/cart/><INPUT type=hidden value=1_5_9__403 name=snr> <INPUT type=hidden value=add_to_cart name=action> <INPUT type=hidden value=d15bbf830f300d9679f6ff86 name=sessionid> <INPUT type=hidden value=245453 name=subid> </FORM> <DIV class=game_area_purchase_platform><SPAN class=\"platform_img win\"></SPAN></DIV> <H1>Buy Assetto Corsa Competizione</H1> <DIV class=game_purchase_action> <DIV class=game_purchase_action_bg> <DIV class=\"game_purchase_price price\" data-price-final=\"4499\">$44.99 </DIV> <DIV class=btn_addtocart><A id=btn_add_to_cart_245453 class=\"btnv6_green_white_innerfade btn_medium\" href=\"javascript:addToCart(245453);\"><SPAN>Add to Cart</SPAN> </A></DIV></DIV></DIV></DIV></DIV>"
+		],
+		"platform": [
+			"https://store.steampowered.com/public/images/v6/icon_platform_win.png?v=3"
+		],
+		"sidebarhtml": "<DIV id=responsive_apppage_details_left_ctn></DIV> <DIV id=responsive_apppage_details_right_ctn></DIV> <DIV style=\"CLEAR: both\"></DIV> <DIV class=\"block responsive_apppage_details_right heading\">Is this game relevant to you?</DIV> <DIV class=\"block responsive_apppage_details_right recommendation_noinfo\"> <P>Sign in to see reasons why you may or may not like this based on your games, friends, and curators you follow. </P><BR><A class=\"btnv6_blue_hoverfade btn_medium\" href=\"https://store.steampowered.com/login/?redir=app/805550\"><SPAN>Sign in</SPAN></A> or <A class=\"btnv6_blue_hoverfade btn_medium\" href=\"steam://store/805550\"><SPAN>Open in Steam</SPAN></A> </DIV> <DIV id=category_block class=\"block responsive_apppage_details_left\"> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_singlePlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\">Single-player</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=1&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_multiPlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=1&amp;snr=1_5_9__423\">Multi-player</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=18&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_partial_controller.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=18&amp;snr=1_5_9__423\">Partial Controller Support</A></DIV> <DIV class=DRM_notice> <DIV>Requires agreement to a 3rd-party EULA</DIV> <DIV><A onclick=\"ShowEULA( this ); return false;\" href=\"http://store.steampowered.com//eula/805550_eula_0\">Assetto Corsa Competizione EULA</A></DIV></DIV></DIV> <DIV class=\"block responsive_apppage_details_right\"> <DIV class=block_title>Languages: </DIV> <TABLE class=game_language_options cellSpacing=0 cellPadding=0> <TBODY> <TR> <TH style=\"WIDTH: 94px\"></TH> <TH class=checkcol>Interface</TH> <TH class=checkcol>Full Audio</TH> <TH class=checkcol>Subtitles</TH></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">English </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Italian </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">French </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">German </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Spanish - Spain </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR style=\"DISPLAY: none\"> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Simplified Chinese </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR style=\"DISPLAY: none\"> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Traditional Chinese </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR style=\"DISPLAY: none\"> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Korean </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR style",
+		"genre": [
+			"Racing",
+			"Simulation",
+			"Sports"
+		],
+		"c": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256751996/movie.184x123.jpg?t=1559135195",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256751978/movie.184x123.jpg?t=1559135204",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256751977/movie.184x123.jpg?t=1559135213",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a80e17a1755d5abee6d40b88a1ed50519537edf0.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_4b921c2011fe27480c822d268f14b377e33490f4.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_def83e8db4593340b8dea8029f99c75ace2c0fdd.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_8a3b98ef30b2bf566fc7b8f7010ab5cf2787e17e.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_9f6808bf49cdc863abfb92d7a879c58e8a1d8993.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_77853fe67237101dabc7471a84eb9304dfbec3b6.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_177402c173ce1ae254d1d8099e464ae0a186c42d.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_d44a271359515f89c2a3ba239fe28ea20c53e862.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a44d5883126d86add1884c5ee1400c6fce7311fc.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_5bcc78e8e2d733abed4a78ed707d869cc514700f.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_5d2a1dafdda4ff60aa0e06d538a11b407496315e.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_befbf5f785d4a08352ec6f47fc9e0a7d49ca1e20.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_598377335f9aac9309e4292cd4330bde49e17e35.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_f6386517ca3c36efb1c667fde765fe7e463f4837.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_0084ab98316c01011db73ad37d866930782dc609.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_6ac09f93ff6e0651e1460d38a1dd4a6c327da0be.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_5eb2e46dba257efb77d7f0c20f3713fa4ee6b9f9.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_f6267635ab5ddd3ab6f8f49722d9c27d616e6430.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_4db9a40c4620d2f2a289655d1399279b57addd6f.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_dc7203597f2907fc4e02e04f05508cdf1eb5f23f.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_e629cbb72fd87c9504c92025419dd762f2bb3af7.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_eeacec16270ee95e51a3d2c82aac2d4aca2e168b.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_c7ac9ddbdb34216631659775586494cfe1f16e1d.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_89653019aec9b8ceb458266ddea6da7deac07b98.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_5b8cf8930cfaf44a1eeac83eb5fa32b140f9da76.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_68deecedefa277c8fade146170ba62d89c89ccf3.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_795fbe2da85ac340b1c70dcd7e296209e70e4f17.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_b39b96d441e3a034d564d20d225c2467632d13cd.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a0035e4889687718f1a5b0141c1c3a7f3325c557.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_9670e981f6fcbf9d8982136849a344934f6afc7b.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_0ee56a53e571aee5b9fbae105782d279d40673e1.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_03bc628820bdf1574e5d9782a3a20d4accc533a0.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_fd428dcd3db87c4175b884d24151030f516270c3.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_d61057425761b7002ad7c580e47a72a5973a8b75.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_086c33d14297af045fd09efcf7628b58dc2e148b.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3ddfb4925feca6c433c80c044abdd591ac60b654.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_70306aeaeb3524fb637143faa709d7b53cd92e48.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_0ca18afc7a7993b1a482031e59d8405f1397efdf.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_065b5b6a94cc9092b14f905a15921200466dfbc8.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3cb1ee3f7d19dd86b42eccb5146afb4c2b7ced20.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_10c668c7e9097b93a13514d5370945c13784e9a3.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_f251fa075ffc3fc344d119c0e8cdbeb58de5a257.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a11ab988de7e4247b013126e62c12959464c4a58.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_118ebf9b2d77ac8ad87f6642033595391b0cc050.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_d2d82ee0de083b8398c799e2bcb5df044f7a38fe.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_590ffcdc654a2f6808df8342797182fc066877d2.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3d8709389e30528875fd6c956964a793fe5a79fc.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_d47a1d5e16455b642af6a712590c44006a39a04c.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a93d45405ce943c61e8091d10eae1f0d5213975f.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_674c9f16ed475015333240f223419ba43d7639c5.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_42c7216f5390215d9c167cb07447f659530597ed.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_34f081cdae33fdfd63bb0ac0918d84de32993fc0.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_94bb9db6d42580bc4a3e5d6ec20f473daabcc7ec.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_4100b08d26d7d21797d6899241c5844c69b5bfa9.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_fb62be720c35ed8f220ceed5315a0061dd05f1fc.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_ed9dca7fbee748c81faf216849814b5822f25f13.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_72340ccfdcffe96795550420fcffb63409a348ef.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_6fe78bc0b71f14c84da46c3f4e8739d690055f09.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_c842b988e614f70f35aac11455a4ee9e58e1c715.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3898746599144d08cfe65a96d7335eea8c63273a.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_4495bc8009a86eff6d289dcc191c37604831ab5e.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_63e7b5598bea1912e4d949573211021cdb2f55eb.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_ff365bfe03012afd8f9a5b72d735bc3d6f54f93c.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3b857b93d8efdab61f01a15a94863ca6c4c3e6ae.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_09230a046e005c6a384991a90e1b61c8a23883bc.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_ad53b7d9de3f39af4b91286f1b64a27c6652a535.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_f0cee8966871376b8a4a060e2db30794dc22ac7a.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_edd39207e2889377cf248eeeec4fe125b2fea41c.116x65.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_35e8860ff9aea061f51713a653519ed8844f5db3.116x65.jpg?t=1559566329"
+		],
+		"a": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a80e17a1755d5abee6d40b88a1ed50519537edf0.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_4b921c2011fe27480c822d268f14b377e33490f4.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_def83e8db4593340b8dea8029f99c75ace2c0fdd.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_8a3b98ef30b2bf566fc7b8f7010ab5cf2787e17e.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_9f6808bf49cdc863abfb92d7a879c58e8a1d8993.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_77853fe67237101dabc7471a84eb9304dfbec3b6.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_177402c173ce1ae254d1d8099e464ae0a186c42d.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_d44a271359515f89c2a3ba239fe28ea20c53e862.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a44d5883126d86add1884c5ee1400c6fce7311fc.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_5bcc78e8e2d733abed4a78ed707d869cc514700f.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_5d2a1dafdda4ff60aa0e06d538a11b407496315e.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_befbf5f785d4a08352ec6f47fc9e0a7d49ca1e20.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_598377335f9aac9309e4292cd4330bde49e17e35.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_f6386517ca3c36efb1c667fde765fe7e463f4837.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_0084ab98316c01011db73ad37d866930782dc609.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_6ac09f93ff6e0651e1460d38a1dd4a6c327da0be.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_5eb2e46dba257efb77d7f0c20f3713fa4ee6b9f9.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_f6267635ab5ddd3ab6f8f49722d9c27d616e6430.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_4db9a40c4620d2f2a289655d1399279b57addd6f.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_dc7203597f2907fc4e02e04f05508cdf1eb5f23f.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_e629cbb72fd87c9504c92025419dd762f2bb3af7.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_eeacec16270ee95e51a3d2c82aac2d4aca2e168b.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_c7ac9ddbdb34216631659775586494cfe1f16e1d.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_89653019aec9b8ceb458266ddea6da7deac07b98.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_5b8cf8930cfaf44a1eeac83eb5fa32b140f9da76.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_68deecedefa277c8fade146170ba62d89c89ccf3.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_795fbe2da85ac340b1c70dcd7e296209e70e4f17.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_b39b96d441e3a034d564d20d225c2467632d13cd.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a0035e4889687718f1a5b0141c1c3a7f3325c557.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_9670e981f6fcbf9d8982136849a344934f6afc7b.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_0ee56a53e571aee5b9fbae105782d279d40673e1.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_03bc628820bdf1574e5d9782a3a20d4accc533a0.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_fd428dcd3db87c4175b884d24151030f516270c3.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_d61057425761b7002ad7c580e47a72a5973a8b75.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_086c33d14297af045fd09efcf7628b58dc2e148b.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3ddfb4925feca6c433c80c044abdd591ac60b654.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_70306aeaeb3524fb637143faa709d7b53cd92e48.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_0ca18afc7a7993b1a482031e59d8405f1397efdf.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_065b5b6a94cc9092b14f905a15921200466dfbc8.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3cb1ee3f7d19dd86b42eccb5146afb4c2b7ced20.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_10c668c7e9097b93a13514d5370945c13784e9a3.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_f251fa075ffc3fc344d119c0e8cdbeb58de5a257.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a11ab988de7e4247b013126e62c12959464c4a58.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_118ebf9b2d77ac8ad87f6642033595391b0cc050.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_d2d82ee0de083b8398c799e2bcb5df044f7a38fe.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_590ffcdc654a2f6808df8342797182fc066877d2.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3d8709389e30528875fd6c956964a793fe5a79fc.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_d47a1d5e16455b642af6a712590c44006a39a04c.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_a93d45405ce943c61e8091d10eae1f0d5213975f.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_674c9f16ed475015333240f223419ba43d7639c5.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_42c7216f5390215d9c167cb07447f659530597ed.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_34f081cdae33fdfd63bb0ac0918d84de32993fc0.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_94bb9db6d42580bc4a3e5d6ec20f473daabcc7ec.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_4100b08d26d7d21797d6899241c5844c69b5bfa9.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_fb62be720c35ed8f220ceed5315a0061dd05f1fc.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_ed9dca7fbee748c81faf216849814b5822f25f13.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_72340ccfdcffe96795550420fcffb63409a348ef.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_6fe78bc0b71f14c84da46c3f4e8739d690055f09.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_c842b988e614f70f35aac11455a4ee9e58e1c715.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3898746599144d08cfe65a96d7335eea8c63273a.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_4495bc8009a86eff6d289dcc191c37604831ab5e.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_63e7b5598bea1912e4d949573211021cdb2f55eb.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_ff365bfe03012afd8f9a5b72d735bc3d6f54f93c.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_3b857b93d8efdab61f01a15a94863ca6c4c3e6ae.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_09230a046e005c6a384991a90e1b61c8a23883bc.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_ad53b7d9de3f39af4b91286f1b64a27c6652a535.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_f0cee8966871376b8a4a060e2db30794dc22ac7a.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_edd39207e2889377cf248eeeec4fe125b2fea41c.1920x1080.jpg?t=1559566329",
+			"https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_35e8860ff9aea061f51713a653519ed8844f5db3.1920x1080.jpg?t=1559566329"
+		],
+		"v": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256751996/movie_max.mp4?t=1559135195",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256751978/movie_max.mp4?t=1559135204",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256751977/movie_max.mp4?t=1559135213"
+		],
+		"reviewsall": "Mostly Positive\r\n(2,315)",
+		"reviewsrecent": "Mixed\r\n(588)"
+	},
+	"215530": {
+		"id": "215530",
+		"urlid": "app/215530",
+		"oldprice": "$14.99",
+		"price": "$1.49",
+		"imgname": "TIAoVH",
+		"title": "The Incredible Adventures of Van Helsing",
+		"discount": "-90%",
+		"img": "https://steamcdn-a.akamaihd.net/steam/apps/215530/header.jpg?t=1507543615",
+		"imgtall": "https://steamcdn-a.akamaihd.net/steam/marketing/8239265670281448881//images/message_imageMW.png",
+		"description": "Put on your wide-brimmed hat, grab your weapons and embark on an incredible adventure in the gothic-noir world of Borgovia, where mad science threatens the fragile peace between monster and mortal.",
+		"releasedate": "May 22, 2013",
+		"developer": "NeocoreGames",
+		"publisher": "NeocoreGames",
+		"developerlink": "https://store.steampowered.com/developer/NeocoreGames?snr=1_5_9__2000",
+		"publisherlink": "https://store.steampowered.com/developer/NeocoreGames?snr=1_5_9__2000",
+		"game_description": "<H2>Reviews</H2> <P>\"Get this game, dear reader. You will not be disappointed.\"<BR><BR>9/10 \u2013 <A href=\"https://steamcommunity.com/linkfilter/?url=http://www.hookedgamers.com/pc/the_incredible_adventures_of_van_helsing/review/article-1066.html\" rel=noopener target=_blank>Hooked Gamers</A><BR><BR>\"The Incredible Adventures of Van Helsing is a surprisingly enchanting ARPG from an incredibly talented team.\"<BR><BR>8.5/10 \u2013 <A href=\"http://it.ign.com/recensione/5878/nel-nome-del-padre-the-incredible-adventures-of-van-helsing/1\" rel=noreferrer target=_blank>IGN Italia</A><BR><BR>\"There is a lot in this $15 game, and fans of action RPGs should really take a look at it. I highly suggest it.\"<BR><BR>8.5/10 \u2013 <A href=\"https://steamcommunity.com/linkfilter/?url=http://www.ztgd.com/reviews/the-incredible-adventures-of-van-helsing/\" rel=noopener target=_blank>ZTGD</A></P>\r\n<H2>About This Game</H2>Put on your wide-brimmed hat, grab your weapons and embark on an incredible adventure in the gothic-noir world of Borgovia, where mad science threatens the fragile peace between monster and mortal. Be Van Helsing, monster-hunter extraordinaire and save the day with your charming and beautiful companion, Lady Katarina (who happens to be a ghost, by the way). Explore the savage wilderness in the mountains and the soot-stained brick districts of a grim metropolis twisted by weird science, and don\u2019t forget: you might never know who the real monsters are! <H2 class=bb_tag>Main Features</H2> <UL class=bb_ul> <LI>Enter a memorable gothic-noir universe filled with monsters, magic and weird science.<BR> <LI>Play through a refreshingly unique story, spiced up with wry humor and snappy dialogue.<BR> <LI>Fight fierce battles against supernatural foes with diverse skills and abilities.<BR> <LI>Use the special abilities and tailor the skills of your remarkable follower.<BR> <LI>Customize your character through a detailed level-up system where you decide which skills and abilities you\u2019ll need for the hunt.<BR> <LI>Modify your skills on the spot with a unique power-up system.<BR> <LI>Learn the secrets of mystical alchemy and forge powerful items.<BR> <LI>Build and develop your hideout and place traps to defend it from waves of terrible monsters.<BR> <LI>Become the greatest monster slayer of all time while playing a cooperative multiplayer monster hunt up to four players.</LI></UL>",
+		"system_requirements": "<H2>System Requirements</H2> <DIV class=sysreq_contents> <DIV class=\"game_area_sys_req sysreq_content active\" data-os=\"win\"> <DIV class=game_area_sys_req_leftCol> <UL><STRONG>Minimum:</STRONG><BR> <UL class=bb_ul> <LI><STRONG>OS:</STRONG>Windows XP SP3, Windows 7, Windows 8<BR> <LI><STRONG>Processor:</STRONG>Dual Core CPU 2.0 GHz<BR> <LI><STRONG>Memory:</STRONG>2 GB RAM<BR> <LI><STRONG>Graphics:</STRONG>GeForce 8800, Radeon HD4000, Intel HD4000 (min. 512 MB VRAM) <BR> <LI><STRONG>DirectX\u00ae:</STRONG>9.0c<BR> <LI><STRONG>Hard Drive:</STRONG>20 GB HD space<BR> <LI><STRONG>Sound:</STRONG>DirectX 9.0c compatible sound card</LI></UL></UL></DIV> <DIV class=game_area_sys_req_rightCol> <UL><STRONG>Recommended:</STRONG><BR> <UL class=bb_ul> <LI><STRONG>OS:</STRONG>Windows 7 (64 bit), Windows 8 (64 bit)<BR> <LI><STRONG>Processor:</STRONG>Quad Core CPU 2.5 GHz<BR> <LI><STRONG>Memory:</STRONG>4 GB RAM<BR> <LI><STRONG>Graphics:</STRONG>GeForce 560 or Radeon HD5800<BR> <LI><STRONG>DirectX\u00ae:</STRONG>11<BR> <LI><STRONG>Hard Drive:</STRONG>20 GB HD space<BR> <LI><STRONG>Sound:</STRONG>DirectX 11 compatible sound card</LI></UL></UL></DIV> <DIV style=\"CLEAR: both\"></DIV></DIV></DIV>",
+		"versiontitle": [
+			"Buy The Incredible Adventures of Van Helsing",
+			"Buy The Incredible Adventures of Van Helsing - Complete Pack",
+			"Buy The Incredible Adventures of Van Helsing Anthology"
+		],
+		"versiondescription": [
+			"MIDWEEK MADNESS! Offer ends in",
+			"Includes 4 items: The Incredible Adventures of Van Helsing, The Incredible Adventures of Van Helsing: Blue Blood, Van Helsing: Arcane Mechanic, Van Helsing: Thaumaturge\r\nMIDWEEK MADNESS! Offer ends in",
+			"Includes 9 items: Deathtrap, The Incredible Adventures of Van Helsing, The Incredible Adventures of Van Helsing II, The Incredible Adventures of Van Helsing II - OST, The Incredible Adventures of Van Helsing III, The Incredible Adventures of Van Helsing: Blue Blood, Van Helsing II: Ink Hunt, Van Helsing: Arcane Mechanic, Van Helsing: Thaumaturge\r\nMIDWEEK MADNESS! Offer ends in"
+		],
+		"versionoriginalprice": [
+			"$14.99",
+			"$19.99",
+			"$74.99"
+		],
+		"versiondiscount": [
+			"-90%",
+			"-90%",
+			"-90%"
+		],
+		"versionfinalprice": [
+			"$1.49",
+			"$1.99",
+			"$7.49"
+		],
+		"versionhtml": [
+			"<DIV class=game_area_purchase_game_wrapper><DIV class=game_area_purchase_game> <FORM method=post name=add_to_cart_27833 action=https://store.steampowered.com/cart/><INPUT type=hidden value=1_5_9__403 name=snr> <INPUT type=hidden value=add_to_cart name=action> <INPUT type=hidden value=d15bbf830f300d9679f6ff86 name=sessionid> <INPUT type=hidden value=27833 name=subid> </FORM> <DIV class=game_area_purchase_platform><SPAN class=\"platform_img win\"></SPAN></DIV> <H1>Buy The Incredible Adventures of Van Helsing</H1> <SCRIPT type=text/javascript> $J( function() { var $DiscountCountdown = $J( '#27833_countdown_0' ); if ( $DiscountCountdown ) InitDailyDealTimer( $DiscountCountdown, 1559926800 ); } );</SCRIPT> <P class=game_purchase_discount_countdown>MIDWEEK MADNESS! Offer ends in <SPAN id=27833_countdown_0></SPAN></P> <DIV class=game_purchase_action> <DIV class=game_purchase_action_bg> <DIV class=\"discount_block game_purchase_discount\" data-price-final=\"149\"> <DIV class=discount_pct>-90%</DIV> <DIV class=discount_prices> <DIV class=discount_original_price>$14.99</DIV> <DIV class=discount_final_price>$1.49</DIV></DIV></DIV> <DIV class=btn_addtocart><A id=btn_add_to_cart_27833 class=\"btnv6_green_white_innerfade btn_medium\" href=\"javascript:addToCart(27833);\"><SPAN>Add to Cart</SPAN> </A></DIV></DIV></DIV></DIV></DIV>",
+			"<DIV class=game_area_purchase_game_wrapper><DIV class=game_area_purchase_game> <FORM method=post name=add_to_cart_34522 action=https://store.steampowered.com/cart/><INPUT type=hidden value=1_5_9__403 name=snr> <INPUT type=hidden value=add_to_cart name=action> <INPUT type=hidden value=d15bbf830f300d9679f6ff86 name=sessionid> <INPUT type=hidden value=34522 name=subid> </FORM> <DIV class=game_area_purchase_platform><SPAN class=\"platform_img win\"></SPAN></DIV> <H1>Buy The Incredible Adventures of Van Helsing - Complete Pack</H1> <P class=package_contents><B>Includes 4 items:</B> The Incredible Adventures of Van Helsing, The Incredible Adventures of Van Helsing: Blue Blood, Van Helsing: Arcane Mechanic, Van Helsing: Thaumaturge </P> <SCRIPT type=text/javascript> $J( function() { var $DiscountCountdown = $J( '#34522_countdown_1' ); if ( $DiscountCountdown ) InitDailyDealTimer( $DiscountCountdown, 1559926800 ); } );</SCRIPT> <P class=game_purchase_discount_countdown>MIDWEEK MADNESS! Offer ends in <SPAN id=34522_countdown_1></SPAN></P> <DIV class=game_purchase_action> <DIV class=game_purchase_action_bg> <DIV class=\"btn_addtocart btn_packageinfo\"><A class=\"btnv6_blue_blue_innerfade btn_medium\" href=\"https://store.steampowered.com/sub/34522/?snr=1_5_9__403\"><SPAN>Package info</SPAN> </A></DIV></DIV> <DIV class=game_purchase_action_bg> <DIV class=\"discount_block game_purchase_discount\" data-price-final=\"199\"> <DIV class=discount_pct>-90%</DIV> <DIV class=discount_prices> <DIV class=discount_original_price>$19.99</DIV> <DIV class=discount_final_price>$1.99</DIV></DIV></DIV> <DIV class=btn_addtocart><A id=btn_add_to_cart_34522 class=\"btnv6_green_white_innerfade btn_medium\" href=\"javascript:addToCart(34522);\"><SPAN>Add to Cart</SPAN> </A></DIV></DIV></DIV></DIV></DIV>",
+			"<DIV class=game_area_purchase_game_wrapper><DIV class=game_area_purchase_game> <FORM method=post name=add_to_cart_75825 action=https://store.steampowered.com/cart/><INPUT type=hidden value=1_5_9__403 name=snr> <INPUT type=hidden value=add_to_cart name=action> <INPUT type=hidden value=d15bbf830f300d9679f6ff86 name=sessionid> <INPUT type=hidden value=75825 name=subid> </FORM> <DIV class=game_area_purchase_platform><SPAN class=\"platform_img win\"></SPAN></DIV> <H1>Buy The Incredible Adventures of Van Helsing Anthology</H1> <P class=package_contents><B>Includes 9 items:</B> Deathtrap, The Incredible Adventures of Van Helsing, The Incredible Adventures of Van Helsing II, The Incredible Adventures of Van Helsing II - OST, The Incredible Adventures of Van Helsing III, The Incredible Adventures of Van Helsing: Blue Blood, Van Helsing II: Ink Hunt, Van Helsing: Arcane Mechanic, Van Helsing: Thaumaturge </P> <SCRIPT type=text/javascript> $J( function() { var $DiscountCountdown = $J( '#75825_countdown_2' ); if ( $DiscountCountdown ) InitDailyDealTimer( $DiscountCountdown, 1559926800 ); } );</SCRIPT> <P class=game_purchase_discount_countdown>MIDWEEK MADNESS! Offer ends in <SPAN id=75825_countdown_2></SPAN></P> <DIV class=game_purchase_action> <DIV class=game_purchase_action_bg> <DIV class=\"btn_addtocart btn_packageinfo\"><A class=\"btnv6_blue_blue_innerfade btn_medium\" href=\"https://store.steampowered.com/sub/75825/?snr=1_5_9__403\"><SPAN>Package info</SPAN> </A></DIV></DIV> <DIV class=game_purchase_action_bg> <DIV class=\"discount_block game_purchase_discount\" data-price-final=\"749\"> <DIV class=discount_pct>-90%</DIV> <DIV class=discount_prices> <DIV class=discount_original_price>$74.99</DIV> <DIV class=discount_final_price>$7.49</DIV></DIV></DIV> <DIV class=btn_addtocart><A id=btn_add_to_cart_75825 class=\"btnv6_green_white_innerfade btn_medium\" href=\"javascript:addToCart(75825);\"><SPAN>Add to Cart</SPAN> </A></DIV></DIV></DIV></DIV></DIV>"
+		],
+		"platform": [
+			"https://store.steampowered.com/public/images/v6/icon_platform_win.png?v=3",
+			"https://store.steampowered.com/public/images/v6/icon_platform_win.png?v=3",
+			"https://store.steampowered.com/public/images/v6/icon_platform_win.png?v=3"
+		],
+		"sidebarhtml": "<DIV id=responsive_apppage_details_left_ctn></DIV> <DIV id=responsive_apppage_details_right_ctn></DIV> <DIV style=\"CLEAR: both\"></DIV> <DIV class=\"block responsive_apppage_details_right heading\">Is this game relevant to you?</DIV> <DIV class=\"block responsive_apppage_details_right recommendation_noinfo\"> <P>Sign in to see reasons why you may or may not like this based on your games, friends, and curators you follow. </P><BR><A class=\"btnv6_blue_hoverfade btn_medium\" href=\"https://store.steampowered.com/login/?redir=app/215530\"><SPAN>Sign in</SPAN></A> or <A class=\"btnv6_blue_hoverfade btn_medium\" href=\"steam://store/215530\"><SPAN>Open in Steam</SPAN></A> </DIV> <DIV class=\"block responsive_apppage_details_left\"> <DIV><A class=\"btnv6_blue_hoverfade btn_medium\" href=\"javascript:ShowGotSteamModal( 'steam://install/241210', &quot;Van Helsing I. Complete Pack Demo&quot;, &quot;Download Demo&quot; )\"><SPAN>Download Demo</SPAN> </A></DIV></DIV> <DIV id=category_block class=\"block responsive_apppage_details_left\"> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_singlePlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\">Single-player</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=1&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_multiPlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=1&amp;snr=1_5_9__423\">Multi-player</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=9&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_coop.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=9&amp;snr=1_5_9__423\">Co-op</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=27&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_multiPlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=27&amp;snr=1_5_9__423\">Cross-Platform Multiplayer</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_achievements.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423\">Steam Achievements</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_controller.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\">Full controller support</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=29&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_cards.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=29&amp;snr=1_5_9__423\">Steam Trading Cards</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=23&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_cloud.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=23&amp;snr=1_5_9__423\">Steam Cloud</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href",
+		"genre": [
+			"Action",
+			"Adventure",
+			"Indie",
+			"RPG"
+		],
+		"c": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028731/movie.184x123.jpg?t=1447357960",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028701/movie.184x123.jpg?t=1447357914",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028700/movie.184x123.jpg?t=1447357914",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028591/movie.184x123.jpg?t=1447357792",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028732/movie.184x123.jpg?t=1447357960",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_1abfd8be1ffa55389eae881d5af9cf91ce21c256.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_1039d7e51e9348cd4df09b6213b892f4520b0989.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_9d26347a73838c2f9ae0998dd6cb434c747bb7db.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_9c5ddb9aae37484192d3d891e932faddbd224edf.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_f2a976fc6b981cf6b07dd19f3b189d86243e403f.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_6f55f744876db793db3656ad6c52eaa57e2ce43f.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_7fb6785701c8a813fbacd47540e84622355d07dd.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_8b5e0adea2b14b02dde992e2cb27d3c3167e5bbe.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_29d0b9d3e4fa5f83a5707d648ef42745339d3ccc.116x65.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_985ce3c8c6b1053c9ff7d59eb0534e2c4a484604.116x65.jpg?t=1507543615"
+		],
+		"a": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_1abfd8be1ffa55389eae881d5af9cf91ce21c256.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_1039d7e51e9348cd4df09b6213b892f4520b0989.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_9d26347a73838c2f9ae0998dd6cb434c747bb7db.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_9c5ddb9aae37484192d3d891e932faddbd224edf.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_f2a976fc6b981cf6b07dd19f3b189d86243e403f.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_6f55f744876db793db3656ad6c52eaa57e2ce43f.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_7fb6785701c8a813fbacd47540e84622355d07dd.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_8b5e0adea2b14b02dde992e2cb27d3c3167e5bbe.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_29d0b9d3e4fa5f83a5707d648ef42745339d3ccc.1920x1080.jpg?t=1507543615",
+			"https://steamcdn-a.akamaihd.net/steam/apps/215530/ss_985ce3c8c6b1053c9ff7d59eb0534e2c4a484604.1920x1080.jpg?t=1507543615"
+		],
+		"v": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028731/movie_max.mp4?t=1447357960",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028701/movie_max.mp4?t=1447357914",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028700/movie_max.mp4?t=1447357914",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028591/movie_max.mp4?t=1447357792",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2028732/movie_max.mp4?t=1447357960"
+		],
+		"reviewsall": "Very Positive\r\n(4,149)",
+		"reviewsrecent": "Mostly Positive\r\n(49)",
+		"versioninfourl": [
+			"https://store.steampowered.com/sub/34522/?snr=1_5_9__403",
+			"https://store.steampowered.com/sub/75825/?snr=1_5_9__403"
+		]
+	},
+	"264710": {
+		"id": "264710",
+		"urlid": "app/264710",
+		"oldprice": "$24.99",
+		"price": "17.49",
+		"imgname": "S",
+		"title": "Subnautica",
+		"discount": "-30%",
+		"img": "https://steamcdn-a.akamaihd.net/steam/apps/264710/header.jpg?t=1559604662",
+		"imgtall": "https://steamcdn-a.akamaihd.net/steam/marketing/890654852760606290//images/message_image_IM.jpg",
+		"description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
+		"releasedate": "Jan 23, 2018",
+		"developer": "Unknown Worlds Entertainment",
+		"publisher": "Unknown Worlds Entertainment",
+		"developerlink": "https://store.steampowered.com/developer/unknown-worlds?snr=1_5_9__2000",
+		"publisherlink": "https://store.steampowered.com/developer/unknown-worlds?snr=1_5_9__2000",
+		"game_description": "<H2>About This Game</H2>Subnautica is an underwater adventure game set on an alien ocean planet. A massive, open world full of wonder and peril awaits you! <H2 class=bb_tag>Dive Into a Vast Underwater World</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/HeadingDivider.png?t=1559604662\"><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/20161220_Steam_Inline_Shallows.jpg?t=1559604662\"><BR><BR>You have crash-landed on an alien ocean world, and the only way to go is down. Subnautica's oceans range from sun drenched shallow coral reefs to treacherous deep-sea trenches, lava fields, and bio-luminescent underwater rivers. Manage your oxygen supply as you explore kelp forests, plateaus, reefs, and winding cave systems. The water teems with life: Some of it helpful, much of it harmful. <H2 class=bb_tag>Scavenge, Craft, and Survive</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/HeadingDivider.png?t=1559604662\"><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/20141216_Steam_Inline_DamagedPod.jpg?t=1559604662\"><BR><BR>After crash landing in your Life Pod, the clock is ticking to find water, food, and to develop the equipment you need to explore. Collect resources from the ocean around you. Craft diving gear, lights, habitat modules, and submersibles. Venture deeper and further form to find rarer resources, allowing you to craft more advanced items. <H2 class=bb_tag>Construct Underwater Habitats</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/HeadingDivider.png?t=1559604662\"><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/20161220_Steam_Inline_Base.jpg?t=1559604662\"><BR><BR>Build bases on the sea floor. Choose layouts and components, and manage hull-integrity as depth and pressure increase. Use your base to store resources, park vehicles, and replenish oxygen supplies as you explore the vast ocean. <H2 class=bb_tag>Unravel the Mystery</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/HeadingDivider.png?t=1559604662\"><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/20170403_SN_Steam_Inline_Mystery.jpg?t=1559604662\"><BR><BR>What happened to this planet? Signs abound that something is not right. What caused you to crash? What is infecting the sea life? Who built the mysterious structures scattered around the ocean? Can you find a way to make it off the planet alive? <H2 class=bb_tag>Disrupt the Food Chain</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/HeadingDivider.png?t=1559604662\"><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/20161220_Steam_Inline_FoodChain.jpg?t=1559604662\"><BR><BR>The ocean teems with life: Use the ecosystem to help you. Lure and distract a threatening creature with a fresh fish, or simply swim as fast as you can to avoid gnashing jaws of roaming predators. <H2 class=bb_tag>Handle the Pressure</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/HeadingDivider.png?t=1559604662\"><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/steamexosuit.jpg?t=1559604662\"><BR><BR>Build a Pressure Re-Active Waterproof Nanosuit, or PRAWN Suit, and explore extreme depth and heat. Modify the suit with mining drills, torpedo launchers, propulsion cannons, grappling hooks and more. <H2 class=bb_tag>Fear the Night</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/HeadingDivider.png?t=1559604662\"><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/264710/extras/20161220_Steam_Inline_Night.jpg?t=1559604662\"><BR><BR>As the sun goes down, the predators come out. The ocean is unforgiving of those caught unprepared in the darkness. Areas that are safe to explore during the day become treacherous at night, but also reveal a beauty that those who hide from the darkness will never see. <H2 class=bb_tag>Dive Below the Ocean Floor</H2><IMG src=\"https://steamcdn-a.a",
+		"system_requirements": "<H2>System Requirements</H2> <DIV class=sysreq_tabs> <DIV class=\"sysreq_tab active\" data-os=\"win\">Windows </DIV> <DIV class=\"sysreq_tab \" data-os=\"mac\">Mac OS X </DIV> <DIV style=\"CLEAR: left\"></DIV></DIV> <DIV class=sysreq_contents> <DIV class=\"game_area_sys_req sysreq_content active\" data-os=\"win\"> <DIV class=game_area_sys_req_leftCol> <UL><STRONG>Minimum:</STRONG><BR> <UL class=bb_ul> <LI>Requires a 64-bit processor and operating system<BR> <LI><STRONG>OS:</STRONG> Windows Vista SP2 or newer, 64-bit<BR> <LI><STRONG>Processor:</STRONG> Intel Haswell 2 cores / 4 threads @ 2.5Ghz or equivalent<BR> <LI><STRONG>Memory:</STRONG> 4 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> Intel HD 4600 or equivalent - This includes most GPUs scoring greater than 950 points in the <A href=\"http://store.steampowered.com/app/223850/\" rel=noreferrer target=_blank>3DMark Fire Strike benchmark</A><BR> <LI><STRONG>DirectX:</STRONG> Version 11<BR> <LI><STRONG>Storage:</STRONG> 20 GB available space<BR> <LI><STRONG>Additional Notes:</STRONG> Subnautica is an Early Access game, and minimum specifications may change during development</LI></UL></UL></DIV> <DIV class=game_area_sys_req_rightCol> <UL><STRONG>Recommended:</STRONG><BR> <UL class=bb_ul> <LI>Requires a 64-bit processor and operating system<BR> <LI><STRONG>OS:</STRONG> Windows Vista SP2 or newer, 64-bit<BR> <LI><STRONG>Processor:</STRONG> Intel Haswell 4 cores / 4 threads @ 3.2Ghz or equivalent<BR> <LI><STRONG>Memory:</STRONG> 8 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> Nvidia GTX 550 Ti or equivalent, 2GB VRAM<BR> <LI><STRONG>DirectX:</STRONG> Version 11<BR> <LI><STRONG>Storage:</STRONG> 20 GB available space<BR> <LI><STRONG>Additional Notes:</STRONG> Subnautica is an Early Access game, and recommended specifications may change during development.</LI></UL></UL></DIV> <DIV style=\"CLEAR: both\"></DIV></DIV> <DIV class=\"game_area_sys_req sysreq_content \" data-os=\"mac\"> <DIV class=game_area_sys_req_leftCol> <UL><STRONG>Minimum:</STRONG><BR> <UL class=bb_ul> <LI>Requires a 64-bit processor and operating system<BR> <LI><STRONG>OS:</STRONG> OS X 10.9 Mavericks<BR> <LI><STRONG>Processor:</STRONG> Intel Haswell 2 cores / 4 threads @ 2.5Ghz or equivalent<BR> <LI><STRONG>Memory:</STRONG> 4 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> Intel HD 4600 or equivalent<BR> <LI><STRONG>Storage:</STRONG> 20 GB available space<BR> <LI><STRONG>Additional Notes:</STRONG> Subnautica is an Early Access game, and minimum specifications may change during development</LI></UL></UL></DIV> <DIV class=game_area_sys_req_rightCol> <UL><STRONG>Recommended:</STRONG><BR> <UL class=bb_ul> <LI>Requires a 64-bit processor and operating system<BR> <LI><STRONG>OS:</STRONG> OS X 10.9 Mavericks<BR> <LI><STRONG>Processor:</STRONG> Intel Haswell 4 cores / 4 threads @ 3.2Ghz or equivalent<BR> <LI><STRONG>Memory:</STRONG> 8 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> Nvidia GTX 550 Ti or equivalent, 2GB VRAM<BR> <LI><STRONG>Storage:</STRONG> 20 GB available space<BR> <LI><STRONG>Additional Notes:</STRONG> Subnautica is an Early Access game, and recommended specifications may change during development.</LI></UL></UL></DIV> <DIV style=\"CLEAR: both\"></DIV></DIV></DIV>",
+		"versiontitle": [
+			"Buy Subnautica"
+		],
+		"versionoriginalprice": [
+			"$24.99"
+		],
+		"versiondiscount": [
+			"-30%"
+		],
+		"versionfinalprice": [
+			"$17.49"
+		],
+		"versionhtml": [
+			"<DIV class=game_area_purchase_game_wrapper><DIV class=game_area_purchase_game> <FORM method=post name=add_to_cart_34366 action=https://store.steampowered.com/cart/><INPUT type=hidden value=1_5_9__403 name=snr> <INPUT type=hidden value=add_to_cart name=action> <INPUT type=hidden value=d15bbf830f300d9679f6ff86 name=sessionid> <INPUT type=hidden value=34366 name=subid> </FORM> <DIV class=game_area_purchase_platform><SPAN class=\"platform_img win\"></SPAN><SPAN class=\"platform_img mac\"></SPAN><SPAN class=\"platform_img hmd_separator\"></SPAN><SPAN title=\"HTC Vive\" class=\"platform_img htcvive\"></SPAN><SPAN title=\"Oculus Rift\" class=\"platform_img oculusrift\"></SPAN></DIV> <H1>Buy Subnautica</H1> <DIV class=game_purchase_action> <DIV class=game_purchase_action_bg> <DIV class=\"discount_block game_purchase_discount\" data-price-final=\"1749\"> <DIV class=discount_pct>-30%</DIV> <DIV class=discount_prices> <DIV class=discount_original_price>$24.99</DIV> <DIV class=discount_final_price>$17.49</DIV></DIV></DIV> <DIV class=btn_addtocart><A id=btn_add_to_cart_34366 class=\"btnv6_green_white_innerfade btn_medium\" href=\"javascript:addToCart(34366);\"><SPAN>Add to Cart</SPAN> </A></DIV></DIV></DIV></DIV></DIV>"
+		],
+		"platform": [
+			"https://store.steampowered.com/public/images/v6/icon_platform_win.png?v=3",
+			"https://store.steampowered.com/public/images/v6/icon_platform_mac.png?v=3"
+		],
+		"sidebarhtml": "<DIV id=responsive_apppage_details_left_ctn></DIV> <DIV id=responsive_apppage_details_right_ctn></DIV> <DIV style=\"CLEAR: both\"></DIV> <DIV class=\"block responsive_apppage_details_right heading\">Is this game relevant to you?</DIV> <DIV class=\"block responsive_apppage_details_right recommendation_noinfo\"> <P>Sign in to see reasons why you may or may not like this based on your games, friends, and curators you follow. </P><BR><A class=\"btnv6_blue_hoverfade btn_medium\" href=\"https://store.steampowered.com/login/?redir=app/264710\"><SPAN>Sign in</SPAN></A> or <A class=\"btnv6_blue_hoverfade btn_medium\" href=\"steam://store/264710\"><SPAN>Open in Steam</SPAN></A> </DIV> <DIV id=category_block class=\"block responsive_apppage_details_left\"> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_singlePlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\">Single-player</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_achievements.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423\">Steam Achievements</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_controller.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\">Full controller support</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=29&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_cards.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=29&amp;snr=1_5_9__423\">Steam Trading Cards</A></DIV></DIV> <DIV class=\"block responsive_apppage_details_left\"> <DIV class=\"block_title vrsupport\">VR Support<BR></DIV> <DIV class=VR_warning>The VR mode for this game requires the use of a gamepad or a keyboard and mouse.</DIV> <DIV class=\"details_block vrsupport\"> <DIV>Headsets</DIV></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=101\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_vr_headset_htc.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?vrsupport=101\">HTC Vive</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=102\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_vr_headset_oculus.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?vrsupport=102\">Oculus Rift</A></DIV> <DIV class=\"details_block vrsupport\"> <DIV>Input</DIV></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=202\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_controller.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?vrsupport=202\">Gamepad</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=203\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_vr_input_kbm.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?vrsupport=203\">Keyboard / Mouse</A></DIV> <DIV class=\"details_block vrsupport\"> <DIV>Play Area</DIV></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://s",
+		"genre": [
+			"Adventure",
+			"Indie"
+		],
+		"c": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256706800/movie.184x123.jpg?t=1516828564",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2036126/movie.184x123.jpg?t=1447366004",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256706872/movie.184x123.jpg?t=1516824043",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256662171/movie.184x123.jpg?t=1518110769",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256656451/movie.184x123.jpg?t=1491210612",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256682542/movie.184x123.jpg?t=1491210622",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256682547/movie.184x123.jpg?t=1491210632",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_e182b6b20bb797500f9f63c561586d920d44e37c.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_970a13f246e33e0df26d93baf9f8e975732adb4b.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_5f2f2ea498cdc632cbffd6cf37c1a09670eb3272.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_cebc378d2f7bc78978c21db4e3c5e12ccd067349.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_0ace7f8b4350b8fbdd16345a76bc30545256e918.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_f0eeabe108c2bc2b3e370b9828fb280035b50db2.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_b28404f3d108cc15aebbb2c3d7cb17e587225662.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_623579a6693f6fc48033e619cacc4306f10eef15.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_9fdfcc7572ae22b4afa21e6de3b23c962ca5bb55.116x65.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_883a98ad56021ce409219e1b749818866b6115cd.116x65.jpg?t=1559604662"
+		],
+		"a": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_e182b6b20bb797500f9f63c561586d920d44e37c.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_970a13f246e33e0df26d93baf9f8e975732adb4b.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_5f2f2ea498cdc632cbffd6cf37c1a09670eb3272.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_cebc378d2f7bc78978c21db4e3c5e12ccd067349.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_0ace7f8b4350b8fbdd16345a76bc30545256e918.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_f0eeabe108c2bc2b3e370b9828fb280035b50db2.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_b28404f3d108cc15aebbb2c3d7cb17e587225662.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_623579a6693f6fc48033e619cacc4306f10eef15.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_9fdfcc7572ae22b4afa21e6de3b23c962ca5bb55.1920x1080.jpg?t=1559604662",
+			"https://steamcdn-a.akamaihd.net/steam/apps/264710/ss_883a98ad56021ce409219e1b749818866b6115cd.1920x1080.jpg?t=1559604662"
+		],
+		"v": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256706800/movie_max.mp4?t=1516828564",
+			"https://steamcdn-a.akamaihd.net/steam/apps/2036126/movie_max.mp4?t=1447366004",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256706872/movie_max.mp4?t=1516824043",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256662171/movie_max.mp4?t=1518110769",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256656451/movie_max.mp4?t=1491210612",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256682542/movie_max.mp4?t=1491210622",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256682547/movie_max.mp4?t=1491210632"
+		],
+		"reviewsall": "Very Positive\r\n(87,646)",
+		"reviewsrecent": "Very Positive\r\n(585)"
+	},
+	"916730": {
+		"id": "916730",
+		"urlid": "app/916730",
+		"oldprice": "$7.99",
+		"price": "$6.79",
+		"imgname": "GR",
+		"title": "Gato Roboto",
+		"discount": "-15%",
+		"img": "https://steamcdn-a.akamaihd.net/steam/apps/916730/header.jpg?t=1559224714",
+		"imgtall": "https://steamcdn-a.akamaihd.net/steam/marketing/5389336284332455773//images/message_image_NA.jpg",
+		"description": "Pounce inside of your cozy armored mech and set off on a dangerous trek through an alien underworld full of irritable creatures and treacherous obstacles in a valiant effort to save your stranded captain and his crashed spaceship.",
+		"releasedate": "May 30, 2019",
+		"developer": "doinksoft",
+		"publisher": "Devolver Digital",
+		"developerlink": "https://store.steampowered.com/developer/DevolverDigital?snr=1_5_9__2000",
+		"publisherlink": "https://store.steampowered.com/publisher/DevolverDigital?snr=1_5_9__2000",
+		"game_description": "<H2>About This Game</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/916730/extras/steamart.jpg?t=1559224714\"><BR><BR>Pounce inside of your cozy armored mech and set off on a dangerous trek through an alien underworld full of irritable creatures and treacherous obstacles in a valiant effort to save your stranded captain and his crashed spaceship. Tiptoe outside the friendly confines of your technological marvel and follow your feline instincts through tight tunnels and mysterious waterways to scavenge for new weapons and gear. Adventure awaits the most curious of cats in Gato Roboto!<BR><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/916730/extras/gatostoregif.gif?t=1559224714\"><BR><BR>* Explore the underground labyrinth of a deep space outpost and uncover the dastardly deeds that unfolded before your arrival.<BR><BR>* Blast and dash your way through enemies and obstacles in an agile mech suit to face the guardians stationed precariously throughout the base.<BR><BR>* Cautiously venture outside the mech and risk all nine lives to explore areas inaccessible to your bulky, mechanical armor. <BR><BR>* Discover secrets abound and gather new weapons and items to help open up new areas on your journey through dozens of handcrafted environments.",
+		"system_requirements": "<H2>System Requirements</H2> <DIV class=sysreq_contents> <DIV class=\"game_area_sys_req sysreq_content active\" data-os=\"win\"> <DIV class=game_area_sys_req_leftCol> <UL><STRONG>Minimum:</STRONG><BR> <UL class=bb_ul> <LI><STRONG>OS:</STRONG> Windows 7, 8, 8.1, 10 x86/x64<BR> <LI><STRONG>Processor:</STRONG> Intel Pentium E2180 (2 * 2000) or equivalent<BR> <LI><STRONG>Memory:</STRONG> 2 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> GeForce 8600 GT (512 MB)<BR> <LI><STRONG>DirectX:</STRONG> Version 11<BR> <LI><STRONG>Storage:</STRONG> 1 GB available space<BR> <LI><STRONG>Additional Notes:</STRONG> Gamepad Recommended</LI></UL></UL></DIV> <DIV class=game_area_sys_req_rightCol> <UL><STRONG>Recommended:</STRONG><BR> <UL class=bb_ul> <LI><STRONG>OS:</STRONG> Windows 7, 8, 8.1, 10 x64<BR> <LI><STRONG>Processor:</STRONG> Intel Core i3-530 (2 * 2930) or equivalent<BR> <LI><STRONG>Memory:</STRONG> 4 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> GeForce GT 530 (1024 MB)<BR> <LI><STRONG>Storage:</STRONG> 1 GB available space<BR> <LI><STRONG>Additional Notes:</STRONG> Gamepad Recommended</LI></UL></UL></DIV> <DIV style=\"CLEAR: both\"></DIV></DIV></DIV>",
+		"versiontitle": [
+			"Buy Gato Roboto"
+		],
+		"versiondescription": [
+			"SPECIAL PROMOTION! Offer ends in"
+		],
+		"versionoriginalprice": [
+			"$7.99"
+		],
+		"versiondiscount": [
+			"-15%"
+		],
+		"versionfinalprice": [
+			"$6.79"
+		],
+		"versionhtml": [
+			"<DIV class=game_area_purchase_game_wrapper><DIV class=game_area_purchase_game> <FORM method=post name=add_to_cart_294402 action=https://store.steampowered.com/cart/><INPUT type=hidden value=1_5_9__403 name=snr> <INPUT type=hidden value=add_to_cart name=action> <INPUT type=hidden value=d15bbf830f300d9679f6ff86 name=sessionid> <INPUT type=hidden value=294402 name=subid> </FORM> <DIV class=game_area_purchase_platform><SPAN class=\"platform_img win\"></SPAN></DIV> <H1>Buy Gato Roboto</H1> <SCRIPT type=text/javascript> $J( function() { var $DiscountCountdown = $J( '#294402_countdown_0' ); if ( $DiscountCountdown ) InitDailyDealTimer( $DiscountCountdown, 1559840426 ); } );</SCRIPT> <P class=game_purchase_discount_countdown>SPECIAL PROMOTION! Offer ends in <SPAN id=294402_countdown_0></SPAN></P> <DIV class=game_purchase_action> <DIV class=game_purchase_action_bg> <DIV class=\"discount_block game_purchase_discount\" data-price-final=\"679\"> <DIV class=discount_pct>-15%</DIV> <DIV class=discount_prices> <DIV class=discount_original_price>$7.99</DIV> <DIV class=discount_final_price>$6.79</DIV></DIV></DIV> <DIV class=btn_addtocart><A id=btn_add_to_cart_294402 class=\"btnv6_green_white_innerfade btn_medium\" href=\"javascript:addToCart(294402);\"><SPAN>Add to Cart</SPAN> </A></DIV></DIV></DIV></DIV></DIV>"
+		],
+		"platform": [
+			"https://store.steampowered.com/public/images/v6/icon_platform_win.png?v=3"
+		],
+		"sidebarhtml": "<DIV id=responsive_apppage_details_left_ctn></DIV> <DIV id=responsive_apppage_details_right_ctn></DIV> <DIV style=\"CLEAR: both\"></DIV> <DIV class=\"block responsive_apppage_details_right heading\">Is this game relevant to you?</DIV> <DIV class=\"block responsive_apppage_details_right recommendation_noinfo\"> <P>Sign in to see reasons why you may or may not like this based on your games, friends, and curators you follow. </P><BR><A class=\"btnv6_blue_hoverfade btn_medium\" href=\"https://store.steampowered.com/login/?redir=app/916730\"><SPAN>Sign in</SPAN></A> or <A class=\"btnv6_blue_hoverfade btn_medium\" href=\"steam://store/916730\"><SPAN>Open in Steam</SPAN></A> </DIV> <DIV id=category_block class=\"block responsive_apppage_details_left\"> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_singlePlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\">Single-player</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_achievements.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423\">Steam Achievements</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_controller.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\">Full controller support</A></DIV></DIV> <DIV class=\"block responsive_apppage_details_right\"> <DIV class=block_title>Languages: </DIV> <TABLE class=game_language_options cellSpacing=0 cellPadding=0> <TBODY> <TR> <TH style=\"WIDTH: 94px\"></TH> <TH class=checkcol>Interface</TH> <TH class=checkcol>Full Audio</TH> <TH class=checkcol>Subtitles</TH></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">English </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">French </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">German </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Spanish - Spain </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Korean </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR style=\"DISPLAY: none\"> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Portuguese - Brazil </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR style=\"DISPLAY: none\"> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Simplified Chinese </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR style=\"DISPLAY: none\"> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Traditional Chinese </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR></TBODY></TABLE><A onclick=\"$J('table.game_language_options tr').show(); $J(this).hide(); return false\" class=all_languages>See all 8 supported languages</A> </DIV> <DIV id=achievement_block class=\"block responsive_apppage_details_right\"> <DIV",
+		"genre": [
+			"Action",
+			"Adventure",
+			"Indie"
+		],
+		"c": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256744641/movie.184x123.jpg?t=1559220405",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_1cb897609ae5e00229c40ba8aeadbe62ed5ac400.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_543c7188ef0b4bb0e0c90873fa807db6733ef6bc.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_bb08ca9d22a34a0641a3797aeb7095d3c66c9558.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_1a84f4eca3305b7dbc3baa054bc4fa2ebf56d13e.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_340dbe24eaca9b054c5d8eefb05f4d79f8d0a85c.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_4aeb54d88a907a6bcbbaa67e1db6e390ff85c4d8.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_45f98c10bf242cbde3f97e5a717b6c8ea74f8ac3.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_db5110f383e4046d783f35d3bcf270fc2d17b170.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_8d24ed36e2fdf9a1801da743dd43210ad5544a2d.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_afb7bb5e42c604f6ce4abd29819978bdd747bf32.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_798cadf80d9a60ea1f53693a52a0e805c15cc44c.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_5e3b6fc031eb785fabc2c78664364c2f8c444707.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_8802cede5037a35016c53a6ca9c105250d5e4c13.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_e6b2a081950266b8f8f7a40707db3ccee1eb9ffd.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_1b42cde229e09d16d3db00fe1d501c104ac4fd24.116x65.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_61ece345137c7807c95d581d02a67d2adf2a97c1.116x65.jpg?t=1559224714"
+		],
+		"a": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_1cb897609ae5e00229c40ba8aeadbe62ed5ac400.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_543c7188ef0b4bb0e0c90873fa807db6733ef6bc.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_bb08ca9d22a34a0641a3797aeb7095d3c66c9558.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_1a84f4eca3305b7dbc3baa054bc4fa2ebf56d13e.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_340dbe24eaca9b054c5d8eefb05f4d79f8d0a85c.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_4aeb54d88a907a6bcbbaa67e1db6e390ff85c4d8.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_45f98c10bf242cbde3f97e5a717b6c8ea74f8ac3.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_db5110f383e4046d783f35d3bcf270fc2d17b170.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_8d24ed36e2fdf9a1801da743dd43210ad5544a2d.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_afb7bb5e42c604f6ce4abd29819978bdd747bf32.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_798cadf80d9a60ea1f53693a52a0e805c15cc44c.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_5e3b6fc031eb785fabc2c78664364c2f8c444707.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_8802cede5037a35016c53a6ca9c105250d5e4c13.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_e6b2a081950266b8f8f7a40707db3ccee1eb9ffd.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_1b42cde229e09d16d3db00fe1d501c104ac4fd24.1920x1080.jpg?t=1559224714",
+			"https://steamcdn-a.akamaihd.net/steam/apps/916730/ss_61ece345137c7807c95d581d02a67d2adf2a97c1.1920x1080.jpg?t=1559224714"
+		],
+		"v": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256744641/movie_max.mp4?t=1559220405"
+		],
+		"reviewsall": "Very Positive\r\n(282)",
+		"reviewsrecent": null
+	},
+	"767930": {
+		"id": "767930",
+		"urlid": "app/767930",
+		"oldprice": "$29.99",
+		"price": "$14.99",
+		"imgname": "AS",
+		"title": "Assault Spy",
+		"discount": "-50%",
+		"img": "https://steamcdn-a.akamaihd.net/steam/apps/767930/header.jpg?t=1559581876",
+		"imgtall": "https://steamcdn-a.akamaihd.net/steam/marketing/9000130484979762123//images/English.jpg",
+		"description": "Dash, evade, and smash your way to the truth as the corporate spy, Asaru; or the reckless CIA agent, Amelia! Uncover the dark secrets of the Negabot mega corporation as you save the company from a hostile takeover. Assault Spy is a stylish, fast paced, pure-action game with a dash of comedy.",
+		"releasedate": "Oct 2, 2018",
+		"developer": "Wazen",
+		"publisher": "Wazen",
+		"developerlink": "https://store.steampowered.com/search/?developer=Wazen&snr=1_5_9__400",
+		"publisherlink": "https://store.steampowered.com/search/?developer=Wazen&snr=1_5_9__400",
+		"game_description": "<H2>About This Game</H2><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/767930/extras/assault-spy-controls.jpg?t=1559581876\"><BR><BR>The self-proclaimed elite corporate spy Asaru and his deadweight partner Kanoko are hired for a new job in a dreary world dominated by corporations. Their mission? Infiltrate the mega corporation, Negabot. Dash, evade, and smash your way to the truth in this fast paced action game. No secret is safe from THIS bombastic spy duo! <H2 class=bb_tag>Key Features</H2><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/767930/extras/stylish-spy-action-3.png?t=1559581876\"><BR><STRONG>Stylish Spy Action Comedy</STRONG><BR>Blast through an army of security robots and save a company that was taken over by terrorists!<BR><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/767930/extras/high-speed-dash-combat-3.png?t=1559581876\"><BR><STRONG>High Speed Dash Combat</STRONG><BR>Dodge bullets with a dash, and finish off enemies with fancy combo moves!<BR><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/767930/extras/dynamic-action-3.png?t=1559581876\"><BR><STRONG>Dynamic Action</STRONG><BR>Defeating enemies unlocks new moves, which can be used to chain together insane combos with stylish finishing moves!<BR><BR><IMG src=\"https://steamcdn-a.akamaihd.net/steam/apps/767930/extras/one-story-two-sides-3.png?t=1559581876\"><BR><STRONG>One Story with Two Sides</STRONG><BR>Play through the game as the professional, yet hapless spy, Asaru; or the rowdy and reckless CIA agent, Amelia! Each character has a unique playstyle, and a story that intertwines with each other! <H2 class=bb_tag>Story</H2><BR><STRONG>Asaru:</STRONG><BR>Asaru Vito is a self-proclaimed elite company spy.<BR>However, because he always ends up paired with the clumsy Kanoko Yotsuba, most of his missions are failures. His performance hit rock bottom\u2026<BR>Just when things couldn\u2019t get any worse, he was assigned to spy on the global mega corporation, Negabot. Even with the worst partner ever, he now has to work at a major company, so the worst has yet to begin for Asaru!<BR><BR><STRONG>Amelia:</STRONG><BR>The company has been taken over by terrorists!?<BR>OK, let me take a swing at them!!!",
+		"system_requirements": "<H2>System Requirements</H2> <DIV class=sysreq_contents> <DIV class=\"game_area_sys_req sysreq_content active\" data-os=\"win\"> <DIV class=game_area_sys_req_leftCol> <UL><STRONG>Minimum:</STRONG><BR> <UL class=bb_ul> <LI><STRONG>OS:</STRONG> Windows 7, Windows 8.1, Windows 10<BR> <LI><STRONG>Processor:</STRONG> Intel Core i3-6100 | AMD FX-8350<BR> <LI><STRONG>Memory:</STRONG> 8 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> NVIDIA Geforce GTX 750 Ti | AMD Radeon R7 360<BR> <LI><STRONG>DirectX:</STRONG> Version 10<BR> <LI><STRONG>Storage:</STRONG> 5 GB available space</LI></UL></UL></DIV> <DIV class=game_area_sys_req_rightCol> <UL><STRONG>Recommended:</STRONG><BR> <UL class=bb_ul> <LI><STRONG>OS:</STRONG> Windows 7, Windows 8.1, Windows 10<BR> <LI><STRONG>Processor:</STRONG> Intel Core i5-6600 | AMD Ryzen 5 1600<BR> <LI><STRONG>Memory:</STRONG> 8 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> NVIDIA Geforce GTX 960 | AMD Radeon R9 280<BR> <LI><STRONG>DirectX:</STRONG> Version 11<BR> <LI><STRONG>Storage:</STRONG> 5 GB available space</LI></UL></UL></DIV> <DIV style=\"CLEAR: both\"></DIV></DIV></DIV>",
+		"versiontitle": [
+			"Buy Assault Spy"
+		],
+		"versiondescription": [
+			"SPECIAL PROMOTION! Offer ends June 10"
+		],
+		"versionoriginalprice": [
+			"$29.99"
+		],
+		"versiondiscount": [
+			"-50%"
+		],
+		"versionfinalprice": [
+			"$14.99"
+		],
+		"versionhtml": [
+			"<DIV class=game_area_purchase_game_wrapper><DIV class=game_area_purchase_game> <FORM method=post name=add_to_cart_227210 action=https://store.steampowered.com/cart/><INPUT type=hidden value=1_5_9__403 name=snr> <INPUT type=hidden value=add_to_cart name=action> <INPUT type=hidden value=d15bbf830f300d9679f6ff86 name=sessionid> <INPUT type=hidden value=227210 name=subid> </FORM> <DIV class=game_area_purchase_platform><SPAN class=\"platform_img win\"></SPAN></DIV> <H1>Buy Assault Spy</H1> <P class=game_purchase_discount_countdown>SPECIAL PROMOTION! Offer ends June 10</P> <DIV class=game_purchase_action> <DIV class=game_purchase_action_bg> <DIV class=\"discount_block game_purchase_discount\" data-price-final=\"1499\"> <DIV class=discount_pct>-50%</DIV> <DIV class=discount_prices> <DIV class=discount_original_price>$29.99</DIV> <DIV class=discount_final_price>$14.99</DIV></DIV></DIV> <DIV class=btn_addtocart><A id=btn_add_to_cart_227210 class=\"btnv6_green_white_innerfade btn_medium\" href=\"javascript:addToCart(227210);\"><SPAN>Add to Cart</SPAN> </A></DIV></DIV></DIV></DIV></DIV>"
+		],
+		"platform": [
+			"https://store.steampowered.com/public/images/v6/icon_platform_win.png?v=3"
+		],
+		"sidebarhtml": "<DIV id=responsive_apppage_details_left_ctn></DIV> <DIV id=responsive_apppage_details_right_ctn></DIV> <DIV style=\"CLEAR: both\"></DIV> <DIV class=\"block responsive_apppage_details_right heading\">Is this game relevant to you?</DIV> <DIV class=\"block responsive_apppage_details_right recommendation_noinfo\"> <P>Sign in to see reasons why you may or may not like this based on your games, friends, and curators you follow. </P><BR><A class=\"btnv6_blue_hoverfade btn_medium\" href=\"https://store.steampowered.com/login/?redir=app/767930\"><SPAN>Sign in</SPAN></A> or <A class=\"btnv6_blue_hoverfade btn_medium\" href=\"steam://store/767930\"><SPAN>Open in Steam</SPAN></A> </DIV> <DIV id=category_block class=\"block responsive_apppage_details_left\"> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_singlePlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\">Single-player</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_controller.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\">Full controller support</A></DIV></DIV> <DIV class=\"block responsive_apppage_details_right\"> <DIV class=block_title>Languages: </DIV> <TABLE class=game_language_options cellSpacing=0 cellPadding=0> <TBODY> <TR> <TH style=\"WIDTH: 94px\"></TH> <TH class=checkcol>Interface</TH> <TH class=checkcol>Full Audio</TH> <TH class=checkcol>Subtitles</TH></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">English </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Japanese </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Portuguese - Brazil </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR> <TR> <TD class=ellipsis style=\"WIDTH: 94px; TEXT-ALIGN: left\">Spanish - Latin America </TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD> <TD class=checkcol></TD> <TD class=checkcol><SPAN>\u2714</SPAN> </TD></TR></TBODY></TABLE></DIV> <DIV id=achievement_block class=\"block responsive_apppage_details_right\"> <DIV class=block_title>Includes 28 Steam Achievements </DIV> <DIV class=communitylink_achievement_images> <DIV class=communitylink_achievement><IMG title=\"Report: Mission Accomplished\u2014Spy did not die\" class=communitylink_achievement src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/767930/fb6b73e25f7ff4f3bedd390ecbb83a6d8b469ca7.jpg\"> </DIV> <DIV class=communitylink_achievement><IMG title=\"Super Duper Robobreakerman\" class=communitylink_achievement src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/767930/1a805586939c66a326a55370a0fea5b9dc7efb04.jpg\"> </DIV> <DIV class=communitylink_achievement><IMG title=\"Hard Worker\" class=communitylink_achievement src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/767930/25ec59fe3e49d692109201315ef03965b38bd7bf.jpg\"> </DIV><A class=\"communitylink_achievement communitylink_achivement_plusmore\" href=\"https://steamcommunity.com/stats/767930/achievements\">View<BR>all 28 </A> <DIV style=\"CLEAR: left\"></DIV></DIV></DIV> <DIV class=\"block responsive_apppage_details_left game_details underlined_links\"> <DIV class=block_content> <DIV class=block_content_inner> <DIV class=details_block><B>Title:</B> Assault Spy / \u30a2\u30b5\u30eb\u30c8\u30b9\u30d1\u30a4<BR><B>Genre:</B> <A href=\"https://store.steampowered.com/genre/Action/?snr=1_5_9__408\">Action</A",
+		"genre": [
+			"Action",
+			"Indie"
+		],
+		"c": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256730942/movie.184x123.jpg?t=1538499574",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256724443/movie.184x123.jpg?t=1537206037",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_2cb61bc8b2272d2bd394eda3e58a58e7b81a2e42.116x65.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_bf3cdd1b39a45766e743ecf496fa7ef335fdf379.116x65.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_cdcdc5f0f9718b6b4bc3db0812d253cb4fb23dcb.116x65.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_bb78e97bee6287d5ed36001acdee3bbb92b15bf8.116x65.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_a4008b389e951910802dec3314b40c4e8412812d.116x65.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_92b491523426d7f8238b8eabc10d34a026c8abae.116x65.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_18866232eea43ae1eb02ef6b18f7068ef2a914df.116x65.jpg?t=1559581876"
+		],
+		"a": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_2cb61bc8b2272d2bd394eda3e58a58e7b81a2e42.1920x1080.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_bf3cdd1b39a45766e743ecf496fa7ef335fdf379.1920x1080.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_cdcdc5f0f9718b6b4bc3db0812d253cb4fb23dcb.1920x1080.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_bb78e97bee6287d5ed36001acdee3bbb92b15bf8.1920x1080.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_a4008b389e951910802dec3314b40c4e8412812d.1920x1080.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_92b491523426d7f8238b8eabc10d34a026c8abae.1920x1080.jpg?t=1559581876",
+			"https://steamcdn-a.akamaihd.net/steam/apps/767930/ss_18866232eea43ae1eb02ef6b18f7068ef2a914df.1920x1080.jpg?t=1559581876"
+		],
+		"v": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256730942/movie_max.mp4?t=1538499574",
+			"https://steamcdn-a.akamaihd.net/steam/apps/256724443/movie_max.mp4?t=1537206037"
+		],
+		"reviewsall": "Very Positive\r\n(134)",
+		"reviewsrecent": "Very Positive\r\n(23)"
+	},
+	"1051200": {
+		"id": "1051200",
+		"urlid": "app/1051200",
+		"oldprice": null,
+		"price": "$29.99",
+		"imgname": "TStU",
+		"title": "Trover Saves the Universe",
+		"discount": null,
+		"img": "https://steamcdn-a.akamaihd.net/steam/apps/1051200/header.jpg?t=1559788325",
+		"imgtall": "https://steamcdn-a.akamaihd.net/steam/marketing/1209301705098978495//images/message_image_NA.jpg",
+		"description": "From the co-creator of Rick and Morty comes Trover Saves the Universe. Your pups are missing. The cosmos is at stake. Only you and Trover can save everything in this bizarre comedy adventure!",
+		"releasedate": "Jun 4, 2019",
+		"developer": "Squanch Games, Inc.",
+		"publisher": "Squanch Games, Inc.",
+		"developerlink": "https://store.steampowered.com/search/?developer=Squanch%20Games%2C%20Inc.&snr=1_5_9__400",
+		"publisherlink": "https://store.steampowered.com/search/?publisher=Squanch%20Games%2C%20Inc.&snr=1_5_9__422",
+		"game_description": "<H2>Reviews</H2> <P>\u201cAs it turns out, \u201cTrover Saves the Universe\u201d is pretty special. It\u2019s genuinely hilarious \u2014 I found myself laughing out loud quite a bit.\u201d<BR><A href=\"https://steamcommunity.com/linkfilter/?url=https://variety.com/2019/gaming/reviews/video-game-review-trover-saves-the-universe-1203226592/\" rel=noopener target=_blank>Variety</A><BR><BR>\u201cOne of the funniest games I have ever played.\u201d<BR><A href=\"https://steamcommunity.com/linkfilter/?url=https://www.dualshockers.com/trover-saves-the-universe-review-ps4/\" rel=noopener target=_blank>DualShockers</A><BR><BR>\u201cTrover Saves the Universe is funny, but it's also a fun platformer that doesn\u2019t rely on making you laugh alone.\u201d<BR><A href=\"https://www.ign.com/articles/2019/05/28/trover-saves-the-universe-review?sf103352644=1\" rel=noreferrer target=_blank>IGN</A><BR></P>\r\n<H2>About This Game</H2>From the co-creator of Rick and Morty comes Trover Saves the Universe.<BR><BR>Your dogs have been dognapped by a beaked lunatic named Glorkon who stuffed them into his eye holes and is using their life essence to destroy the universe. You're partnered with Trover, a little purple eye-hole monster who isn\u2019t a huge fan of working or being put in the position of having to save the universe. He\u2019s also not that big a fan of you quite frankly, and neither am I. (Jk, you\u2019re great)<BR><BR>Only you and Trover can save everything in this bizarre comedy adventure, created by Justin Roiland!<BR><BR> <UL class=bb_ul> <LI><STRONG>A comedy adventure</STRONG> filled with combat, platforming, puzzles, and morally questionable choices. See how the best intentions can go horribly awry.<BR><BR> <LI><STRONG>You control Trover's movements</STRONG>, but not his mouth. He\u2019s got a lot to say about what\u2019s going on in the game.<BR><BR> <LI><STRONG>Travel the cosmos</STRONG> to experience a variety of weird alien planets and bizarre characters with big personalities.<BR><BR> <LI><STRONG>Upgrade Trover AND YOURSELF</STRONG> with new abilities to (hopefully) defeat Glorkon while evading awkward situations.<BR><BR> <LI><STRONG>You'll be immersed in weirdness</STRONG>, no matter which display you use -- play on TV, monitor or VR headset displays.</LI></UL>\r\n<H2>Mature Content Description</H2> <P>The developers describe the content like this:</P> <P><I>Blood and Gore<BR>Drug Reference<BR>Mature Humor<BR>Strong Language<BR>Violence </I></P>",
+		"system_requirements": "<H2>System Requirements</H2> <DIV class=sysreq_contents> <DIV class=\"game_area_sys_req sysreq_content active\" data-os=\"win\"> <DIV class=game_area_sys_req_leftCol> <UL><STRONG>Minimum:</STRONG><BR> <UL class=bb_ul> <LI>Requires a 64-bit processor and operating system<BR> <LI><STRONG>OS:</STRONG> Windows 7/8.1/10 (64-bit versions)<BR> <LI><STRONG>Processor:</STRONG> Intel Core i5-2400/AMD FX-8320 or better<BR> <LI><STRONG>Memory:</STRONG> 8 GB RAM<BR> <LI><STRONG>Graphics:</STRONG> NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better<BR> <LI><STRONG>Storage:</STRONG> 20 GB available space</LI></UL></UL></DIV> <DIV class=game_area_sys_req_rightCol> <UL><STRONG>Recommended:</STRONG><BR> <UL class=bb_ul> <LI>Requires a 64-bit processor and operating system<BR> <LI><STRONG>Graphics:</STRONG> NVIDIA GeForce GTX 1060, AMD Radeon RX 480 equivalent or better<BR> <LI><STRONG>Storage:</STRONG> 20 GB available space</LI></UL></UL></DIV> <DIV style=\"CLEAR: both\"></DIV></DIV></DIV>",
+		"versiontitle": [
+			"Buy Trover Saves the Universe"
+		],
+		"versionfinalprice": [
+			"$29.99"
+		],
+		"versionhtml": [
+			"<DIV class=game_area_purchase_game_wrapper><DIV class=game_area_purchase_game> <FORM method=post name=add_to_cart_350674 action=https://store.steampowered.com/cart/><INPUT type=hidden value=1_5_9__403 name=snr> <INPUT type=hidden value=add_to_cart name=action> <INPUT type=hidden value=d15bbf830f300d9679f6ff86 name=sessionid> <INPUT type=hidden value=350674 name=subid> </FORM> <DIV class=game_area_purchase_platform><SPAN class=\"platform_img win\"></SPAN><SPAN class=\"platform_img hmd_separator\"></SPAN><SPAN title=\"HTC Vive\" class=\"platform_img htcvive\"></SPAN><SPAN title=\"Oculus Rift\" class=\"platform_img oculusrift\"></SPAN></DIV> <H1>Buy Trover Saves the Universe</H1> <DIV class=game_purchase_action> <DIV class=game_purchase_action_bg> <DIV class=\"game_purchase_price price\" data-price-final=\"2999\">$29.99 </DIV> <DIV class=btn_addtocart><A id=btn_add_to_cart_350674 class=\"btnv6_green_white_innerfade btn_medium\" href=\"javascript:addToCart(350674);\"><SPAN>Add to Cart</SPAN> </A></DIV></DIV></DIV></DIV></DIV>"
+		],
+		"platform": [
+			"https://store.steampowered.com/public/images/v6/icon_platform_win.png?v=3"
+		],
+		"sidebarhtml": "<DIV id=responsive_apppage_details_left_ctn></DIV> <DIV id=responsive_apppage_details_right_ctn></DIV> <DIV style=\"CLEAR: both\"></DIV> <DIV class=\"block responsive_apppage_details_right heading\">Is this game relevant to you?</DIV> <DIV class=\"block responsive_apppage_details_right recommendation_noinfo\"> <P>Sign in to see reasons why you may or may not like this based on your games, friends, and curators you follow. </P><BR><A class=\"btnv6_blue_hoverfade btn_medium\" href=\"https://store.steampowered.com/login/?redir=app/1051200\"><SPAN>Sign in</SPAN></A> or <A class=\"btnv6_blue_hoverfade btn_medium\" href=\"steam://store/1051200\"><SPAN>Open in Steam</SPAN></A> </DIV> <DIV id=category_block class=\"block responsive_apppage_details_left\"> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_singlePlayer.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=2&amp;snr=1_5_9__423\">Single-player</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_achievements.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=22&amp;snr=1_5_9__423\">Steam Achievements</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_controller.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=28&amp;snr=1_5_9__423\">Full controller support</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?category2=29&amp;snr=1_5_9__423\"><IMG class=category_icon src=\"https://steamstore-a.akamaihd.net/public/images/v6/ico/ico_cards.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?category2=29&amp;snr=1_5_9__423\">Steam Trading Cards</A></DIV></DIV> <DIV class=\"block responsive_apppage_details_left\"> <DIV class=\"block_title vrsupport\">VR Support<BR></DIV> <DIV class=\"details_block vrsupport\"> <DIV>Headsets</DIV></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=101\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_vr_headset_htc.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?vrsupport=101\">HTC Vive</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=102\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_vr_headset_oculus.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?vrsupport=102\">Oculus Rift</A></DIV> <DIV class=\"details_block vrsupport\"> <DIV>Input</DIV></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=201\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_vr_input_motion.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?vrsupport=201\">Tracked Motion Controllers</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=202\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_controller.png\"></A></DIV><A class=name href=\"https://store.steampowered.com/search/?vrsupport=202\">Gamepad</A></DIV> <DIV class=game_area_details_specs> <DIV class=icon><A href=\"https://store.steampowered.com/search/?vrsupport=203\"><IMG class=category_icon src=\"https://store.steampowered.com/public/images/v6/ico/ico_vr_input_kbm.png\"></A></DIV>",
+		"genre": [
+			"Action",
+			"Adventure",
+			"Indie"
+		],
+		"c": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256752655/movie.184x123.jpg?t=1559759477",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_c52fc088069f4fd1deaa75b50a1a4ad5ab7ec768.116x65.jpg?t=1559760358",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_65ecd6b435b81ddad53dcb8c9c2b8f0c06a68f00.116x65.jpg?t=1559760358",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_8e5f269cfa0d52bf892f1752b66f4a3f5e474c2e.116x65.jpg?t=1559760358",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_1156a93dca6b2080ec38dcce1a0e5a72b2f8212d.116x65.jpg?t=1559760358",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_f21a0f04e4f4f874f5eed96a74c4a67a4f8fec56.116x65.jpg?t=1559760358"
+		],
+		"a": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_c52fc088069f4fd1deaa75b50a1a4ad5ab7ec768.1920x1080.jpg?t=1559760358",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_65ecd6b435b81ddad53dcb8c9c2b8f0c06a68f00.1920x1080.jpg?t=1559760358",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_8e5f269cfa0d52bf892f1752b66f4a3f5e474c2e.1920x1080.jpg?t=1559760358",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_1156a93dca6b2080ec38dcce1a0e5a72b2f8212d.1920x1080.jpg?t=1559760358",
+			"https://steamcdn-a.akamaihd.net/steam/apps/1051200/ss_f21a0f04e4f4f874f5eed96a74c4a67a4f8fec56.1920x1080.jpg?t=1559760358"
+		],
+		"v": [
+			"https://steamcdn-a.akamaihd.net/steam/apps/256752655/movie_max.mp4?t=1559759477"
+		],
+		"reviewsall": "Very Positive\r\n(136)",
+		"reviewsrecent": null
+	},
 	"1027970": {
 		"id": "1027970",
 		"urlid": "app/1027970",

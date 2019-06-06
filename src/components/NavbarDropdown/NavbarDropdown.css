@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 85px;
+  width: 100px;
   max-height: 200px;
   z-index: 405;
   transition-duration: .4s;
@@ -10,7 +10,7 @@
 }
 
 .dropdown:hover, .dropdown:active {
-  background-color: #2A465E;
+  background-color: #46668C;
   transition-duration: .4s;
   z-index: 850;
 }
@@ -28,28 +28,28 @@
 }
 
 .dropdownHeaderTitleFirst {
-  border-left: solid 1px #2A465E;
-  border-right: solid 1px #2A465E;
+  border-left: none;
+  border-right: solid 1px #1A2533;
   border-top: none;
   border-bottom: none;
   text-align: center;
   vertical-align: center;
   background-color: inherit;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   z-index: 850;
 }
 
 .dropdownHeaderTitle {
   border-left: none;
-  border-right: solid 1px #2A465E;
+  border-right: solid 1px #1A2533;
   border-top: none;
   border-bottom: none;
   text-align: center;
   vertical-align: center;
   background-color: inherit;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   z-index: 850;
 }
 
@@ -64,11 +64,11 @@
   z-index: 850;
   vertical-align: middle;
   cursor: default;
-  background-color: #2A465E;
-  border: solid 1px #2A465E;
+  background-color: #46668C;
+  border: solid 1px #46668C;
   border-top: none;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   margin: none;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .dropdownListItem:hover {
-  background-color: #1B2838;
+  background-color: #0D121A;
   transition-duration: .2s;
 }
 

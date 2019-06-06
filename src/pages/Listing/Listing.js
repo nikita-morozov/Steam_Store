@@ -8,7 +8,9 @@ import ListingCarousel from '../../components/ListingCarousel/ListingCarousel.js
 import Tag from '../../components/Tag/Tag.js';
 import AddToCartButton from '../../components/AddToCartButton/AddToCartButton';
 import AddToWishlistButton from '../../components/AddToWishlistButton/AddToWishlistButton';
-import QueueButton from '../../components/QueueButton/QueueButton';
+//import QueueButton from '../../components/QueueButton/QueueButton';
+import LinesEllipsis from 'react-lines-ellipsis';
+
 
 class Listing extends React.Component {
 
@@ -58,7 +60,9 @@ class Listing extends React.Component {
         publisherlink: dbs[this.state.id]["publisherlink"],
         game_description: dbs[this.state.id]["game_description"],
         system_requirements: dbs[this.state.id]["system_requirements"],
-        sidebar: dbs[this.state.id]["sidebarhtml"]
+        sidebar: dbs[this.state.id]["sidebarhtml"],
+        recentReviews: dbs[this.state.id]["reviewsrecent"],
+        allReviews: dbs[this.state.id]["reviewsall"]
       }
     )
   }
@@ -81,28 +85,21 @@ class Listing extends React.Component {
                     <PromoImage src={this.state.promoloc} imgname={this.state.imgname} title={this.state.title} />
                   </div>
                   <div id="description">
-                    <p>{dbs[this.state.id]["description"]}</p>
+                    <LinesEllipsis id='gameListDesc' text={dbs[this.state.id]["description"]} maxLine='4' />
+                    <div id="tags">
+                      {this.state.tags.map((tag) => (<Tag id='individualTag' text={tag} key={tag} />))}
+                    </div>
                     <div className="user_reviews">
                       <div className="user_reviews_summary_row">
                         <div className="subtitleColumn">Recent Reviews:</div>
                         <div className="summaryColumn">
-                          <span className="game_review_summaryPositive">Very Positive </span>
-                          <span className="responsive_hidden">
-                            (2,116)
-                            </span>
+                          <span className="game_review_summaryPositive">{this.state.recentReviews}</span>
                         </div>
                       </div>
                       <div className="user_reviews_summary_row">
                         <div className="subtitleColumn">All Reviews:</div>
                         <div className="summaryColumn">
-                          <span className="game_review_summaryPositive" itemProp="description">Very Positive </span>
-                          <span className="responsive_hidden">
-                            (15,675)
-                            </span>
-                          <meta itemProp="reviewCount" content="15675" />
-                          <meta itemProp="ratingValue" content="9" />
-                          <meta itemProp="bestRating" content="10" />
-                          <meta itemProp="worstRating" content="1" />
+                          <span className="game_review_summaryPositive" itemProp="description">{this.state.allReviews} </span>
                         </div>
                       </div>
                       <div className="release_date">
@@ -121,9 +118,6 @@ class Listing extends React.Component {
                           <a id="listingLink" href={dbs[this.state.id]["publisherlink"]}>{dbs[this.state.id]["publisher"]}</a>
                         </div>
                       </div>
-                    </div>
-                    <div id="tags">
-                      {this.state.tags.map((tag) => (<Tag id='individualTag' text={tag} />))}
                     </div>
                     <div id="priceLine">
                       <div id="operatingSystems">
@@ -151,7 +145,7 @@ class Listing extends React.Component {
                 </div>
               </div>
               <div className='queueBreak'></div>
-              <div className='queue'>
+              {/*<div className='queue'>
                 <div id="follow">
                   <QueueButton text={"Follow"} />
                 </div>
@@ -161,7 +155,7 @@ class Listing extends React.Component {
                 <div id="viewqueue">
                   <QueueButton text={"View Your Queue"} />
                 </div>
-              </div>
+                </div>*/}
               <div id="content">
                 <div id="game_desc" dangerouslySetInnerHTML={{ __html: this.state.game_description }}></div>
                 <div id="sys_req" dangerouslySetInnerHTML={{ __html: this.state.system_requirements }}></div>

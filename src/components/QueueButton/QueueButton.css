@@ -3,18 +3,18 @@
     margin: 4px 5.5px;
     text-align: center;
     /* vertical-align: sub; */
-    background-color: #2A465E;
+    background-color: #26374D;
     border: none;
     border-radius: 5px;
     align-self: center;
     font-size: 19px;
-    color: #66C0F4;
+    color: #366EB3;
     transition-duration: .3s;
     padding: 10px, 5px, 5px, 5px;
   }
   
   .qbutton:hover {
-    background-color: #66C0F4;
+    background-color: #366EB3;
     transition-duration: .3s;
     color: #101C26;
   }
@@ -24,7 +24,7 @@
     margin: 4px 5.5px;
     text-align: center;
     /* vertical-align: sub; */
-    background-color: #66C0F4;
+    background-color: #366EB3;
     border: none;
     border-radius: 5px;
     align-self: center;

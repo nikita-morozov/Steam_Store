@@ -1,28 +1,24 @@
 .Cbutton {
-  position: inline;
-  margin: 4px 5.5px;
+  margin: 5px 5.5px;
   text-align: center;
-  /* vertical-align: sub; */
-  background-color: #5C7D0F;
+  vertical-align: middle;
+  background-color: #5E8033;
   border: none;
-  border-radius: 5px;
-  align-self: center;
+  border-radius: 3px;
   font-size: 19px;
   color: white;
   transition-duration: .3s;
 }
 
 .Cbutton:hover {
-  background-color: #9DCA0D;
+  background-color: #91B324;
   transition-duration: .3s;
 }
 
 .CbuttonClicked {
-  position: inline;
-  margin: 4px 5.5px;
+  margin: 5px 5.5px;
   text-align: center;
-  /* vertical-align: sub; */
-  background-color: #9DCA0D;
+  background-color: #91B324;
   border: none;
   border-radius: 5px;
   align-self: center;

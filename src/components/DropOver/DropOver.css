@@ -1,14 +1,22 @@
 #gameTitle {
   margin-top: 15px;
   text-align: left;
-  font-size: 29px;
-  max-height: 29px;
-  white-space: nowrap;
+  font-size: 19px;
+  margin-bottom: 10px;
+  /*white-space: nowrap;*/
+  font-family: 'Motiva Sans', 'Arial';
+  font-weight: normal;
 }
 
 #gameDesc {
+  font-size: 15px;
+  font-family: 'Arial';
+  font-weight: normal;
   text-align: left;
-  font-size: 19px;
+}
+
+body{
+  text-align: left;
 }
 
 #gameOldPrice {
@@ -60,7 +68,7 @@
   overflow-wrap: break-word;
   padding-left: 20px;
   padding-right: 20px;
-  max-height: 163px;
+  max-height: 200px;
   overflow: hidden; 
   cursor: default;
   z-index: 500;

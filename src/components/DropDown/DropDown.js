@@ -30,7 +30,7 @@ class DropDown extends React.Component {
       styleUpdate: 'grid_capsule-inuse'
     })
   }
-  
+
   exit() {
     this.setState({
       inUse: false,
@@ -39,11 +39,11 @@ class DropDown extends React.Component {
   }
 
   componentDidUpdate() {
-    const {inUse} = this.state;
-    
+    const { inUse } = this.state;
+
     if (document.getElementById('dropdowncontainer') !== null) {
       var lmnt = document.getElementById('dropdowncontainer');
-      lmnt.scrollIntoView({ behavior: 'smooth', block: 'center'});
+      lmnt.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
     setTimeout(() => {
       if (inUse) {
@@ -59,8 +59,8 @@ class DropDown extends React.Component {
   }
 
   render() {
-    const{img, imgname, title, description, tags, oldPrice, price, link, discount, id} = this.props;
-    const{inUse, styleUpdate} = this.state;
+    const { img, imgname, title, description, tags, oldPrice, price, link, discount, id } = this.props;
+    const { inUse, styleUpdate } = this.state;
     var fixedTitle = ''
     // var fixedDesc = ''
     var hasDiscount = false;
@@ -71,7 +71,7 @@ class DropDown extends React.Component {
     }
 
     if (title.length > 30 && title.includes(':')) {
-      fixedTitle = title.substring(0,title.indexOf(':'))
+      fixedTitle = title.substring(0, title.indexOf(':'))
     } else {
       fixedTitle = title;
     }
@@ -85,45 +85,45 @@ class DropDown extends React.Component {
     //FIX CLICK CLOSE
     return (
       <div className={styleUpdate}>
-          <div class='bannerUt' id={id} onClick={() => this.enter()}>
-            <img 
-              id="gridImage" 
-              src={img} 
-              alt={imgname} 
-            />
-            {hasDiscount && <DiscountBanner percent={discount} />}
-          </div>
-          {inUse && 
-                <div class="ddContainer" id='dropdowncontainer' style={{height: '560px'}} onClick={e => e.stopPropagation()}>
-                  <div id='imgvid'>
-                    <ListingCarousel gameId={id} />
-                  </div>
-                  <div>
-                    <div id='titleContainerDown'>
-                      <h1 id='gameTitleDown'>{fixedTitle}</h1>
-                      <p id='gameDescDown'>{description}</p>
-                    </div>
-                    <div id='tagContainerDown'>
-                      {tags.map((tag) => (<Tag id='individualTag' text={tag} />))}
-                    </div>
-                    <div id='buttonContainerDown'>
-                      <p id='gamePriceDown'>{price}</p>
-                      <p id='gameOldPriceDown'>{oldPrice}</p>
-                      <div id='addToCartDown'>
-                        <ATCMiniButton cartAdder={this.props.cartAdder} tall='66px' wide='66px' size='scale(1.5)'/>
-                      </div>
-                      <div id='addToWishlistDown'>
-                        <ATWMiniButton wishlistAdder={this.props.wishlistAdder} tall='66px' wide='66px' size='scale(1.5)'/>
-                      </div>
-                      <div id='seeMoreDown'>
-                        <Link to={link} onClick={() => window.scrollTo(0, 0)}>
-                          <SeeMoreButton id='seeMoreDown' tall='66px' wide='475px'/>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+        <div className='bannerUt' id={id} onClick={() => this.enter()}>
+          <img
+            id="gridImage"
+            src={img}
+            alt={imgname}
+          />
+          {hasDiscount && <DiscountBanner percent={discount} />}
+        </div>
+        {inUse &&
+          <div className="ddContainer" id='dropdowncontainer' style={{ height: '560px' }} onClick={e => e.stopPropagation()}>
+            <div id='imgvid'>
+              <ListingCarousel gameId={id} />
+            </div>
+            <div>
+              <div id='titleContainerDown'>
+                <h1 id='gameTitleDown'>{fixedTitle}</h1>
+                <p id='gameDescDown'>{description}</p>
+              </div>
+              <div id='tagContainerDown'>
+                {tags.map((tag) => (<Tag id='individualTag' text={tag} key={tag} />))}
+              </div>
+              <div id='buttonContainerDown'>
+                <p id='gamePriceDown'>{price}</p>
+                <p id='gameOldPriceDown'>{oldPrice}</p>
+                <div id='addToCartDown'>
+                  <ATCMiniButton cartAdder={this.props.cartAdder} tall='66px' wide='66px' size='scale(1.5)' />
                 </div>
-              }
+                <div id='addToWishlistDown'>
+                  <ATWMiniButton wishlistAdder={this.props.wishlistAdder} tall='66px' wide='66px' size='scale(1.5)' />
+                </div>
+                <div id='seeMoreDown'>
+                  <Link to={link} onClick={() => window.scrollTo(0, 0)}>
+                    <SeeMoreButton id='seeMoreDown' tall='66px' wide='475px' />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
       </div>);
   }
 }

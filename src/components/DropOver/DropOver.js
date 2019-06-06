@@ -9,6 +9,7 @@ import ATWMiniButton from '../ATWMiniButton/ATWMiniButton.js';
 import SeeMoreButton from '../SeeMoreButton/SeeMoreButton.js';
 import Tag from '../Tag/Tag.js'
 import DiscountBanner from '../DiscountBanner/DiscountBanner.js';
+import LinesEllipsis from 'react-lines-ellipsis';
 
 class DropOver extends React.Component {
   constructor(props) {
@@ -58,59 +59,45 @@ class DropOver extends React.Component {
     const { img, imgType, tall, title, description, tags, oldPrice, price, link, discount } = this.props;
     const { inUse, styleUpdate } = this.state;
 
-    var itemHeight = '175px'
-    var itemCss = "store_capsule_row-new"
-    var fixedTitle = ''
-    var fixedDesc = ''
+    var itemHeight = '170px';
+    var itemCss = "store_capsule_row-new";
     var hasDiscount = false;
     var placement = 'featandrec';
 
     if (tall) {
-      itemHeight = '355px'
-      itemCss = "store_capsule_row-new-tall"
-      placement = 'specoff'
+      itemHeight = '355px';
+      itemCss = "store_capsule_row-new-tall";
+      placement = 'specoff';
     }
 
     if (discount !== null) {
       hasDiscount = true;
     }
 
-    if (title.length > 20 && title.includes(':')) {
-      fixedTitle = title.substring(0, title.indexOf(':'))
-    } else {
-      fixedTitle = title;
-    }
-
-    if (description.length > 130) {
-      fixedDesc = description.substring(0, 131) + '...'
-    } else {
-      fixedDesc = description;
-    }
-
     return (
-      <div class={styleUpdate} id={placement} onMouseEnter={() => this.enter()} onMouseLeave={() => this.exit()}>
-        {/* <Link to='/listing/ror2'> */}
-        <div class="store_capsule_row">
-          <div class="capsule header">
+      <div className={styleUpdate} id={placement} onMouseEnter={() => this.enter()} onMouseLeave={() => this.exit()}>
+        <div className="store_capsule_row">
+          <div className="capsule header">
             <img id={imgType} src={img} alt="" />
-            {hasDiscount && <DiscountBanner percent={discount} />}
+            {!inUse && hasDiscount && <DiscountBanner percent={discount} />}
           </div>
         </div>
-        {inUse &&
-          <div id='forceView' class={itemCss} style={{ height: itemHeight }}>
+        {
+          inUse &&
+          <div id='forceView' className={itemCss} style={{ height: itemHeight }}>
             <div id='titleContainer'>
-              <h1 id='gameTitle'>{fixedTitle}</h1>
-              {tall && <p id='gameDesc'>{fixedDesc}</p>}
+              <LinesEllipsis id='gameTitle' text={title} maxLine='2' />
+              {tall && <LinesEllipsis id='gameDesc' text={description} maxLine='7' />}
             </div>
             {tall && <div id='tagContainer'>
-              {tags.map((tag) => (<Tag id='individualTag' text={tag} />))}
+              {tags.map((tag) => (<Tag id='individualTag' text={tag} key={tag} />))}
             </div>}
             <div id='buttonContainer'>
               <p id='gamePrice'>{price}</p>
               <p id='gameOldPrice'>{oldPrice}</p>
               <div id='addToCart'>
                 <ATCMiniButton
-                  id={this.state.id}
+                  id={this.props.id}
                   cartAdder={this.props.cartAdder}
                   wishlistAdder={this.props.wishlistAdder}
                   tall='44px'
@@ -120,7 +107,7 @@ class DropOver extends React.Component {
               </div>
               <div id='addToWishlist'>
                 <ATWMiniButton
-                  id={this.state.id}
+                  id={this.props.id}
                   cartAdder={this.props.cartAdder}
                   wishlistAdder={this.props.wishlistAdder}
                   tall='44px'
@@ -135,10 +122,8 @@ class DropOver extends React.Component {
               </div>
             </div>
           </div>
-          //src={dbs['table']['games'][this.state.co1]["img"]} 
-          //alt={dbs['table']['games'][this.state.co1]["imgname"]} 
         }
-      </div>
+      </div >
     );
   }
 }

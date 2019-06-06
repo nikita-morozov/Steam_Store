@@ -3,7 +3,7 @@
   margin: 4px 5.5px;
   text-align: center;
   /* vertical-align: sub; */
-  background-color: #5C7D0F;
+  background-color: #5E8033;
   border: none;
   border-radius: 5px;
   align-self: center;
@@ -13,7 +13,7 @@
 }
 
 .ATCbutton:hover {
-  background-color: #9DCA0D;
+  background-color: #91B324;
   transition-duration: .3s;
 }
 
@@ -22,7 +22,7 @@
   margin: 4px 5.5px;
   text-align: center;
   /* vertical-align: sub; */
-  background-color: #9DCA0D;
+  background-color: #91B324;
   border: none;
   border-radius: 5px;
   align-self: center;

@@ -9,29 +9,29 @@ class StoreTabs extends React.Component {
     super();
   }
 
-render() {
-  return (<Tabs >
-    <TabList>
-      <Tab>New and Trending</Tab>
-      <Tab>Top Selling</Tab>
-      <Tab>Popular Upcoming</Tab>
-      <Tab>Specials</Tab>
-    </TabList>
+  render() {
+    return (<Tabs >
+      <TabList>
+        <Tab>New and Trending</Tab>
+        <Tab>Top Selling</Tab>
+        <Tab>Popular Upcoming</Tab>
+        <Tab>Specials</Tab>
+      </TabList>
 
-    <TabPanel>
-      <Grid cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder}/>
-    </TabPanel>
-    <TabPanel>
-      <h2>Any content 2</h2>
-    </TabPanel>
-    <TabPanel>
-      <h2>Any content 3</h2>
-    </TabPanel>
-    <TabPanel>
-      <h2>Any content 4</h2>
-    </TabPanel>
-  </Tabs>
-  )
-}
+      <TabPanel>
+        <Grid cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} modifier={0} />
+      </TabPanel>
+      <TabPanel>
+        <Grid cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} modifier={1} />
+      </TabPanel>
+      <TabPanel>
+        <Grid cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} modifier={2} />
+      </TabPanel>
+      <TabPanel>
+        <Grid cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} modifier={3} />
+      </TabPanel>
+    </Tabs>
+    )
+  }
 }
 export default StoreTabs;
