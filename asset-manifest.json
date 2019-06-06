@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Steam_Store/static/css/main.43dd64cf.chunk.css",
-    "main.js": "/Steam_Store/static/js/main.39949478.chunk.js",
-    "main.js.map": "/Steam_Store/static/js/main.39949478.chunk.js.map",
+    "main.css": "/Steam_Store/static/css/main.67af0647.chunk.css",
+    "main.js": "/Steam_Store/static/js/main.66af3731.chunk.js",
+    "main.js.map": "/Steam_Store/static/js/main.66af3731.chunk.js.map",
     "runtime~main.js": "/Steam_Store/static/js/runtime~main.12433b09.js",
     "runtime~main.js.map": "/Steam_Store/static/js/runtime~main.12433b09.js.map",
     "static/css/2.f74a8007.chunk.css": "/Steam_Store/static/css/2.f74a8007.chunk.css",
-    "static/js/2.62b8181c.chunk.js": "/Steam_Store/static/js/2.62b8181c.chunk.js",
-    "static/js/2.62b8181c.chunk.js.map": "/Steam_Store/static/js/2.62b8181c.chunk.js.map",
+    "static/js/2.6e1832b8.chunk.js": "/Steam_Store/static/js/2.6e1832b8.chunk.js",
+    "static/js/2.6e1832b8.chunk.js.map": "/Steam_Store/static/js/2.6e1832b8.chunk.js.map",
     "index.html": "/Steam_Store/index.html",
-    "precache-manifest.69f586f6f20070d1d875ba014d4fd445.js": "/Steam_Store/precache-manifest.69f586f6f20070d1d875ba014d4fd445.js",
+    "precache-manifest.6b7d54bdb1d35ed2907a053e9bb8089d.js": "/Steam_Store/precache-manifest.6b7d54bdb1d35ed2907a053e9bb8089d.js",
     "service-worker.js": "/Steam_Store/service-worker.js",
     "static/css/2.f74a8007.chunk.css.map": "/Steam_Store/static/css/2.f74a8007.chunk.css.map",
-    "static/css/main.43dd64cf.chunk.css.map": "/Steam_Store/static/css/main.43dd64cf.chunk.css.map",
-    "static/media/cart.svg": "/Steam_Store/static/media/cart.ead50864.svg",
-    "static/media/cartgreen.svg": "/Steam_Store/static/media/cartgreen.cc5b626f.svg",
-    "static/media/search.svg": "/Steam_Store/static/media/search.5ae65154.svg",
-    "static/media/wishlist.svg": "/Steam_Store/static/media/wishlist.1b04d29d.svg",
-    "static/media/wishlistblue.svg": "/Steam_Store/static/media/wishlistblue.9e91e5e8.svg"
+    "static/css/main.67af0647.chunk.css.map": "/Steam_Store/static/css/main.67af0647.chunk.css.map",
+    "static/media/cart.svg": "/Steam_Store/static/media/cart.fdf9d2c5.svg",
+    "static/media/cartgreen.svg": "/Steam_Store/static/media/cartgreen.4fbab3a2.svg",
+    "static/media/search.svg": "/Steam_Store/static/media/search.c59d7d4a.svg",
+    "static/media/wishlist.svg": "/Steam_Store/static/media/wishlist.c55464f2.svg",
+    "static/media/wishlistblue.svg": "/Steam_Store/static/media/wishlistblue.ac53c5e0.svg"
   }
 }

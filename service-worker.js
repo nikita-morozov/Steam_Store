@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Steam_Store/precache-manifest.69f586f6f20070d1d875ba014d4fd445.js"
+  "/Steam_Store/precache-manifest.6b7d54bdb1d35ed2907a053e9bb8089d.js"
 );
 
 self.addEventListener('message', (event) => {
