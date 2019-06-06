@@ -50,7 +50,7 @@ class NavbarDropdown extends React.Component {
     return (
       <div className='dropdown' onMouseOver={() => this.enter()} onMouseLeave={() => this.exit()}>{/* dd-wrapper */}
         <div className='dropdownHeader'>
-          <button className={this.state.styleType} style={{ height: '38px', width: '85px' }}>{ddName}</button>
+          <button className={this.state.styleType} style={{ height: '38px', width: '100px' }}>{ddName}</button>
         </div>
         {inUse && <ul className='dropdownList' style={{ paddingBottom: this.state.scrollPadding }} onClick={e => e.stopPropagation()}>
           {options.map((instance) => (

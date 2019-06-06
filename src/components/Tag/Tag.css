@@ -3,41 +3,44 @@
     margin: 10px 2.5px;
     text-align: center;
     border-radius: 5px;
-    background-color: #66C0F4;
-    border: 1px solid #66C0F4;
+    background-color: #0D121A;
+    border: 1px solid #366EB3;
     align-self: center;
-    font-size: 12px;
-    color: #171A21;
+    font-size: 15px;
+    font-weight: normal;
+    color: #366EB3;
     transition-duration: .3s;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 5px;
     padding-right: 5px;
-    font-family: "Arial";
+    font-family: "Motiva Sans";
   }
   
   .Ctag:hover {
-    background-color: #171A21;
+    background-color: #366EB3;
     transition-duration: .3s;
-    color: #66C0F4;
+    color: #0D121A;
     border: 1px solid white;
-    border-color: #66C0F4;
+    border-color: #0D121A;
   }
   
   .CtagClicked {
     position: inline;
     margin: 10px 2.5px;
     text-align: center;
-    background-color: #171A21;
-    border: 1px solid #66C0F4;
+    background-color: #366EB3;
+    border: 1px solid #0D121A;
     border-radius: 5px;
     align-self: center;
-    font-size: 12px;
-    color: #66C0F4;
+    font-size: 15px;
+    color: #0D121A;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 5px;
     padding-right: 5px;
+    font-family: "Motiva Sans";
+
   }
   
   .Ctag:focus, .CbuttonClicked:focus {

@@ -2,22 +2,22 @@
   position: inline;
   margin: 4px 5.5px;
   background-color: transparent;
-  border: solid 1px #66C0F4;
+  border: solid 1px #2970CC;
   border-radius: 5px;
   align-self: center;
   transition-duration: .3s;
 }
 
 .ATWMbutton:hover {
-  border: solid 3px #66C0F4;
+  border: solid 3px #2970CC;
   transition-duration: .3s;
 }
 
 .ATWMbuttonClicked {
   position: inline;
   margin: 4px 5.5px;
-  background-color: #2A465E;
-  border: solid 3px #66C0F4;
+  background-color: #142233;
+  border: solid 3px #2970CC;
   border-radius: 5px;
   align-self: center;
 }

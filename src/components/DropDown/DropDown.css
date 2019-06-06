@@ -1,5 +1,5 @@
 #gameTitleDown {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: left;
   font-size: 29px;
   max-height: 29px;
@@ -9,7 +9,7 @@
 #gameDescDown {
   text-align: left;
   font-size: 19px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 #gameOldPriceDown {
@@ -62,12 +62,12 @@
 #titleContainerDown {
   font-family: 'Motiva Sans', 'Arial';
   overflow-wrap: break-word;
-  padding-left: 20px;
-  padding-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
   max-height: 290px;
   overflow: hidden; 
   cursor: default;
-  max-width: 490px;
+  max-width: 100%;
 }
 
 #buttonContainerDown {
@@ -95,9 +95,10 @@
   flex-direction: row;
   position: absolute;
   text-align: left;
-  background-color: #1B2838;
-  width: 1390px;
+  background-color: #1A2533;
+  width: 1350px;
   margin-top: 5px;
+  padding-bottom: 0px;
   left: 0;
 }
 
@@ -118,6 +119,6 @@ a {
 }
 
 #imgvid {
-  padding: 20px 0px 0px 40px;
+  padding: 10px 10px 10px 10px;
   width: 58.5%;
 }

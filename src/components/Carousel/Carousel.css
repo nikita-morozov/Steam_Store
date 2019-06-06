@@ -15,7 +15,7 @@ h2{
 
 .carousel_item {
     width: 1370px;
-    height: 170px;
+    /*height: 170px;*/
 	margin: 0;
     padding: 0;
     position: relative;
@@ -61,14 +61,19 @@ h2{
     overflow: hidden;
 }
 
+#featandrec{
+    height: 170px;
+}
+
 .store_capsule_row-new{
     display: flex;
     position: relative;
     float: right;
     width: 305px;
+    height: 170px;
     z-index: 600;
-    bottom: 176px;
-    background-color: #2A465EDD;
+    background-color: #0D121AEE;
+    bottom: 177px;
     left: 0px;
     flex-direction: column;
     animation-name: fadein;
@@ -85,55 +90,29 @@ h2{
     }
 }
 
-.store_capsule_row-new-tall{
-    display: flex;
-    position: relative;
-    float: right;
-    width: 305px;
-    height: 355px;
-    z-index: 500;
-    bottom: 356px;
-    background-color: #2A465EDD;
-    left: 0px;
-    flex-direction: column;
-    animation-name: fadein;
-    animation-timing-function: ease-in-out;
-    animation-duration: .2s;
-}
-
 .capsule_header{
     position: absolute;
 }
 
 .store_capsule_column{
-    padding-right: 10px;
-    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     width: 305px;
+    box-shadow: 0px 3px 3px rgba(0,0,0,.3);
 }
+
 
 #featandrec.store_capsule_column_inuse {
-    padding-right: 10px;
-    padding-bottom: 10px;
+    margin-right: 10px;
     width: 305px;
-    margin-right: 0px;
-}
-
-#specoff.store_capsule_column_inuse {
-    padding-right: 10px;
-    padding-bottom: 10px;
-    width: 305px;
-    margin-right: 0px;
+    height: 170px;
     transition-duration: .3s;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.5);
 }
 
 #wideImage{
     width: 305px;
     height: 170px;
-}
-
-#imageTall{
-    width: 305px;
-    height: 350px;
 }
 
 .leftbutton, .rightbutton {
@@ -148,7 +127,7 @@ h2{
 u {
     width: 15px;
     height: 15px;
-    border: solid #66C0F4;
+    border: solid #E6F1FF;
     border-width: 0 5px 5px 0;
     display: inline-block;
     padding: 4px;

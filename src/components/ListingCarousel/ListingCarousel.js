@@ -114,13 +114,13 @@ class ListingCarousel extends React.Component {
                         <div className='video-wrapper'>
                             <div
                                 className='close-video'
-                                //onLoad={this._toggleShowVideo.bind(this, item.embedUrl)}
+                            //onLoad={this._toggleShowVideo.bind(this, item.embedUrl)}
                             >
                             </div>
                             <iframe
                                 width='810'
                                 title='01'
-                                height='453.422'
+                                height='460'
                                 src={item.embedUrl}
                                 frameBorder='0'
                                 allowFullScreen
@@ -171,7 +171,7 @@ class ListingCarousel extends React.Component {
 
         for (var carouselIndex = videos; carouselIndex < carouselImages; carouselIndex++) {
             arr[carouselIndex] = {
-                original: dbs[this.state.id]['a'][carouselIndex-videos],
+                original: dbs[this.state.id]['a'][carouselIndex - videos],
                 thumbnail: dbs[this.state.id]['c'][carouselIndex],
             };
         }

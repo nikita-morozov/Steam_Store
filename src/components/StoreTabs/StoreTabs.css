@@ -4,9 +4,9 @@
 }
 
 .react-tabs__tab-list {
-  margin: 0 0 10px;
+  margin: 0 0 0 0;
   padding: 0;
-  background-color:#1B2838;
+  background-color:#1A2533;
 }
 
 .react-tabs__tab {
@@ -19,11 +19,11 @@
   padding: 6px 24px;
   cursor: pointer;
   font-family: 'Arial';
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .react-tabs__tab--selected {
-  background: #2A465E;
+  background: #26374D;
   color: white;
   border-radius: 5px 5px 0 0;
 }
