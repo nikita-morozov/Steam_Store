@@ -38,6 +38,17 @@ class App extends Component {
         if (!(arr.includes(itemid))) {
             arr.push(itemid)
             this.setState({
+                cartItems: arr,
+                cartOpen: true
+            });
+        } else {
+            for( var i = 0; i < arr.length; i++){ 
+                if ( arr[i] === itemid) {
+                  arr.splice(i, 1);
+                  break; 
+                }
+            }
+            this.setState({
                 cartItems: arr
             });
         }
@@ -55,6 +66,16 @@ class App extends Component {
             arr.push(itemid)
             this.setState({
                 wishItems: arr
+            });
+        } else {
+            for( var i = 0; i < arr.length; i++){ 
+                if ( arr[i] === itemid) {
+                  arr.splice(i, 1);
+                  break; 
+                }
+            }
+            this.setState({
+                wishlistItems: arr
             });
         }
     }
