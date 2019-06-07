@@ -92,9 +92,12 @@ class DropOver extends React.Component {
             {tall && <div id='tagContainer'>
               {tags.map((tag) => (<Tag id='individualTag' text={tag} key={tag} />))}
             </div>}
-            <div id='buttonContainer'>
-              <p id='gamePrice'>{price}</p>
+            <div id='prices'>
               <p id='gameOldPrice'>{oldPrice}</p>
+              <div id='break'></div>
+              <p id='gamePrice'>{price}</p>
+            </div>
+            <div id='buttonContainer'>
               <div id='addToCart'>
                 <ATCMiniButton
                   id={this.props.id}
@@ -117,7 +120,7 @@ class DropOver extends React.Component {
               </div>
               <div id='seeMore'>
                 <Link to={link} onClick={() => window.scrollTo(0, 0)}>
-                  <SeeMoreButton id='seeMore' tall='40px' wide='265px' />
+                  <SeeMoreButton id='seeMoreButton' tall='44px' wide='177px' />
                 </Link>
               </div>
             </div>

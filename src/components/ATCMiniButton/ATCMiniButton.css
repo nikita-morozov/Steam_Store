@@ -1,6 +1,6 @@
 .ATCMbutton {
   position: inline;
-  margin: 4px 5.5px;
+  margin: 0px;
   background-color: transparent;
   border: solid 1px #91B324;
   border-radius: 5px;
@@ -16,7 +16,7 @@
 
 .ATCMbuttonClicked {
   position: inline;
-  margin: 4px 5.5px;
+  margin: 0px;
   background-color: transparent;
   background-color: #283303;
   border: solid 3px #91B324;

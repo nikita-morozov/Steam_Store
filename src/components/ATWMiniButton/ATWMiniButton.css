@@ -1,6 +1,6 @@
 .ATWMbutton {
   position: inline;
-  margin: 4px 5.5px;
+  margin: 0px;
   background-color: transparent;
   border: solid 1px #2970CC;
   border-radius: 5px;
@@ -15,7 +15,7 @@
 
 .ATWMbuttonClicked {
   position: inline;
-  margin: 4px 5.5px;
+  margin: 0px;
   background-color: #142233;
   border: solid 3px #2970CC;
   border-radius: 5px;

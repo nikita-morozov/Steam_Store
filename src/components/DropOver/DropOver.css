@@ -1,5 +1,5 @@
 #gameTitle {
-  margin-top: 15px;
+  margin-top: 20px;
   text-align: left;
   font-size: 19px;
   margin-bottom: 10px;
@@ -19,78 +19,84 @@ body{
   text-align: left;
 }
 
+#break{
+  clear:both;
+}
+
 #gameOldPrice {
   color: #bbbbbb;
   text-decoration: line-through;
   font-size: 15px;
   font-family: "Arial";
-  position: absolute;
+  vertical-align: bottom;
   text-align: left;
-  bottom: 98px;
+  float:right;
 }
 
 #gamePrice {
-  position: absolute;
   text-align: left;
+  float: right;
   font-size: 29px;
-  bottom: 61px;
 }
 
 #addToCart {
-  position: absolute;
-  bottom: 65px;
-  right: 70px;
+  margin-right: 10px;
+  float: right;
 }
 
 #addToWishlist {
-  position: absolute;
-  bottom: 65px;
-  right: 15px;
+  margin-right: 10px;
+  float: right;
 }
 
 #seeMore {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
+  float:left;
+  margin-left:10px;
+  margin-right: 10px;
   cursor: default;
 }
 
 #tagContainer {
   text-align: left;
   padding-top: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   z-index: 500;
 }
 
 #titleContainer {
   font-family: 'Motiva Sans', 'Arial';
   overflow-wrap: break-word;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   max-height: 200px;
   overflow: hidden; 
   cursor: default;
   z-index: 500;
 }
 
+#prices{
+  position: relative;
+  padding: 10px;
+  bottom: 0px;
+}
+
 #buttonContainer {
-  display: relative;
-  padding-left: 20px;
-  padding-right: 20px;
+  position:absolute;
+  bottom: 10px;
   cursor: default;
   z-index: 500;
 }
 
-.seeMoreButton {
+#seeMoreButton {
   background-color: 'transparent';
   border: 'solid 2px white';
   border-radius: '5px';
-  font-size: '19px';
+  font-size: '15px';
   color: 'white';
 }
 
-.seeMoreButton:hover {
+#seeMoreButton:hover {
   background-color: 'transparent';
   
 }

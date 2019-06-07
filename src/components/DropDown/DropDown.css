@@ -1,7 +1,7 @@
 #gameTitleDown {
   margin-top: 10px;
   text-align: left;
-  font-size: 29px;
+  font-size: 19px;
   max-height: 29px;
   white-space: nowrap;
 }
@@ -82,7 +82,7 @@
   background-color: 'transparent';
   border: 'solid 2px white';
   border-radius: '5px';
-  font-size: '19px';
+  font-size: '15px';
   color: 'white';
 }
 

@@ -1,13 +1,12 @@
 .SMbutton {
-  position: inline;
-  margin: 4px 5.5px;
+  margin: 0px;
   text-align: center;
-  /* vertical-align: sub; */
+  /* vertical-align: sub; 
+  align-self: center;*/
   background-color: transparent;
   border: solid 1px white;
   border-radius: 5px;
-  align-self: center;
-  font-size: 19px;
+  font-size: 15px;
   color: white;
   transition-duration: .3s;
 }
@@ -18,14 +17,13 @@
 }
 
 .SMbuttonClicked {
-  position: inline;
   margin: 4px 5.5px;
   text-align: center;
-  /* vertical-align: sub; */
+  /* vertical-align: sub; 
+    align-self: center;*/
   border: none;
   border-radius: 5px;
-  align-self: center;
-  font-size: 19px;
+  font-size: 15px;
   color: white;
 }
 
