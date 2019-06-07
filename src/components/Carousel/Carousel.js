@@ -35,6 +35,8 @@ class Carousel extends React.Component {
                                     cartAdder={this.props.cartAdder}
                                     wishlistAdder={this.props.wishlistAdder}
                                     id={Object.keys(dbs)[7]}
+                                    cartItems={this.props.cartItems}
+                                    wishlistItems={this.props.wishlistItems}
                                 />
                                 <DropOver
                                     img={dbs[Object.keys(dbs)[8]]['img']}
@@ -50,6 +52,8 @@ class Carousel extends React.Component {
                                     cartAdder={this.props.cartAdder}
                                     wishlistAdder={this.props.wishlistAdder}
                                     id={Object.keys(dbs)[8]}
+                                    cartItems={this.props.cartItems}
+                                    wishlistItems={this.props.wishlistItems}
                                 />
                                 <DropOver
                                     img={dbs[Object.keys(dbs)[9]]['img']}
@@ -65,6 +69,8 @@ class Carousel extends React.Component {
                                     cartAdder={this.props.cartAdder}
                                     wishlistAdder={this.props.wishlistAdder}
                                     id={Object.keys(dbs)[9]}
+                                    cartItems={this.props.cartItems}
+                                    wishlistItems={this.props.wishlistItems}
                                 />
                                 <DropOver
                                     img={dbs[Object.keys(dbs)[10]]['img']}
@@ -80,6 +86,8 @@ class Carousel extends React.Component {
                                     cartAdder={this.props.cartAdder}
                                     wishlistAdder={this.props.wishlistAdder}
                                     id={Object.keys(dbs)[10]}
+                                    cartItems={this.props.cartItems}
+                                    wishlistItems={this.props.wishlistItems}
                                 />
                                 <DropOver
                                     img={dbs[Object.keys(dbs)[11]]['img']}
@@ -95,6 +103,8 @@ class Carousel extends React.Component {
                                     cartAdder={this.props.cartAdder}
                                     wishlistAdder={this.props.wishlistAdder}
                                     id={Object.keys(dbs)[11]}
+                                    cartItems={this.props.cartItems}
+                                    wishlistItems={this.props.wishlistItems}
                                 />
                             </div>
                         </div>

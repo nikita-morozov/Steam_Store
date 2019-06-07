@@ -26,7 +26,7 @@ class Store extends React.Component {
         <StoreHeader toggleCart={this.props.toggleCart} toggleWishlist={this.props.toggleWishlist}/>
         <div className='body' id="test">
           {/* games={dbs} */}
-          <Carousel cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
+          <Carousel cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} cartItems={this.props.cartItems} wishlistItems={this.state.wishlistItems}/>
           <SpecialOffers cartAdder={this.props.cartAdder} wishlistAdder={this.props.wishlistAdder} />
           <div id="grid">
             <div id="gridContainer">

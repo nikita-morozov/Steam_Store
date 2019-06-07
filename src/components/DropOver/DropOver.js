@@ -103,6 +103,7 @@ class DropOver extends React.Component {
                   tall='44px'
                   wide='44px'
                   size='scale(1)'
+                  cartItems={this.props.cartItems}
                 />
               </div>
               <div id='addToWishlist'>
@@ -113,6 +114,7 @@ class DropOver extends React.Component {
                   tall='44px'
                   wide='44px'
                   size='scale(1)'
+                  wishlistItems={this.props.wishlistItems}
                 />
               </div>
               <div id='seeMore'>
