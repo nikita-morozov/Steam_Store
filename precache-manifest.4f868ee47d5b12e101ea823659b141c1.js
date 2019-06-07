@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc0aa8e7f33b03068aaed6a6e19af13e",
+    "revision": "de925c44a69dbe88f4ecbb632c496118",
     "url": "/Steam_Store/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Steam_Store/static/css/2.f74a8007.chunk.css"
   },
   {
-    "revision": "d85f57c3bc1306b57012",
+    "revision": "e6dd220027607aa84538",
     "url": "/Steam_Store/static/css/main.9b1d73c0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Steam_Store/static/js/2.52a444fd.chunk.js"
   },
   {
-    "revision": "d85f57c3bc1306b57012",
-    "url": "/Steam_Store/static/js/main.dd5767bb.chunk.js"
+    "revision": "e6dd220027607aa84538",
+    "url": "/Steam_Store/static/js/main.a022a9cb.chunk.js"
   },
   {
     "revision": "d4238b1bb08010a16479",
