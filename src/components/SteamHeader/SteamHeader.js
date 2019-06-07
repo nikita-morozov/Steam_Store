@@ -37,13 +37,13 @@ class SteamHeader extends React.Component {
                             <Link to='/' className="menuitem supernav">STORE</Link>
                         </div>
                         <div className="menuitem supernav" onMouseLeave={this.handleLeave}>
-                            <Link to='/' className="menuitem supernav">STORE</Link>
+                            <Link to='/' className="menuitem supernav">COMMUNITY</Link>
                         </div>
                         <div className="menuitem" onMouseLeave={this.handleLeave}>
-                            <Link to='/' className="menuitem supernav">STORE</Link>
+                            <Link to='/' className="menuitem supernav">ABOUT</Link>
                         </div>
                         <div className="menuitem" onMouseLeave={this.handleLeave}>
-                            <Link to='/' className="menuitem supernav">STORE</Link>
+                            <Link to='/' className="menuitem supernav">SUPPORT</Link>
                         </div>
                     </div>
 
