@@ -31,7 +31,7 @@ class Cart extends React.Component {
         let pChild = []
         pChild.push(<td></td>)
         pChild.push(<td className="totaldue" >Total Due:</td>)
-        pChild.push(<td className="totalprice" >${total}</td>)
+        pChild.push(<td className="totalprice" >${total.toFixed(2)}</td>)
         table.push(<tr>{pChild}</tr>)
         return table
     }

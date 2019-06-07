@@ -54,7 +54,7 @@ class Carousel extends React.Component {
                                 <DropOver
                                     img={dbs[Object.keys(dbs)[9]]['img']}
                                     imgType='wideImage'
-                                    tall={false} w
+                                    tall={false}
                                     title={dbs[Object.keys(dbs)[9]]['title']}
                                     description={dbs[Object.keys(dbs)[9]]['description']}
                                     tags={dbs[Object.keys(dbs)[9]]['genre']}
