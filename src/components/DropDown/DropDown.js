@@ -117,7 +117,7 @@ class DropDown extends React.Component {
                 </div>
                 <div id='seeMoreDown'>
                   <Link to={link} onClick={() => window.scrollTo(0, 0)}>
-                    <SeeMoreButton id='seeMoreDown' tall='66px' wide='475px' />
+                    <SeeMoreButton id='seeMoreDown' tall='66px' wide='520px' />
                   </Link>
                 </div>
               </div>
