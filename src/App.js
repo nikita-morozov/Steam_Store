@@ -42,10 +42,10 @@ class App extends Component {
                 cartOpen: true
             });
         } else {
-            for( var i = 0; i < arr.length; i++){ 
-                if ( arr[i] === itemid) {
-                  arr.splice(i, 1);
-                  break; 
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] === itemid) {
+                    arr.splice(i, 1);
+                    break;
                 }
             }
             this.setState({
@@ -68,10 +68,10 @@ class App extends Component {
                 wishItems: arr
             });
         } else {
-            for( var i = 0; i < arr.length; i++){ 
-                if ( arr[i] === itemid) {
-                  arr.splice(i, 1);
-                  break; 
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] === itemid) {
+                    arr.splice(i, 1);
+                    break;
                 }
             }
             this.setState({
@@ -95,37 +95,37 @@ class App extends Component {
     render() {
         return (
             <div>
-            <Router basename={process.env.PUBLIC_URL}>
+                <Router basename={process.env.PUBLIC_URL}>
+                    <div>
+                        <Switch>
+                            <Route exact path="/" render={(props) => <Store {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart} toggleWishlist={this.toggleWishlist} />} />
+                            <Route path="/test" component={Tester} />
+                            <Route path="/clientdl" component={DownloadClient} />
+                            <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart} toggleWishlist={this.toggleWishlist} />} />
+
+                            {/* DONT TOUCH THIS ONE, IT MUST STAY AT THE BOTTOM OF THE LIST */}
+                            <Route path="*" component={Notfound} />
+                        </Switch>
+                    </div>
+                </Router>
                 <div>
-                    <Switch>
-                        <Route exact path="/" render={(props) => <Store {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart} toggleWishlist={this.toggleWishlist}/>} />
-                        <Route path="/test" component={Tester} />
-                        <Route path="/clientdl" component={DownloadClient} />
-                        <Route path="/listing*" render={(props) => <Listing {...props} cartAdder={this.cartAdder} wishlistAdder={this.wishlistAdder} toggleCart={this.toggleCart} toggleWishlist={this.toggleWishlist}/>} />
-                        
-                        {/* DONT TOUCH THIS ONE, IT MUST STAY AT THE BOTTOM OF THE LIST */}
-                        <Route path="*" component={Notfound} />
-                    </Switch>
+                    {this.state.cartOpen ?
+                        <Cart
+                            text='Cart'
+                            closePopup={this.toggleCart.bind(this)}
+                            cartItems={this.state.cartItems}
+                        />
+                        : null
+                    }
+                    {this.state.wishlistOpen ?
+                        <Wishlist
+                            text='Wishlist'
+                            closeWishlist={this.toggleWishlist.bind(this)}
+                            wishlistItems={this.state.wishItems}
+                        />
+                        : null
+                    }
                 </div>
-            </Router>
-            <div>
-            {this.state.cartOpen ?  
-                <Cart  
-                          text='hey this is the cart'  
-                          closePopup={this.toggleCart.bind(this)}
-                          cartItems={this.state.cartItems}  
-                />  
-                : null  
-            }
-            {this.state.wishlistOpen ?  
-                <Wishlist  
-                          text='hey this is the wishlist'  
-                          closeWishlist={this.toggleWishlist.bind(this)}  
-                          wishlistItems={this.state.wishItems}
-                />  
-                : null  
-            }
-            </div> 
             </div>
         );
     }

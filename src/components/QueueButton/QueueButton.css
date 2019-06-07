@@ -4,19 +4,19 @@
     text-align: center;
     /* vertical-align: sub; */
     background-color: #26374D;
-    border: none;
+    border: 1px solid #E6F1FF;
     border-radius: 5px;
     align-self: center;
     font-size: 19px;
-    color: #366EB3;
+    color: #E6F1FF;
     transition-duration: .3s;
     padding: 10px, 5px, 5px, 5px;
   }
   
   .qbutton:hover {
-    background-color: #366EB3;
+    background-color: #E6F1FF;
     transition-duration: .3s;
-    color: #101C26;
+    color: #26374D;
   }
   
   .qbuttonClicked {

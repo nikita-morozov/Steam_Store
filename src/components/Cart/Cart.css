@@ -7,15 +7,32 @@
     bottom: 10%;  
     margin: auto;  
     border-radius: 5px;  
-    background: white;  
+    background: #26374D;  
     z-index: 900;
+    overflow: scroll;
+    padding: 20px;
+    color: white;
+
+}
+
+tr{
+  position: relative;
+}
+
+td{
+  font-family: Arial;
+  font-size: 19px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .totaldue {
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 25px;
 }
 
 .totalprice {
   font-weight: bold;
-  color: green
+  font-size: 29px;
+  color: #91B324;
 }

@@ -34,18 +34,18 @@ class SteamHeader extends React.Component {
 
                     <div className="supernav_container">
                         <div className="menuitem supernav" onMouseLeave={this.handleLeave}>
-                            <a className="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store" onMouseEnter={this.handleHover}>
+                            <a className="menuitem supernav" href="/" data-tooltip-type="selector" data-tooltip-content=".submenu_store" onMouseEnter={this.handleHover}>
                                 STORE	</a>
                             {/* {this.state.showStoreDropdown && <SubmenuStore />} */}
                         </div>
                         <div className="menuitem supernav" onMouseLeave={this.handleLeave}>
-                            <a className="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">COMMUNITY</a>
+                            <a className="menuitem supernav" href="/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">COMMUNITY</a>
                         </div>
                         <div className="menuitem" onMouseLeave={this.handleLeave}>
-                            <a className="menuitem supernav" href="https://store.steampowered.com/about/">ABOUT</a>
+                            <a className="menuitem supernav" href="/">ABOUT</a>
                         </div>
                         <div className="menuitem" onMouseLeave={this.handleLeave}>
-                            <a className="menuitem supernav" href="https://help.steampowered.com/en/">SUPPORT</a>
+                            <a className="menuitem supernav" href="/">SUPPORT</a>
                         </div>
                     </div>
 
@@ -53,12 +53,12 @@ class SteamHeader extends React.Component {
                         <div id="global_action_menu">
                             <div className="header_installsteam_btn header_installsteam_btn_green">
 
-                                <a className="header_installsteam_btn_content" href="/clientdl">
+                                <a className="header_installsteam_btn_content" href="/">
                                     Install Steam						</a>
                             </div>
 
 
-                            <a className="global_action_link" href="https://store.steampowered.com/login/?redir=&amp;redir_ssl=1">login</a>
+                            <a className="global_action_link" href="/">login</a>
                             &nbsp;|&nbsp;
 					<span className="pulldown global_action_link" id="language_pulldown">language</span>
 
