@@ -5,7 +5,7 @@
   "homepage": "https://nikita-morozov.github.io/Steam_Store",
   "dependencies": {
     "@material-ui/core": "^4.0.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-image-gallery": "^0.8.17",
